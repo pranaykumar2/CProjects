@@ -206,6 +206,19 @@ BubbleSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
 .PHONY : BubbleSort/fast
 
+#=============================================================================
+# Target rules for targets named JumpSearch
+
+# Build rule for target.
+JumpSearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 JumpSearch
+.PHONY : JumpSearch
+
+# fast build rule for target.
+JumpSearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/build
+.PHONY : JumpSearch/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -277,6 +290,30 @@ DSA/BubbleSort.s: DSA/BubbleSort.c.s
 DSA/BubbleSort.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.s
 .PHONY : DSA/BubbleSort.c.s
+
+DSA/JumpSearch.obj: DSA/JumpSearch.c.obj
+.PHONY : DSA/JumpSearch.obj
+
+# target to build an object file
+DSA/JumpSearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj
+.PHONY : DSA/JumpSearch.c.obj
+
+DSA/JumpSearch.i: DSA/JumpSearch.c.i
+.PHONY : DSA/JumpSearch.i
+
+# target to preprocess a source file
+DSA/JumpSearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.i
+.PHONY : DSA/JumpSearch.c.i
+
+DSA/JumpSearch.s: DSA/JumpSearch.c.s
+.PHONY : DSA/JumpSearch.s
+
+# target to generate assembly for a file
+DSA/JumpSearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.s
+.PHONY : DSA/JumpSearch.c.s
 
 DSA/LinearSearch.obj: DSA/LinearSearch.c.obj
 .PHONY : DSA/LinearSearch.obj
@@ -387,6 +424,7 @@ help:
 	@echo ... BubbleSort
 	@echo ... HarryAndDigits
 	@echo ... HashAndStar
+	@echo ... JumpSearch
 	@echo ... LinearSearch
 	@echo ... Main
 	@echo ... Automobile.obj
@@ -398,6 +436,9 @@ help:
 	@echo ... DSA/BubbleSort.obj
 	@echo ... DSA/BubbleSort.i
 	@echo ... DSA/BubbleSort.s
+	@echo ... DSA/JumpSearch.obj
+	@echo ... DSA/JumpSearch.i
+	@echo ... DSA/JumpSearch.s
 	@echo ... DSA/LinearSearch.obj
 	@echo ... DSA/LinearSearch.i
 	@echo ... DSA/LinearSearch.s

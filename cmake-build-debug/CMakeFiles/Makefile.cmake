@@ -54,4 +54,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinearSearch.dir/DependInfo.cmake"
   "CMakeFiles/BinarySearch.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
+  "CMakeFiles/JumpSearch.dir/DependInfo.cmake"
   )

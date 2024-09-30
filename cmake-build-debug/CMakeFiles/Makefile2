@@ -69,6 +69,7 @@ all: CMakeFiles/Main.dir/all
 all: CMakeFiles/LinearSearch.dir/all
 all: CMakeFiles/BinarySearch.dir/all
 all: CMakeFiles/BubbleSort.dir/all
+all: CMakeFiles/JumpSearch.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -83,6 +84,7 @@ clean: CMakeFiles/Main.dir/clean
 clean: CMakeFiles/LinearSearch.dir/clean
 clean: CMakeFiles/BinarySearch.dir/clean
 clean: CMakeFiles/BubbleSort.dir/clean
+clean: CMakeFiles/JumpSearch.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -170,7 +172,7 @@ CMakeFiles/HashAndStar.dir/clean:
 CMakeFiles/Main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Main"
 .PHONY : CMakeFiles/Main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -196,7 +198,7 @@ CMakeFiles/Main.dir/clean:
 CMakeFiles/LinearSearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target LinearSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target LinearSearch"
 .PHONY : CMakeFiles/LinearSearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -266,6 +268,32 @@ BubbleSort: CMakeFiles/BubbleSort.dir/rule
 CMakeFiles/BubbleSort.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/clean
 .PHONY : CMakeFiles/BubbleSort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/JumpSearch.dir
+
+# All Build rule for target.
+CMakeFiles/JumpSearch.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target JumpSearch"
+.PHONY : CMakeFiles/JumpSearch.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/JumpSearch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/JumpSearch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/JumpSearch.dir/rule
+
+# Convenience name for target.
+JumpSearch: CMakeFiles/JumpSearch.dir/rule
+.PHONY : JumpSearch
+
+# clean rule for target.
+CMakeFiles/JumpSearch.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/clean
+.PHONY : CMakeFiles/JumpSearch.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

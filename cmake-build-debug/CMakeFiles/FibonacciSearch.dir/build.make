@@ -68,28 +68,28 @@ include CMakeFiles/FibonacciSearch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FibonacciSearch.dir/flags.make
 
-CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj: CMakeFiles/FibonacciSearch.dir/flags.make
-CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/Search\ Algorithms/FibonacciSearch.c
-CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj: CMakeFiles/FibonacciSearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj -MF CMakeFiles\FibonacciSearch.dir\DSA\Search_Algorithms\FibonacciSearch.c.obj.d -o CMakeFiles\FibonacciSearch.dir\DSA\Search_Algorithms\FibonacciSearch.c.obj -c "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\FibonacciSearch.c"
+CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj: CMakeFiles/FibonacciSearch.dir/flags.make
+CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/FibonacciSearch.c
+CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj: CMakeFiles/FibonacciSearch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj -MF CMakeFiles\FibonacciSearch.dir\DSA\SearchAlgorithms\FibonacciSearch.c.obj.d -o CMakeFiles\FibonacciSearch.dir\DSA\SearchAlgorithms\FibonacciSearch.c.obj -c C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\FibonacciSearch.c
 
-CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\FibonacciSearch.c" > CMakeFiles\FibonacciSearch.dir\DSA\Search_Algorithms\FibonacciSearch.c.i
+CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\FibonacciSearch.c > CMakeFiles\FibonacciSearch.dir\DSA\SearchAlgorithms\FibonacciSearch.c.i
 
-CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\FibonacciSearch.c" -o CMakeFiles\FibonacciSearch.dir\DSA\Search_Algorithms\FibonacciSearch.c.s
+CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\FibonacciSearch.c -o CMakeFiles\FibonacciSearch.dir\DSA\SearchAlgorithms\FibonacciSearch.c.s
 
 # Object files for target FibonacciSearch
 FibonacciSearch_OBJECTS = \
-"CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj"
+"CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj"
 
 # External object files for target FibonacciSearch
 FibonacciSearch_EXTERNAL_OBJECTS =
 
-FibonacciSearch.exe: CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj
+FibonacciSearch.exe: CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj
 FibonacciSearch.exe: CMakeFiles/FibonacciSearch.dir/build.make
 FibonacciSearch.exe: CMakeFiles/FibonacciSearch.dir/linkLibs.rsp
 FibonacciSearch.exe: CMakeFiles/FibonacciSearch.dir/objects1.rsp

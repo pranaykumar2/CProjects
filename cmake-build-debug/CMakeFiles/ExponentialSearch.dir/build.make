@@ -68,28 +68,28 @@ include CMakeFiles/ExponentialSearch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ExponentialSearch.dir/flags.make
 
-CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj: CMakeFiles/ExponentialSearch.dir/flags.make
-CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/Search\ Algorithms/ExponentialSearch.c
-CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj: CMakeFiles/ExponentialSearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj -MF CMakeFiles\ExponentialSearch.dir\DSA\Search_Algorithms\ExponentialSearch.c.obj.d -o CMakeFiles\ExponentialSearch.dir\DSA\Search_Algorithms\ExponentialSearch.c.obj -c "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\ExponentialSearch.c"
+CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj: CMakeFiles/ExponentialSearch.dir/flags.make
+CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/ExponentialSearch.c
+CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj: CMakeFiles/ExponentialSearch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj -MF CMakeFiles\ExponentialSearch.dir\DSA\SearchAlgorithms\ExponentialSearch.c.obj.d -o CMakeFiles\ExponentialSearch.dir\DSA\SearchAlgorithms\ExponentialSearch.c.obj -c C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\ExponentialSearch.c
 
-CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\ExponentialSearch.c" > CMakeFiles\ExponentialSearch.dir\DSA\Search_Algorithms\ExponentialSearch.c.i
+CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\ExponentialSearch.c > CMakeFiles\ExponentialSearch.dir\DSA\SearchAlgorithms\ExponentialSearch.c.i
 
-CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\ExponentialSearch.c" -o CMakeFiles\ExponentialSearch.dir\DSA\Search_Algorithms\ExponentialSearch.c.s
+CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\ExponentialSearch.c -o CMakeFiles\ExponentialSearch.dir\DSA\SearchAlgorithms\ExponentialSearch.c.s
 
 # Object files for target ExponentialSearch
 ExponentialSearch_OBJECTS = \
-"CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj"
+"CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj"
 
 # External object files for target ExponentialSearch
 ExponentialSearch_EXTERNAL_OBJECTS =
 
-ExponentialSearch.exe: CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj
+ExponentialSearch.exe: CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj
 ExponentialSearch.exe: CMakeFiles/ExponentialSearch.dir/build.make
 ExponentialSearch.exe: CMakeFiles/ExponentialSearch.dir/linkLibs.rsp
 ExponentialSearch.exe: CMakeFiles/ExponentialSearch.dir/objects1.rsp

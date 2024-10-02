@@ -68,28 +68,28 @@ include CMakeFiles/BinarySearch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BinarySearch.dir/flags.make
 
-CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.obj: CMakeFiles/BinarySearch.dir/flags.make
-CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/Search\ Algorithms/BinarySearch.c
-CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.obj: CMakeFiles/BinarySearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.obj -MF CMakeFiles\BinarySearch.dir\DSA\Search_Algorithms\BinarySearch.c.obj.d -o CMakeFiles\BinarySearch.dir\DSA\Search_Algorithms\BinarySearch.c.obj -c "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\BinarySearch.c"
+CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.obj: CMakeFiles/BinarySearch.dir/flags.make
+CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/BinarySearch.c
+CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.obj: CMakeFiles/BinarySearch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.obj -MF CMakeFiles\BinarySearch.dir\DSA\SearchAlgorithms\BinarySearch.c.obj.d -o CMakeFiles\BinarySearch.dir\DSA\SearchAlgorithms\BinarySearch.c.obj -c C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\BinarySearch.c
 
-CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\BinarySearch.c" > CMakeFiles\BinarySearch.dir\DSA\Search_Algorithms\BinarySearch.c.i
+CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\BinarySearch.c > CMakeFiles\BinarySearch.dir\DSA\SearchAlgorithms\BinarySearch.c.i
 
-CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\BinarySearch.c" -o CMakeFiles\BinarySearch.dir\DSA\Search_Algorithms\BinarySearch.c.s
+CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\BinarySearch.c -o CMakeFiles\BinarySearch.dir\DSA\SearchAlgorithms\BinarySearch.c.s
 
 # Object files for target BinarySearch
 BinarySearch_OBJECTS = \
-"CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.obj"
+"CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.obj"
 
 # External object files for target BinarySearch
 BinarySearch_EXTERNAL_OBJECTS =
 
-BinarySearch.exe: CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.obj
+BinarySearch.exe: CMakeFiles/BinarySearch.dir/DSA/SearchAlgorithms/BinarySearch.c.obj
 BinarySearch.exe: CMakeFiles/BinarySearch.dir/build.make
 BinarySearch.exe: CMakeFiles/BinarySearch.dir/linkLibs.rsp
 BinarySearch.exe: CMakeFiles/BinarySearch.dir/objects1.rsp

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj"
-  "CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj.d"
+  "CMakeFiles/LinearSearch.dir/DSA/SearchAlgorithms/LinearSearch.c.obj"
+  "CMakeFiles/LinearSearch.dir/DSA/SearchAlgorithms/LinearSearch.c.obj.d"
   "LinearSearch.exe"
   "LinearSearch.exe.manifest"
   "LinearSearch.pdb"

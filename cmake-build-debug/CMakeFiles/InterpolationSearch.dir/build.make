@@ -68,28 +68,28 @@ include CMakeFiles/InterpolationSearch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/InterpolationSearch.dir/flags.make
 
-CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.obj: CMakeFiles/InterpolationSearch.dir/flags.make
-CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/Search\ Algorithms/InterpolationSearch.c
-CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.obj: CMakeFiles/InterpolationSearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.obj -MF CMakeFiles\InterpolationSearch.dir\DSA\Search_Algorithms\InterpolationSearch.c.obj.d -o CMakeFiles\InterpolationSearch.dir\DSA\Search_Algorithms\InterpolationSearch.c.obj -c "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\InterpolationSearch.c"
+CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.obj: CMakeFiles/InterpolationSearch.dir/flags.make
+CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/InterpolationSearch.c
+CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.obj: CMakeFiles/InterpolationSearch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.obj -MF CMakeFiles\InterpolationSearch.dir\DSA\SearchAlgorithms\InterpolationSearch.c.obj.d -o CMakeFiles\InterpolationSearch.dir\DSA\SearchAlgorithms\InterpolationSearch.c.obj -c C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\InterpolationSearch.c
 
-CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\InterpolationSearch.c" > CMakeFiles\InterpolationSearch.dir\DSA\Search_Algorithms\InterpolationSearch.c.i
+CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\InterpolationSearch.c > CMakeFiles\InterpolationSearch.dir\DSA\SearchAlgorithms\InterpolationSearch.c.i
 
-CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\InterpolationSearch.c" -o CMakeFiles\InterpolationSearch.dir\DSA\Search_Algorithms\InterpolationSearch.c.s
+CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\prana\CLionProjects\CProjects\DSA\SearchAlgorithms\InterpolationSearch.c -o CMakeFiles\InterpolationSearch.dir\DSA\SearchAlgorithms\InterpolationSearch.c.s
 
 # Object files for target InterpolationSearch
 InterpolationSearch_OBJECTS = \
-"CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.obj"
+"CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.obj"
 
 # External object files for target InterpolationSearch
 InterpolationSearch_EXTERNAL_OBJECTS =
 
-InterpolationSearch.exe: CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.obj
+InterpolationSearch.exe: CMakeFiles/InterpolationSearch.dir/DSA/SearchAlgorithms/InterpolationSearch.c.obj
 InterpolationSearch.exe: CMakeFiles/InterpolationSearch.dir/build.make
 InterpolationSearch.exe: CMakeFiles/InterpolationSearch.dir/linkLibs.rsp
 InterpolationSearch.exe: CMakeFiles/InterpolationSearch.dir/objects1.rsp

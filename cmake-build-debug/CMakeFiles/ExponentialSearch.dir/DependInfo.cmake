@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/ExponentialSearch.c" "CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj" "gcc" "CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj.d"
+  "C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/ExponentialSearch.c" "CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj" "gcc" "CMakeFiles/ExponentialSearch.dir/DSA/SearchAlgorithms/ExponentialSearch.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

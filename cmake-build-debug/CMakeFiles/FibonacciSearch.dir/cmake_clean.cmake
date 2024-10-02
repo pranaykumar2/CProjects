@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj"
-  "CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj.d"
+  "CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj"
+  "CMakeFiles/FibonacciSearch.dir/DSA/SearchAlgorithms/FibonacciSearch.c.obj.d"
   "FibonacciSearch.exe"
   "FibonacciSearch.exe.manifest"
   "FibonacciSearch.pdb"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj"
-  "CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj.d"
+  "CMakeFiles/JumpSearch.dir/DSA/SearchAlgorithms/JumpSearch.c.obj"
+  "CMakeFiles/JumpSearch.dir/DSA/SearchAlgorithms/JumpSearch.c.obj.d"
   "JumpSearch.exe"
   "JumpSearch.exe.manifest"
   "JumpSearch.pdb"

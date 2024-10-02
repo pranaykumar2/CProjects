@@ -610,25 +610,25 @@
 		<Unit filename="C:/Users/prana/CLionProjects/CProjects/BrahmaSai/SwitchCase.c">
 			<Option target="SwitchCase"/>
 		</Unit>
-		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/BinarySearch.c">
+		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/BinarySearch.c">
 			<Option target="BinarySearch"/>
 		</Unit>
-		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/BubbleSort.c">
+		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/BubbleSort.c">
 			<Option target="BubbleSort"/>
 		</Unit>
-		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/ExponentialSearch.c">
+		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/ExponentialSearch.c">
 			<Option target="ExponentialSearch"/>
 		</Unit>
-		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/FibonacciSearch.c">
+		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/FibonacciSearch.c">
 			<Option target="FibonacciSearch"/>
 		</Unit>
-		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/InterpolationSearch.c">
+		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/InterpolationSearch.c">
 			<Option target="InterpolationSearch"/>
 		</Unit>
-		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/JumpSearch.c">
+		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/JumpSearch.c">
 			<Option target="JumpSearch"/>
 		</Unit>
-		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/LinearSearch.c">
+		<Unit filename="C:/Users/prana/CLionProjects/CProjects/DSA/SearchAlgorithms/LinearSearch.c">
 			<Option target="LinearSearch"/>
 		</Unit>
 		<Unit filename="C:/Users/prana/CLionProjects/CProjects/HarryAndDigits.c">

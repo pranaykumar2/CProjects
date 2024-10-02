@@ -4,6 +4,7 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/HashAndStar.
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Main.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Swap.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/AsciiPrint.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/SwitchCase.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/LinearSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BinarySearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BubbleSort.dir

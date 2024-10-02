@@ -53,6 +53,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Main.dir/DependInfo.cmake"
   "CMakeFiles/Swap.dir/DependInfo.cmake"
   "CMakeFiles/AsciiPrint.dir/DependInfo.cmake"
+  "CMakeFiles/SwitchCase.dir/DependInfo.cmake"
   "CMakeFiles/LinearSearch.dir/DependInfo.cmake"
   "CMakeFiles/BinarySearch.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"

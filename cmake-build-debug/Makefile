@@ -194,6 +194,19 @@ AsciiPrint/fast:
 .PHONY : AsciiPrint/fast
 
 #=============================================================================
+# Target rules for targets named SwitchCase
+
+# Build rule for target.
+SwitchCase: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SwitchCase
+.PHONY : SwitchCase
+
+# fast build rule for target.
+SwitchCase/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/build
+.PHONY : SwitchCase/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -329,6 +342,30 @@ BrahmaSai/Swap.s: BrahmaSai/Swap.c.s
 BrahmaSai/Swap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/BrahmaSai/Swap.c.s
 .PHONY : BrahmaSai/Swap.c.s
+
+BrahmaSai/SwitchCase.obj: BrahmaSai/SwitchCase.c.obj
+.PHONY : BrahmaSai/SwitchCase.obj
+
+# target to build an object file
+BrahmaSai/SwitchCase.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/BrahmaSai/SwitchCase.c.obj
+.PHONY : BrahmaSai/SwitchCase.c.obj
+
+BrahmaSai/SwitchCase.i: BrahmaSai/SwitchCase.c.i
+.PHONY : BrahmaSai/SwitchCase.i
+
+# target to preprocess a source file
+BrahmaSai/SwitchCase.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/BrahmaSai/SwitchCase.c.i
+.PHONY : BrahmaSai/SwitchCase.c.i
+
+BrahmaSai/SwitchCase.s: BrahmaSai/SwitchCase.c.s
+.PHONY : BrahmaSai/SwitchCase.s
+
+# target to generate assembly for a file
+BrahmaSai/SwitchCase.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/BrahmaSai/SwitchCase.c.s
+.PHONY : BrahmaSai/SwitchCase.c.s
 
 DSA/BinarySearch.obj: DSA/BinarySearch.c.obj
 .PHONY : DSA/BinarySearch.obj
@@ -541,6 +578,7 @@ help:
 	@echo ... LinearSearch
 	@echo ... Main
 	@echo ... Swap
+	@echo ... SwitchCase
 	@echo ... Automobile.obj
 	@echo ... Automobile.i
 	@echo ... Automobile.s
@@ -550,6 +588,9 @@ help:
 	@echo ... BrahmaSai/Swap.obj
 	@echo ... BrahmaSai/Swap.i
 	@echo ... BrahmaSai/Swap.s
+	@echo ... BrahmaSai/SwitchCase.obj
+	@echo ... BrahmaSai/SwitchCase.i
+	@echo ... BrahmaSai/SwitchCase.s
 	@echo ... DSA/BinarySearch.obj
 	@echo ... DSA/BinarySearch.i
 	@echo ... DSA/BinarySearch.s

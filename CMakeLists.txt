@@ -11,7 +11,7 @@ add_executable(Main main.c)
 #BrahmaSai
 add_executable(Swap BrahmaSai/Swap.c)
 add_executable(AsciiPrint BrahmaSai/AsciiPrint.c)
-
+add_executable(SwitchCase BrahmaSai/SwitchCase.c)
 #DSA
 add_executable(LinearSearch DSA/LinearSearch.c)
 add_executable(BinarySearch DSA/BinarySearch.c)

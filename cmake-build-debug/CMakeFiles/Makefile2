@@ -68,6 +68,7 @@ all: CMakeFiles/HashAndStar.dir/all
 all: CMakeFiles/Main.dir/all
 all: CMakeFiles/Swap.dir/all
 all: CMakeFiles/AsciiPrint.dir/all
+all: CMakeFiles/SwitchCase.dir/all
 all: CMakeFiles/LinearSearch.dir/all
 all: CMakeFiles/BinarySearch.dir/all
 all: CMakeFiles/BubbleSort.dir/all
@@ -86,6 +87,7 @@ clean: CMakeFiles/HashAndStar.dir/clean
 clean: CMakeFiles/Main.dir/clean
 clean: CMakeFiles/Swap.dir/clean
 clean: CMakeFiles/AsciiPrint.dir/clean
+clean: CMakeFiles/SwitchCase.dir/clean
 clean: CMakeFiles/LinearSearch.dir/clean
 clean: CMakeFiles/BinarySearch.dir/clean
 clean: CMakeFiles/BubbleSort.dir/clean
@@ -248,6 +250,32 @@ AsciiPrint: CMakeFiles/AsciiPrint.dir/rule
 CMakeFiles/AsciiPrint.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsciiPrint.dir\build.make CMakeFiles/AsciiPrint.dir/clean
 .PHONY : CMakeFiles/AsciiPrint.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SwitchCase.dir
+
+# All Build rule for target.
+CMakeFiles/SwitchCase.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target SwitchCase"
+.PHONY : CMakeFiles/SwitchCase.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SwitchCase.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SwitchCase.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/SwitchCase.dir/rule
+
+# Convenience name for target.
+SwitchCase: CMakeFiles/SwitchCase.dir/rule
+.PHONY : SwitchCase
+
+# clean rule for target.
+CMakeFiles/SwitchCase.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/clean
+.PHONY : CMakeFiles/SwitchCase.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/LinearSearch.dir

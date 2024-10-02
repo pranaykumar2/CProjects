@@ -168,6 +168,32 @@ Main/fast:
 .PHONY : Main/fast
 
 #=============================================================================
+# Target rules for targets named Swap
+
+# Build rule for target.
+Swap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Swap
+.PHONY : Swap
+
+# fast build rule for target.
+Swap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/build
+.PHONY : Swap/fast
+
+#=============================================================================
+# Target rules for targets named AsciiPrint
+
+# Build rule for target.
+AsciiPrint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AsciiPrint
+.PHONY : AsciiPrint
+
+# fast build rule for target.
+AsciiPrint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsciiPrint.dir\build.make CMakeFiles/AsciiPrint.dir/build
+.PHONY : AsciiPrint/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -219,6 +245,19 @@ JumpSearch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/build
 .PHONY : JumpSearch/fast
 
+#=============================================================================
+# Target rules for targets named ExponentialSearch
+
+# Build rule for target.
+ExponentialSearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExponentialSearch
+.PHONY : ExponentialSearch
+
+# fast build rule for target.
+ExponentialSearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/build
+.PHONY : ExponentialSearch/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -242,6 +281,54 @@ Automobile.s: Automobile.c.s
 Automobile.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Automobile.dir\build.make CMakeFiles/Automobile.dir/Automobile.c.s
 .PHONY : Automobile.c.s
+
+BrahmaSai/AsciiPrint.obj: BrahmaSai/AsciiPrint.c.obj
+.PHONY : BrahmaSai/AsciiPrint.obj
+
+# target to build an object file
+BrahmaSai/AsciiPrint.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsciiPrint.dir\build.make CMakeFiles/AsciiPrint.dir/BrahmaSai/AsciiPrint.c.obj
+.PHONY : BrahmaSai/AsciiPrint.c.obj
+
+BrahmaSai/AsciiPrint.i: BrahmaSai/AsciiPrint.c.i
+.PHONY : BrahmaSai/AsciiPrint.i
+
+# target to preprocess a source file
+BrahmaSai/AsciiPrint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsciiPrint.dir\build.make CMakeFiles/AsciiPrint.dir/BrahmaSai/AsciiPrint.c.i
+.PHONY : BrahmaSai/AsciiPrint.c.i
+
+BrahmaSai/AsciiPrint.s: BrahmaSai/AsciiPrint.c.s
+.PHONY : BrahmaSai/AsciiPrint.s
+
+# target to generate assembly for a file
+BrahmaSai/AsciiPrint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsciiPrint.dir\build.make CMakeFiles/AsciiPrint.dir/BrahmaSai/AsciiPrint.c.s
+.PHONY : BrahmaSai/AsciiPrint.c.s
+
+BrahmaSai/Swap.obj: BrahmaSai/Swap.c.obj
+.PHONY : BrahmaSai/Swap.obj
+
+# target to build an object file
+BrahmaSai/Swap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/BrahmaSai/Swap.c.obj
+.PHONY : BrahmaSai/Swap.c.obj
+
+BrahmaSai/Swap.i: BrahmaSai/Swap.c.i
+.PHONY : BrahmaSai/Swap.i
+
+# target to preprocess a source file
+BrahmaSai/Swap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/BrahmaSai/Swap.c.i
+.PHONY : BrahmaSai/Swap.c.i
+
+BrahmaSai/Swap.s: BrahmaSai/Swap.c.s
+.PHONY : BrahmaSai/Swap.s
+
+# target to generate assembly for a file
+BrahmaSai/Swap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/BrahmaSai/Swap.c.s
+.PHONY : BrahmaSai/Swap.c.s
 
 DSA/BinarySearch.obj: DSA/BinarySearch.c.obj
 .PHONY : DSA/BinarySearch.obj
@@ -290,6 +377,30 @@ DSA/BubbleSort.s: DSA/BubbleSort.c.s
 DSA/BubbleSort.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.s
 .PHONY : DSA/BubbleSort.c.s
+
+DSA/ExponentialSearch.obj: DSA/ExponentialSearch.c.obj
+.PHONY : DSA/ExponentialSearch.obj
+
+# target to build an object file
+DSA/ExponentialSearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.obj
+.PHONY : DSA/ExponentialSearch.c.obj
+
+DSA/ExponentialSearch.i: DSA/ExponentialSearch.c.i
+.PHONY : DSA/ExponentialSearch.i
+
+# target to preprocess a source file
+DSA/ExponentialSearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.i
+.PHONY : DSA/ExponentialSearch.c.i
+
+DSA/ExponentialSearch.s: DSA/ExponentialSearch.c.s
+.PHONY : DSA/ExponentialSearch.s
+
+# target to generate assembly for a file
+DSA/ExponentialSearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.s
+.PHONY : DSA/ExponentialSearch.c.s
 
 DSA/JumpSearch.obj: DSA/JumpSearch.c.obj
 .PHONY : DSA/JumpSearch.obj
@@ -419,23 +530,35 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AsciiPrint
 	@echo ... Automobile
 	@echo ... BinarySearch
 	@echo ... BubbleSort
+	@echo ... ExponentialSearch
 	@echo ... HarryAndDigits
 	@echo ... HashAndStar
 	@echo ... JumpSearch
 	@echo ... LinearSearch
 	@echo ... Main
+	@echo ... Swap
 	@echo ... Automobile.obj
 	@echo ... Automobile.i
 	@echo ... Automobile.s
+	@echo ... BrahmaSai/AsciiPrint.obj
+	@echo ... BrahmaSai/AsciiPrint.i
+	@echo ... BrahmaSai/AsciiPrint.s
+	@echo ... BrahmaSai/Swap.obj
+	@echo ... BrahmaSai/Swap.i
+	@echo ... BrahmaSai/Swap.s
 	@echo ... DSA/BinarySearch.obj
 	@echo ... DSA/BinarySearch.i
 	@echo ... DSA/BinarySearch.s
 	@echo ... DSA/BubbleSort.obj
 	@echo ... DSA/BubbleSort.i
 	@echo ... DSA/BubbleSort.s
+	@echo ... DSA/ExponentialSearch.obj
+	@echo ... DSA/ExponentialSearch.i
+	@echo ... DSA/ExponentialSearch.s
 	@echo ... DSA/JumpSearch.obj
 	@echo ... DSA/JumpSearch.i
 	@echo ... DSA/JumpSearch.s

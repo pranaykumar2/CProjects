@@ -2,9 +2,12 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/HarryAndDigi
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Automobile.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/HashAndStar.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Main.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Swap.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/AsciiPrint.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/LinearSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BinarySearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BubbleSort.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/JumpSearch.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ExponentialSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

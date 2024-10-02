@@ -59,4 +59,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
   "CMakeFiles/JumpSearch.dir/DependInfo.cmake"
   "CMakeFiles/ExponentialSearch.dir/DependInfo.cmake"
+  "CMakeFiles/InterpolationSearch.dir/DependInfo.cmake"
   )

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "JumpSearch.exe"
+			"path" : "ExponentialSearch.exe"
 		},
 		{
-			"path" : "JumpSearch.pdb"
+			"path" : "ExponentialSearch.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 21,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "JumpSearch::@6890427a1f51a3e7e1df",
+	"id" : "ExponentialSearch::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "JumpSearch",
-	"nameOnDisk" : "JumpSearch.exe",
+	"name" : "ExponentialSearch",
+	"nameOnDisk" : "ExponentialSearch.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "DSA/JumpSearch.c",
+			"path" : "DSA/ExponentialSearch.c",
 			"sourceGroupIndex" : 0
 		}
 	],

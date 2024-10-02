@@ -26,7 +26,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -52,7 +53,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -75,21 +77,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BinarySearch::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BinarySearch-Debug-1230b47019212aff045e.json",
+					"jsonFile" : "target-BinarySearch-Debug-ef9d5038e09065c5fd51.json",
 					"name" : "BinarySearch",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "BubbleSort::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BubbleSort-Debug-7116a99e3dddb696f4fd.json",
+					"jsonFile" : "target-BubbleSort-Debug-eab2cbc6c750b5c1225b.json",
 					"name" : "BubbleSort",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExponentialSearch::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExponentialSearch-Debug-516b76aea17a92208212.json",
+					"jsonFile" : "target-ExponentialSearch-Debug-5a4d517dad2858d7b772.json",
 					"name" : "ExponentialSearch",
 					"projectIndex" : 0
 				},
@@ -109,15 +111,22 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "InterpolationSearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InterpolationSearch-Debug-dde12480b2dd42eabc87.json",
+					"name" : "InterpolationSearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "JumpSearch::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-JumpSearch-Debug-e17870308794a5f83c05.json",
+					"jsonFile" : "target-JumpSearch-Debug-8fc9fac47d8a2cf559ed.json",
 					"name" : "JumpSearch",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "LinearSearch::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LinearSearch-Debug-acc5a5af7c111a1bdeb7.json",
+					"jsonFile" : "target-LinearSearch-Debug-df1ae1df6b921800e208.json",
 					"name" : "LinearSearch",
 					"projectIndex" : 0
 				},

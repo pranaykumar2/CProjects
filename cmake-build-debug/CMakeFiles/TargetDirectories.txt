@@ -10,5 +10,6 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BinarySearch
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BubbleSort.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/JumpSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ExponentialSearch.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/InterpolationSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

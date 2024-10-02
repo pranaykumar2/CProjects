@@ -271,6 +271,19 @@ ExponentialSearch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/build
 .PHONY : ExponentialSearch/fast
 
+#=============================================================================
+# Target rules for targets named InterpolationSearch
+
+# Build rule for target.
+InterpolationSearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 InterpolationSearch
+.PHONY : InterpolationSearch
+
+# fast build rule for target.
+InterpolationSearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/build
+.PHONY : InterpolationSearch/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -439,6 +452,30 @@ DSA/ExponentialSearch.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.s
 .PHONY : DSA/ExponentialSearch.c.s
 
+DSA/InterpolationSearch.obj: DSA/InterpolationSearch.c.obj
+.PHONY : DSA/InterpolationSearch.obj
+
+# target to build an object file
+DSA/InterpolationSearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/InterpolationSearch.c.obj
+.PHONY : DSA/InterpolationSearch.c.obj
+
+DSA/InterpolationSearch.i: DSA/InterpolationSearch.c.i
+.PHONY : DSA/InterpolationSearch.i
+
+# target to preprocess a source file
+DSA/InterpolationSearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/InterpolationSearch.c.i
+.PHONY : DSA/InterpolationSearch.c.i
+
+DSA/InterpolationSearch.s: DSA/InterpolationSearch.c.s
+.PHONY : DSA/InterpolationSearch.s
+
+# target to generate assembly for a file
+DSA/InterpolationSearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/InterpolationSearch.c.s
+.PHONY : DSA/InterpolationSearch.c.s
+
 DSA/JumpSearch.obj: DSA/JumpSearch.c.obj
 .PHONY : DSA/JumpSearch.obj
 
@@ -574,6 +611,7 @@ help:
 	@echo ... ExponentialSearch
 	@echo ... HarryAndDigits
 	@echo ... HashAndStar
+	@echo ... InterpolationSearch
 	@echo ... JumpSearch
 	@echo ... LinearSearch
 	@echo ... Main
@@ -600,6 +638,9 @@ help:
 	@echo ... DSA/ExponentialSearch.obj
 	@echo ... DSA/ExponentialSearch.i
 	@echo ... DSA/ExponentialSearch.s
+	@echo ... DSA/InterpolationSearch.obj
+	@echo ... DSA/InterpolationSearch.i
+	@echo ... DSA/InterpolationSearch.s
 	@echo ... DSA/JumpSearch.obj
 	@echo ... DSA/JumpSearch.i
 	@echo ... DSA/JumpSearch.s

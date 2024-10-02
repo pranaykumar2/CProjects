@@ -74,6 +74,7 @@ all: CMakeFiles/BinarySearch.dir/all
 all: CMakeFiles/BubbleSort.dir/all
 all: CMakeFiles/JumpSearch.dir/all
 all: CMakeFiles/ExponentialSearch.dir/all
+all: CMakeFiles/InterpolationSearch.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -93,6 +94,7 @@ clean: CMakeFiles/BinarySearch.dir/clean
 clean: CMakeFiles/BubbleSort.dir/clean
 clean: CMakeFiles/JumpSearch.dir/clean
 clean: CMakeFiles/ExponentialSearch.dir/clean
+clean: CMakeFiles/InterpolationSearch.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -180,7 +182,7 @@ CMakeFiles/HashAndStar.dir/clean:
 CMakeFiles/Main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Main"
 .PHONY : CMakeFiles/Main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -206,7 +208,7 @@ CMakeFiles/Main.dir/clean:
 CMakeFiles/Swap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Swap"
 .PHONY : CMakeFiles/Swap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -258,7 +260,7 @@ CMakeFiles/AsciiPrint.dir/clean:
 CMakeFiles/SwitchCase.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target SwitchCase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target SwitchCase"
 .PHONY : CMakeFiles/SwitchCase.dir/all
 
 # Build rule for subdir invocation for target.
@@ -284,7 +286,7 @@ CMakeFiles/SwitchCase.dir/clean:
 CMakeFiles/LinearSearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target LinearSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target LinearSearch"
 .PHONY : CMakeFiles/LinearSearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -362,7 +364,7 @@ CMakeFiles/BubbleSort.dir/clean:
 CMakeFiles/JumpSearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target JumpSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target JumpSearch"
 .PHONY : CMakeFiles/JumpSearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -406,6 +408,32 @@ ExponentialSearch: CMakeFiles/ExponentialSearch.dir/rule
 CMakeFiles/ExponentialSearch.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/clean
 .PHONY : CMakeFiles/ExponentialSearch.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/InterpolationSearch.dir
+
+# All Build rule for target.
+CMakeFiles/InterpolationSearch.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target InterpolationSearch"
+.PHONY : CMakeFiles/InterpolationSearch.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/InterpolationSearch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/InterpolationSearch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/InterpolationSearch.dir/rule
+
+# Convenience name for target.
+InterpolationSearch: CMakeFiles/InterpolationSearch.dir/rule
+.PHONY : InterpolationSearch
+
+# clean rule for target.
+CMakeFiles/InterpolationSearch.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/clean
+.PHONY : CMakeFiles/InterpolationSearch.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

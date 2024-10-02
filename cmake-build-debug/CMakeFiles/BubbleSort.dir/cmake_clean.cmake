@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "BubbleSort.exe"
   "BubbleSort.exe.manifest"
   "BubbleSort.pdb"
-  "CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj"
-  "CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj.d"
+  "CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj"
+  "CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj.d"
   "libBubbleSort.dll.a"
 )
 

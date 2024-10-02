@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.obj"
-  "CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.obj.d"
+  "CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj"
+  "CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj.d"
   "ExponentialSearch.exe"
   "ExponentialSearch.exe.manifest"
   "ExponentialSearch.pdb"

@@ -68,28 +68,28 @@ include CMakeFiles/BubbleSort.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BubbleSort.dir/flags.make
 
-CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj: CMakeFiles/BubbleSort.dir/flags.make
-CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/BubbleSort.c
-CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj: CMakeFiles/BubbleSort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj -MF CMakeFiles\BubbleSort.dir\DSA\BubbleSort.c.obj.d -o CMakeFiles\BubbleSort.dir\DSA\BubbleSort.c.obj -c C:\Users\prana\CLionProjects\CProjects\DSA\BubbleSort.c
+CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj: CMakeFiles/BubbleSort.dir/flags.make
+CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/Search\ Algorithms/BubbleSort.c
+CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj: CMakeFiles/BubbleSort.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj -MF CMakeFiles\BubbleSort.dir\DSA\Search_Algorithms\BubbleSort.c.obj.d -o CMakeFiles\BubbleSort.dir\DSA\Search_Algorithms\BubbleSort.c.obj -c "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\BubbleSort.c"
 
-CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\prana\CLionProjects\CProjects\DSA\BubbleSort.c > CMakeFiles\BubbleSort.dir\DSA\BubbleSort.c.i
+CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\BubbleSort.c" > CMakeFiles\BubbleSort.dir\DSA\Search_Algorithms\BubbleSort.c.i
 
-CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\prana\CLionProjects\CProjects\DSA\BubbleSort.c -o CMakeFiles\BubbleSort.dir\DSA\BubbleSort.c.s
+CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\BubbleSort.c" -o CMakeFiles\BubbleSort.dir\DSA\Search_Algorithms\BubbleSort.c.s
 
 # Object files for target BubbleSort
 BubbleSort_OBJECTS = \
-"CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj"
+"CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj"
 
 # External object files for target BubbleSort
 BubbleSort_EXTERNAL_OBJECTS =
 
-BubbleSort.exe: CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj
+BubbleSort.exe: CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj
 BubbleSort.exe: CMakeFiles/BubbleSort.dir/build.make
 BubbleSort.exe: CMakeFiles/BubbleSort.dir/linkLibs.rsp
 BubbleSort.exe: CMakeFiles/BubbleSort.dir/objects1.rsp

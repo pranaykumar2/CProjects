@@ -68,28 +68,28 @@ include CMakeFiles/JumpSearch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/JumpSearch.dir/flags.make
 
-CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj: CMakeFiles/JumpSearch.dir/flags.make
-CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/JumpSearch.c
-CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj: CMakeFiles/JumpSearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj -MF CMakeFiles\JumpSearch.dir\DSA\JumpSearch.c.obj.d -o CMakeFiles\JumpSearch.dir\DSA\JumpSearch.c.obj -c C:\Users\prana\CLionProjects\CProjects\DSA\JumpSearch.c
+CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj: CMakeFiles/JumpSearch.dir/flags.make
+CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/Search\ Algorithms/JumpSearch.c
+CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj: CMakeFiles/JumpSearch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj -MF CMakeFiles\JumpSearch.dir\DSA\Search_Algorithms\JumpSearch.c.obj.d -o CMakeFiles\JumpSearch.dir\DSA\Search_Algorithms\JumpSearch.c.obj -c "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\JumpSearch.c"
 
-CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\prana\CLionProjects\CProjects\DSA\JumpSearch.c > CMakeFiles\JumpSearch.dir\DSA\JumpSearch.c.i
+CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\JumpSearch.c" > CMakeFiles\JumpSearch.dir\DSA\Search_Algorithms\JumpSearch.c.i
 
-CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\prana\CLionProjects\CProjects\DSA\JumpSearch.c -o CMakeFiles\JumpSearch.dir\DSA\JumpSearch.c.s
+CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\JumpSearch.c" -o CMakeFiles\JumpSearch.dir\DSA\Search_Algorithms\JumpSearch.c.s
 
 # Object files for target JumpSearch
 JumpSearch_OBJECTS = \
-"CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj"
+"CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj"
 
 # External object files for target JumpSearch
 JumpSearch_EXTERNAL_OBJECTS =
 
-JumpSearch.exe: CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj
+JumpSearch.exe: CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj
 JumpSearch.exe: CMakeFiles/JumpSearch.dir/build.make
 JumpSearch.exe: CMakeFiles/JumpSearch.dir/linkLibs.rsp
 JumpSearch.exe: CMakeFiles/JumpSearch.dir/objects1.rsp

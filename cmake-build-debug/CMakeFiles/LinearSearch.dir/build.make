@@ -68,28 +68,28 @@ include CMakeFiles/LinearSearch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LinearSearch.dir/flags.make
 
-CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj: CMakeFiles/LinearSearch.dir/flags.make
-CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/LinearSearch.c
-CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj: CMakeFiles/LinearSearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj -MF CMakeFiles\LinearSearch.dir\DSA\LinearSearch.c.obj.d -o CMakeFiles\LinearSearch.dir\DSA\LinearSearch.c.obj -c C:\Users\prana\CLionProjects\CProjects\DSA\LinearSearch.c
+CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj: CMakeFiles/LinearSearch.dir/flags.make
+CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj: C:/Users/prana/CLionProjects/CProjects/DSA/Search\ Algorithms/LinearSearch.c
+CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj: CMakeFiles/LinearSearch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj -MF CMakeFiles\LinearSearch.dir\DSA\Search_Algorithms\LinearSearch.c.obj.d -o CMakeFiles\LinearSearch.dir\DSA\Search_Algorithms\LinearSearch.c.obj -c "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\LinearSearch.c"
 
-CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\prana\CLionProjects\CProjects\DSA\LinearSearch.c > CMakeFiles\LinearSearch.dir\DSA\LinearSearch.c.i
+CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\LinearSearch.c" > CMakeFiles\LinearSearch.dir\DSA\Search_Algorithms\LinearSearch.c.i
 
-CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\prana\CLionProjects\CProjects\DSA\LinearSearch.c -o CMakeFiles\LinearSearch.dir\DSA\LinearSearch.c.s
+CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\prana\CLionProjects\CProjects\DSA\Search Algorithms\LinearSearch.c" -o CMakeFiles\LinearSearch.dir\DSA\Search_Algorithms\LinearSearch.c.s
 
 # Object files for target LinearSearch
 LinearSearch_OBJECTS = \
-"CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj"
+"CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj"
 
 # External object files for target LinearSearch
 LinearSearch_EXTERNAL_OBJECTS =
 
-LinearSearch.exe: CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj
+LinearSearch.exe: CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj
 LinearSearch.exe: CMakeFiles/LinearSearch.dir/build.make
 LinearSearch.exe: CMakeFiles/LinearSearch.dir/linkLibs.rsp
 LinearSearch.exe: CMakeFiles/LinearSearch.dir/objects1.rsp

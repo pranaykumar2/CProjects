@@ -75,6 +75,7 @@ all: CMakeFiles/BubbleSort.dir/all
 all: CMakeFiles/JumpSearch.dir/all
 all: CMakeFiles/ExponentialSearch.dir/all
 all: CMakeFiles/InterpolationSearch.dir/all
+all: CMakeFiles/FibonacciSearch.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -95,6 +96,7 @@ clean: CMakeFiles/BubbleSort.dir/clean
 clean: CMakeFiles/JumpSearch.dir/clean
 clean: CMakeFiles/ExponentialSearch.dir/clean
 clean: CMakeFiles/InterpolationSearch.dir/clean
+clean: CMakeFiles/FibonacciSearch.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -104,7 +106,7 @@ clean: CMakeFiles/InterpolationSearch.dir/clean
 CMakeFiles/HarryAndDigits.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HarryAndDigits.dir\build.make CMakeFiles/HarryAndDigits.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HarryAndDigits.dir\build.make CMakeFiles/HarryAndDigits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target HarryAndDigits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target HarryAndDigits"
 .PHONY : CMakeFiles/HarryAndDigits.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,7 +158,7 @@ CMakeFiles/Automobile.dir/clean:
 CMakeFiles/HashAndStar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HashAndStar.dir\build.make CMakeFiles/HashAndStar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HashAndStar.dir\build.make CMakeFiles/HashAndStar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target HashAndStar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target HashAndStar"
 .PHONY : CMakeFiles/HashAndStar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +184,7 @@ CMakeFiles/HashAndStar.dir/clean:
 CMakeFiles/Main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Main"
 .PHONY : CMakeFiles/Main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,7 +210,7 @@ CMakeFiles/Main.dir/clean:
 CMakeFiles/Swap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target Swap"
 .PHONY : CMakeFiles/Swap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -260,7 +262,7 @@ CMakeFiles/AsciiPrint.dir/clean:
 CMakeFiles/SwitchCase.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target SwitchCase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target SwitchCase"
 .PHONY : CMakeFiles/SwitchCase.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,7 +288,7 @@ CMakeFiles/SwitchCase.dir/clean:
 CMakeFiles/LinearSearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target LinearSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target LinearSearch"
 .PHONY : CMakeFiles/LinearSearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -364,7 +366,7 @@ CMakeFiles/BubbleSort.dir/clean:
 CMakeFiles/JumpSearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target JumpSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target JumpSearch"
 .PHONY : CMakeFiles/JumpSearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -416,7 +418,7 @@ CMakeFiles/ExponentialSearch.dir/clean:
 CMakeFiles/InterpolationSearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target InterpolationSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target InterpolationSearch"
 .PHONY : CMakeFiles/InterpolationSearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -434,6 +436,32 @@ InterpolationSearch: CMakeFiles/InterpolationSearch.dir/rule
 CMakeFiles/InterpolationSearch.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/clean
 .PHONY : CMakeFiles/InterpolationSearch.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FibonacciSearch.dir
+
+# All Build rule for target.
+CMakeFiles/FibonacciSearch.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target FibonacciSearch"
+.PHONY : CMakeFiles/FibonacciSearch.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FibonacciSearch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/FibonacciSearch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/FibonacciSearch.dir/rule
+
+# Convenience name for target.
+FibonacciSearch: CMakeFiles/FibonacciSearch.dir/rule
+.PHONY : FibonacciSearch
+
+# clean rule for target.
+CMakeFiles/FibonacciSearch.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/clean
+.PHONY : CMakeFiles/FibonacciSearch.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -284,6 +284,19 @@ InterpolationSearch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/build
 .PHONY : InterpolationSearch/fast
 
+#=============================================================================
+# Target rules for targets named FibonacciSearch
+
+# Build rule for target.
+FibonacciSearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FibonacciSearch
+.PHONY : FibonacciSearch
+
+# fast build rule for target.
+FibonacciSearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/build
+.PHONY : FibonacciSearch/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -380,149 +393,173 @@ BrahmaSai/SwitchCase.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/BrahmaSai/SwitchCase.c.s
 .PHONY : BrahmaSai/SwitchCase.c.s
 
-DSA/BinarySearch.obj: DSA/BinarySearch.c.obj
-.PHONY : DSA/BinarySearch.obj
+DSA/Search_Algorithms/BinarySearch.obj: DSA/Search_Algorithms/BinarySearch.c.obj
+.PHONY : DSA/Search_Algorithms/BinarySearch.obj
 
 # target to build an object file
-DSA/BinarySearch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/DSA/BinarySearch.c.obj
-.PHONY : DSA/BinarySearch.c.obj
+DSA/Search_Algorithms/BinarySearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.obj
+.PHONY : DSA/Search_Algorithms/BinarySearch.c.obj
 
-DSA/BinarySearch.i: DSA/BinarySearch.c.i
-.PHONY : DSA/BinarySearch.i
+DSA/Search_Algorithms/BinarySearch.i: DSA/Search_Algorithms/BinarySearch.c.i
+.PHONY : DSA/Search_Algorithms/BinarySearch.i
 
 # target to preprocess a source file
-DSA/BinarySearch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/DSA/BinarySearch.c.i
-.PHONY : DSA/BinarySearch.c.i
+DSA/Search_Algorithms/BinarySearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.i
+.PHONY : DSA/Search_Algorithms/BinarySearch.c.i
 
-DSA/BinarySearch.s: DSA/BinarySearch.c.s
-.PHONY : DSA/BinarySearch.s
+DSA/Search_Algorithms/BinarySearch.s: DSA/Search_Algorithms/BinarySearch.c.s
+.PHONY : DSA/Search_Algorithms/BinarySearch.s
 
 # target to generate assembly for a file
-DSA/BinarySearch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/DSA/BinarySearch.c.s
-.PHONY : DSA/BinarySearch.c.s
+DSA/Search_Algorithms/BinarySearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/DSA/Search_Algorithms/BinarySearch.c.s
+.PHONY : DSA/Search_Algorithms/BinarySearch.c.s
 
-DSA/BubbleSort.obj: DSA/BubbleSort.c.obj
-.PHONY : DSA/BubbleSort.obj
+DSA/Search_Algorithms/BubbleSort.obj: DSA/Search_Algorithms/BubbleSort.c.obj
+.PHONY : DSA/Search_Algorithms/BubbleSort.obj
 
 # target to build an object file
-DSA/BubbleSort.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.obj
-.PHONY : DSA/BubbleSort.c.obj
+DSA/Search_Algorithms/BubbleSort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.obj
+.PHONY : DSA/Search_Algorithms/BubbleSort.c.obj
 
-DSA/BubbleSort.i: DSA/BubbleSort.c.i
-.PHONY : DSA/BubbleSort.i
+DSA/Search_Algorithms/BubbleSort.i: DSA/Search_Algorithms/BubbleSort.c.i
+.PHONY : DSA/Search_Algorithms/BubbleSort.i
 
 # target to preprocess a source file
-DSA/BubbleSort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.i
-.PHONY : DSA/BubbleSort.c.i
+DSA/Search_Algorithms/BubbleSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.i
+.PHONY : DSA/Search_Algorithms/BubbleSort.c.i
 
-DSA/BubbleSort.s: DSA/BubbleSort.c.s
-.PHONY : DSA/BubbleSort.s
+DSA/Search_Algorithms/BubbleSort.s: DSA/Search_Algorithms/BubbleSort.c.s
+.PHONY : DSA/Search_Algorithms/BubbleSort.s
 
 # target to generate assembly for a file
-DSA/BubbleSort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/BubbleSort.c.s
-.PHONY : DSA/BubbleSort.c.s
+DSA/Search_Algorithms/BubbleSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/Search_Algorithms/BubbleSort.c.s
+.PHONY : DSA/Search_Algorithms/BubbleSort.c.s
 
-DSA/ExponentialSearch.obj: DSA/ExponentialSearch.c.obj
-.PHONY : DSA/ExponentialSearch.obj
+DSA/Search_Algorithms/ExponentialSearch.obj: DSA/Search_Algorithms/ExponentialSearch.c.obj
+.PHONY : DSA/Search_Algorithms/ExponentialSearch.obj
 
 # target to build an object file
-DSA/ExponentialSearch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.obj
-.PHONY : DSA/ExponentialSearch.c.obj
+DSA/Search_Algorithms/ExponentialSearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.obj
+.PHONY : DSA/Search_Algorithms/ExponentialSearch.c.obj
 
-DSA/ExponentialSearch.i: DSA/ExponentialSearch.c.i
-.PHONY : DSA/ExponentialSearch.i
+DSA/Search_Algorithms/ExponentialSearch.i: DSA/Search_Algorithms/ExponentialSearch.c.i
+.PHONY : DSA/Search_Algorithms/ExponentialSearch.i
 
 # target to preprocess a source file
-DSA/ExponentialSearch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.i
-.PHONY : DSA/ExponentialSearch.c.i
+DSA/Search_Algorithms/ExponentialSearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.i
+.PHONY : DSA/Search_Algorithms/ExponentialSearch.c.i
 
-DSA/ExponentialSearch.s: DSA/ExponentialSearch.c.s
-.PHONY : DSA/ExponentialSearch.s
+DSA/Search_Algorithms/ExponentialSearch.s: DSA/Search_Algorithms/ExponentialSearch.c.s
+.PHONY : DSA/Search_Algorithms/ExponentialSearch.s
 
 # target to generate assembly for a file
-DSA/ExponentialSearch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/ExponentialSearch.c.s
-.PHONY : DSA/ExponentialSearch.c.s
+DSA/Search_Algorithms/ExponentialSearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialSearch.dir\build.make CMakeFiles/ExponentialSearch.dir/DSA/Search_Algorithms/ExponentialSearch.c.s
+.PHONY : DSA/Search_Algorithms/ExponentialSearch.c.s
 
-DSA/InterpolationSearch.obj: DSA/InterpolationSearch.c.obj
-.PHONY : DSA/InterpolationSearch.obj
+DSA/Search_Algorithms/FibonacciSearch.obj: DSA/Search_Algorithms/FibonacciSearch.c.obj
+.PHONY : DSA/Search_Algorithms/FibonacciSearch.obj
 
 # target to build an object file
-DSA/InterpolationSearch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/InterpolationSearch.c.obj
-.PHONY : DSA/InterpolationSearch.c.obj
+DSA/Search_Algorithms/FibonacciSearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.obj
+.PHONY : DSA/Search_Algorithms/FibonacciSearch.c.obj
 
-DSA/InterpolationSearch.i: DSA/InterpolationSearch.c.i
-.PHONY : DSA/InterpolationSearch.i
+DSA/Search_Algorithms/FibonacciSearch.i: DSA/Search_Algorithms/FibonacciSearch.c.i
+.PHONY : DSA/Search_Algorithms/FibonacciSearch.i
 
 # target to preprocess a source file
-DSA/InterpolationSearch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/InterpolationSearch.c.i
-.PHONY : DSA/InterpolationSearch.c.i
+DSA/Search_Algorithms/FibonacciSearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.i
+.PHONY : DSA/Search_Algorithms/FibonacciSearch.c.i
 
-DSA/InterpolationSearch.s: DSA/InterpolationSearch.c.s
-.PHONY : DSA/InterpolationSearch.s
+DSA/Search_Algorithms/FibonacciSearch.s: DSA/Search_Algorithms/FibonacciSearch.c.s
+.PHONY : DSA/Search_Algorithms/FibonacciSearch.s
 
 # target to generate assembly for a file
-DSA/InterpolationSearch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/InterpolationSearch.c.s
-.PHONY : DSA/InterpolationSearch.c.s
+DSA/Search_Algorithms/FibonacciSearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/DSA/Search_Algorithms/FibonacciSearch.c.s
+.PHONY : DSA/Search_Algorithms/FibonacciSearch.c.s
 
-DSA/JumpSearch.obj: DSA/JumpSearch.c.obj
-.PHONY : DSA/JumpSearch.obj
+DSA/Search_Algorithms/InterpolationSearch.obj: DSA/Search_Algorithms/InterpolationSearch.c.obj
+.PHONY : DSA/Search_Algorithms/InterpolationSearch.obj
 
 # target to build an object file
-DSA/JumpSearch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.obj
-.PHONY : DSA/JumpSearch.c.obj
+DSA/Search_Algorithms/InterpolationSearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.obj
+.PHONY : DSA/Search_Algorithms/InterpolationSearch.c.obj
 
-DSA/JumpSearch.i: DSA/JumpSearch.c.i
-.PHONY : DSA/JumpSearch.i
+DSA/Search_Algorithms/InterpolationSearch.i: DSA/Search_Algorithms/InterpolationSearch.c.i
+.PHONY : DSA/Search_Algorithms/InterpolationSearch.i
 
 # target to preprocess a source file
-DSA/JumpSearch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.i
-.PHONY : DSA/JumpSearch.c.i
+DSA/Search_Algorithms/InterpolationSearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.i
+.PHONY : DSA/Search_Algorithms/InterpolationSearch.c.i
 
-DSA/JumpSearch.s: DSA/JumpSearch.c.s
-.PHONY : DSA/JumpSearch.s
+DSA/Search_Algorithms/InterpolationSearch.s: DSA/Search_Algorithms/InterpolationSearch.c.s
+.PHONY : DSA/Search_Algorithms/InterpolationSearch.s
 
 # target to generate assembly for a file
-DSA/JumpSearch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/JumpSearch.c.s
-.PHONY : DSA/JumpSearch.c.s
+DSA/Search_Algorithms/InterpolationSearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolationSearch.dir\build.make CMakeFiles/InterpolationSearch.dir/DSA/Search_Algorithms/InterpolationSearch.c.s
+.PHONY : DSA/Search_Algorithms/InterpolationSearch.c.s
 
-DSA/LinearSearch.obj: DSA/LinearSearch.c.obj
-.PHONY : DSA/LinearSearch.obj
+DSA/Search_Algorithms/JumpSearch.obj: DSA/Search_Algorithms/JumpSearch.c.obj
+.PHONY : DSA/Search_Algorithms/JumpSearch.obj
 
 # target to build an object file
-DSA/LinearSearch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj
-.PHONY : DSA/LinearSearch.c.obj
+DSA/Search_Algorithms/JumpSearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.obj
+.PHONY : DSA/Search_Algorithms/JumpSearch.c.obj
 
-DSA/LinearSearch.i: DSA/LinearSearch.c.i
-.PHONY : DSA/LinearSearch.i
+DSA/Search_Algorithms/JumpSearch.i: DSA/Search_Algorithms/JumpSearch.c.i
+.PHONY : DSA/Search_Algorithms/JumpSearch.i
 
 # target to preprocess a source file
-DSA/LinearSearch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.i
-.PHONY : DSA/LinearSearch.c.i
+DSA/Search_Algorithms/JumpSearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.i
+.PHONY : DSA/Search_Algorithms/JumpSearch.c.i
 
-DSA/LinearSearch.s: DSA/LinearSearch.c.s
-.PHONY : DSA/LinearSearch.s
+DSA/Search_Algorithms/JumpSearch.s: DSA/Search_Algorithms/JumpSearch.c.s
+.PHONY : DSA/Search_Algorithms/JumpSearch.s
 
 # target to generate assembly for a file
-DSA/LinearSearch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.s
-.PHONY : DSA/LinearSearch.c.s
+DSA/Search_Algorithms/JumpSearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JumpSearch.dir\build.make CMakeFiles/JumpSearch.dir/DSA/Search_Algorithms/JumpSearch.c.s
+.PHONY : DSA/Search_Algorithms/JumpSearch.c.s
+
+DSA/Search_Algorithms/LinearSearch.obj: DSA/Search_Algorithms/LinearSearch.c.obj
+.PHONY : DSA/Search_Algorithms/LinearSearch.obj
+
+# target to build an object file
+DSA/Search_Algorithms/LinearSearch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj
+.PHONY : DSA/Search_Algorithms/LinearSearch.c.obj
+
+DSA/Search_Algorithms/LinearSearch.i: DSA/Search_Algorithms/LinearSearch.c.i
+.PHONY : DSA/Search_Algorithms/LinearSearch.i
+
+# target to preprocess a source file
+DSA/Search_Algorithms/LinearSearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.i
+.PHONY : DSA/Search_Algorithms/LinearSearch.c.i
+
+DSA/Search_Algorithms/LinearSearch.s: DSA/Search_Algorithms/LinearSearch.c.s
+.PHONY : DSA/Search_Algorithms/LinearSearch.s
+
+# target to generate assembly for a file
+DSA/Search_Algorithms/LinearSearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.s
+.PHONY : DSA/Search_Algorithms/LinearSearch.c.s
 
 HarryAndDigits.obj: HarryAndDigits.c.obj
 .PHONY : HarryAndDigits.obj
@@ -609,6 +646,7 @@ help:
 	@echo ... BinarySearch
 	@echo ... BubbleSort
 	@echo ... ExponentialSearch
+	@echo ... FibonacciSearch
 	@echo ... HarryAndDigits
 	@echo ... HashAndStar
 	@echo ... InterpolationSearch
@@ -629,24 +667,27 @@ help:
 	@echo ... BrahmaSai/SwitchCase.obj
 	@echo ... BrahmaSai/SwitchCase.i
 	@echo ... BrahmaSai/SwitchCase.s
-	@echo ... DSA/BinarySearch.obj
-	@echo ... DSA/BinarySearch.i
-	@echo ... DSA/BinarySearch.s
-	@echo ... DSA/BubbleSort.obj
-	@echo ... DSA/BubbleSort.i
-	@echo ... DSA/BubbleSort.s
-	@echo ... DSA/ExponentialSearch.obj
-	@echo ... DSA/ExponentialSearch.i
-	@echo ... DSA/ExponentialSearch.s
-	@echo ... DSA/InterpolationSearch.obj
-	@echo ... DSA/InterpolationSearch.i
-	@echo ... DSA/InterpolationSearch.s
-	@echo ... DSA/JumpSearch.obj
-	@echo ... DSA/JumpSearch.i
-	@echo ... DSA/JumpSearch.s
-	@echo ... DSA/LinearSearch.obj
-	@echo ... DSA/LinearSearch.i
-	@echo ... DSA/LinearSearch.s
+	@echo ... DSA/Search_Algorithms/BinarySearch.obj
+	@echo ... DSA/Search_Algorithms/BinarySearch.i
+	@echo ... DSA/Search_Algorithms/BinarySearch.s
+	@echo ... DSA/Search_Algorithms/BubbleSort.obj
+	@echo ... DSA/Search_Algorithms/BubbleSort.i
+	@echo ... DSA/Search_Algorithms/BubbleSort.s
+	@echo ... DSA/Search_Algorithms/ExponentialSearch.obj
+	@echo ... DSA/Search_Algorithms/ExponentialSearch.i
+	@echo ... DSA/Search_Algorithms/ExponentialSearch.s
+	@echo ... DSA/Search_Algorithms/FibonacciSearch.obj
+	@echo ... DSA/Search_Algorithms/FibonacciSearch.i
+	@echo ... DSA/Search_Algorithms/FibonacciSearch.s
+	@echo ... DSA/Search_Algorithms/InterpolationSearch.obj
+	@echo ... DSA/Search_Algorithms/InterpolationSearch.i
+	@echo ... DSA/Search_Algorithms/InterpolationSearch.s
+	@echo ... DSA/Search_Algorithms/JumpSearch.obj
+	@echo ... DSA/Search_Algorithms/JumpSearch.i
+	@echo ... DSA/Search_Algorithms/JumpSearch.s
+	@echo ... DSA/Search_Algorithms/LinearSearch.obj
+	@echo ... DSA/Search_Algorithms/LinearSearch.i
+	@echo ... DSA/Search_Algorithms/LinearSearch.s
 	@echo ... HarryAndDigits.obj
 	@echo ... HarryAndDigits.i
 	@echo ... HarryAndDigits.s

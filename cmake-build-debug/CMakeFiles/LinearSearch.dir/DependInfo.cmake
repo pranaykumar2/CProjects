@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/prana/CLionProjects/CProjects/DSA/LinearSearch.c" "CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj" "gcc" "CMakeFiles/LinearSearch.dir/DSA/LinearSearch.c.obj.d"
+  "C:/Users/prana/CLionProjects/CProjects/DSA/Search Algorithms/LinearSearch.c" "CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj" "gcc" "CMakeFiles/LinearSearch.dir/DSA/Search_Algorithms/LinearSearch.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

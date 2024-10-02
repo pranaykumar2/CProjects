@@ -60,4 +60,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/JumpSearch.dir/DependInfo.cmake"
   "CMakeFiles/ExponentialSearch.dir/DependInfo.cmake"
   "CMakeFiles/InterpolationSearch.dir/DependInfo.cmake"
+  "CMakeFiles/FibonacciSearch.dir/DependInfo.cmake"
   )

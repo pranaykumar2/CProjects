@@ -13,5 +13,7 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/JumpSearch.d
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ExponentialSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/InterpolationSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/FibonacciSearch.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Nto1.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/1toN.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

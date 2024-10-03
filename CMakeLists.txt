@@ -22,3 +22,6 @@ add_executable(JumpSearch "DSA/SearchAlgorithms/JumpSearch.c")
 add_executable(ExponentialSearch "DSA/SearchAlgorithms/ExponentialSearch.c")
 add_executable(InterpolationSearch "DSA/SearchAlgorithms/InterpolationSearch.c")
 add_executable(FibonacciSearch "DSA/SearchAlgorithms/FibonacciSearch.c")
+
+add_executable(Nto1 "DSA/Recursion/Nto1.c")
+add_executable(1toN "DSA/Recursion/1toN.c")

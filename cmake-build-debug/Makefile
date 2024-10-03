@@ -310,6 +310,32 @@ FibonacciSearch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/build
 .PHONY : FibonacciSearch/fast
 
+#=============================================================================
+# Target rules for targets named Nto1
+
+# Build rule for target.
+Nto1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nto1
+.PHONY : Nto1
+
+# fast build rule for target.
+Nto1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nto1.dir\build.make CMakeFiles/Nto1.dir/build
+.PHONY : Nto1/fast
+
+#=============================================================================
+# Target rules for targets named 1toN
+
+# Build rule for target.
+1toN: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1toN
+.PHONY : 1toN
+
+# fast build rule for target.
+1toN/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1toN.dir\build.make CMakeFiles/1toN.dir/build
+.PHONY : 1toN/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -429,6 +455,54 @@ BrahmaSai/SwitchCase.s: BrahmaSai/SwitchCase.c.s
 BrahmaSai/SwitchCase.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/BrahmaSai/SwitchCase.c.s
 .PHONY : BrahmaSai/SwitchCase.c.s
+
+DSA/Recursion/1toN.obj: DSA/Recursion/1toN.c.obj
+.PHONY : DSA/Recursion/1toN.obj
+
+# target to build an object file
+DSA/Recursion/1toN.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1toN.dir\build.make CMakeFiles/1toN.dir/DSA/Recursion/1toN.c.obj
+.PHONY : DSA/Recursion/1toN.c.obj
+
+DSA/Recursion/1toN.i: DSA/Recursion/1toN.c.i
+.PHONY : DSA/Recursion/1toN.i
+
+# target to preprocess a source file
+DSA/Recursion/1toN.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1toN.dir\build.make CMakeFiles/1toN.dir/DSA/Recursion/1toN.c.i
+.PHONY : DSA/Recursion/1toN.c.i
+
+DSA/Recursion/1toN.s: DSA/Recursion/1toN.c.s
+.PHONY : DSA/Recursion/1toN.s
+
+# target to generate assembly for a file
+DSA/Recursion/1toN.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1toN.dir\build.make CMakeFiles/1toN.dir/DSA/Recursion/1toN.c.s
+.PHONY : DSA/Recursion/1toN.c.s
+
+DSA/Recursion/Nto1.obj: DSA/Recursion/Nto1.c.obj
+.PHONY : DSA/Recursion/Nto1.obj
+
+# target to build an object file
+DSA/Recursion/Nto1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nto1.dir\build.make CMakeFiles/Nto1.dir/DSA/Recursion/Nto1.c.obj
+.PHONY : DSA/Recursion/Nto1.c.obj
+
+DSA/Recursion/Nto1.i: DSA/Recursion/Nto1.c.i
+.PHONY : DSA/Recursion/Nto1.i
+
+# target to preprocess a source file
+DSA/Recursion/Nto1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nto1.dir\build.make CMakeFiles/Nto1.dir/DSA/Recursion/Nto1.c.i
+.PHONY : DSA/Recursion/Nto1.c.i
+
+DSA/Recursion/Nto1.s: DSA/Recursion/Nto1.c.s
+.PHONY : DSA/Recursion/Nto1.s
+
+# target to generate assembly for a file
+DSA/Recursion/Nto1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nto1.dir\build.make CMakeFiles/Nto1.dir/DSA/Recursion/Nto1.c.s
+.PHONY : DSA/Recursion/Nto1.c.s
 
 DSA/SearchAlgorithms/BinarySearch.obj: DSA/SearchAlgorithms/BinarySearch.c.obj
 .PHONY : DSA/SearchAlgorithms/BinarySearch.obj
@@ -678,6 +752,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 1toN
 	@echo ... AsciiPrint
 	@echo ... Automobile
 	@echo ... BinarySearch
@@ -690,6 +765,7 @@ help:
 	@echo ... JumpSearch
 	@echo ... LinearSearch
 	@echo ... Main
+	@echo ... Nto1
 	@echo ... PrintAlpha
 	@echo ... Swap
 	@echo ... SwitchCase
@@ -708,6 +784,12 @@ help:
 	@echo ... BrahmaSai/SwitchCase.obj
 	@echo ... BrahmaSai/SwitchCase.i
 	@echo ... BrahmaSai/SwitchCase.s
+	@echo ... DSA/Recursion/1toN.obj
+	@echo ... DSA/Recursion/1toN.i
+	@echo ... DSA/Recursion/1toN.s
+	@echo ... DSA/Recursion/Nto1.obj
+	@echo ... DSA/Recursion/Nto1.i
+	@echo ... DSA/Recursion/Nto1.s
 	@echo ... DSA/SearchAlgorithms/BinarySearch.obj
 	@echo ... DSA/SearchAlgorithms/BinarySearch.i
 	@echo ... DSA/SearchAlgorithms/BinarySearch.s

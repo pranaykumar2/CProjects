@@ -16,5 +16,8 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/FibonacciSea
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Nto1.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/1toN.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Factorial.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/SumOfN.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/SumOfDigits.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ProductOfDigits.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

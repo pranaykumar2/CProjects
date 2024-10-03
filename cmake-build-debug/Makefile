@@ -349,6 +349,45 @@ Factorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Factorial.dir\build.make CMakeFiles/Factorial.dir/build
 .PHONY : Factorial/fast
 
+#=============================================================================
+# Target rules for targets named SumOfN
+
+# Build rule for target.
+SumOfN: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SumOfN
+.PHONY : SumOfN
+
+# fast build rule for target.
+SumOfN/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfN.dir\build.make CMakeFiles/SumOfN.dir/build
+.PHONY : SumOfN/fast
+
+#=============================================================================
+# Target rules for targets named SumOfDigits
+
+# Build rule for target.
+SumOfDigits: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SumOfDigits
+.PHONY : SumOfDigits
+
+# fast build rule for target.
+SumOfDigits/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfDigits.dir\build.make CMakeFiles/SumOfDigits.dir/build
+.PHONY : SumOfDigits/fast
+
+#=============================================================================
+# Target rules for targets named ProductOfDigits
+
+# Build rule for target.
+ProductOfDigits: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProductOfDigits
+.PHONY : ProductOfDigits
+
+# fast build rule for target.
+ProductOfDigits/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductOfDigits.dir\build.make CMakeFiles/ProductOfDigits.dir/build
+.PHONY : ProductOfDigits/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -540,6 +579,78 @@ DSA/Recursion/Nto1.s: DSA/Recursion/Nto1.c.s
 DSA/Recursion/Nto1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nto1.dir\build.make CMakeFiles/Nto1.dir/DSA/Recursion/Nto1.c.s
 .PHONY : DSA/Recursion/Nto1.c.s
+
+DSA/Recursion/ProductOfDigits.obj: DSA/Recursion/ProductOfDigits.c.obj
+.PHONY : DSA/Recursion/ProductOfDigits.obj
+
+# target to build an object file
+DSA/Recursion/ProductOfDigits.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductOfDigits.dir\build.make CMakeFiles/ProductOfDigits.dir/DSA/Recursion/ProductOfDigits.c.obj
+.PHONY : DSA/Recursion/ProductOfDigits.c.obj
+
+DSA/Recursion/ProductOfDigits.i: DSA/Recursion/ProductOfDigits.c.i
+.PHONY : DSA/Recursion/ProductOfDigits.i
+
+# target to preprocess a source file
+DSA/Recursion/ProductOfDigits.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductOfDigits.dir\build.make CMakeFiles/ProductOfDigits.dir/DSA/Recursion/ProductOfDigits.c.i
+.PHONY : DSA/Recursion/ProductOfDigits.c.i
+
+DSA/Recursion/ProductOfDigits.s: DSA/Recursion/ProductOfDigits.c.s
+.PHONY : DSA/Recursion/ProductOfDigits.s
+
+# target to generate assembly for a file
+DSA/Recursion/ProductOfDigits.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductOfDigits.dir\build.make CMakeFiles/ProductOfDigits.dir/DSA/Recursion/ProductOfDigits.c.s
+.PHONY : DSA/Recursion/ProductOfDigits.c.s
+
+DSA/Recursion/SumOfDigits.obj: DSA/Recursion/SumOfDigits.c.obj
+.PHONY : DSA/Recursion/SumOfDigits.obj
+
+# target to build an object file
+DSA/Recursion/SumOfDigits.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfDigits.dir\build.make CMakeFiles/SumOfDigits.dir/DSA/Recursion/SumOfDigits.c.obj
+.PHONY : DSA/Recursion/SumOfDigits.c.obj
+
+DSA/Recursion/SumOfDigits.i: DSA/Recursion/SumOfDigits.c.i
+.PHONY : DSA/Recursion/SumOfDigits.i
+
+# target to preprocess a source file
+DSA/Recursion/SumOfDigits.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfDigits.dir\build.make CMakeFiles/SumOfDigits.dir/DSA/Recursion/SumOfDigits.c.i
+.PHONY : DSA/Recursion/SumOfDigits.c.i
+
+DSA/Recursion/SumOfDigits.s: DSA/Recursion/SumOfDigits.c.s
+.PHONY : DSA/Recursion/SumOfDigits.s
+
+# target to generate assembly for a file
+DSA/Recursion/SumOfDigits.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfDigits.dir\build.make CMakeFiles/SumOfDigits.dir/DSA/Recursion/SumOfDigits.c.s
+.PHONY : DSA/Recursion/SumOfDigits.c.s
+
+DSA/Recursion/SumOfN.obj: DSA/Recursion/SumOfN.c.obj
+.PHONY : DSA/Recursion/SumOfN.obj
+
+# target to build an object file
+DSA/Recursion/SumOfN.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfN.dir\build.make CMakeFiles/SumOfN.dir/DSA/Recursion/SumOfN.c.obj
+.PHONY : DSA/Recursion/SumOfN.c.obj
+
+DSA/Recursion/SumOfN.i: DSA/Recursion/SumOfN.c.i
+.PHONY : DSA/Recursion/SumOfN.i
+
+# target to preprocess a source file
+DSA/Recursion/SumOfN.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfN.dir\build.make CMakeFiles/SumOfN.dir/DSA/Recursion/SumOfN.c.i
+.PHONY : DSA/Recursion/SumOfN.c.i
+
+DSA/Recursion/SumOfN.s: DSA/Recursion/SumOfN.c.s
+.PHONY : DSA/Recursion/SumOfN.s
+
+# target to generate assembly for a file
+DSA/Recursion/SumOfN.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfN.dir\build.make CMakeFiles/SumOfN.dir/DSA/Recursion/SumOfN.c.s
+.PHONY : DSA/Recursion/SumOfN.c.s
 
 DSA/SearchAlgorithms/BinarySearch.obj: DSA/SearchAlgorithms/BinarySearch.c.obj
 .PHONY : DSA/SearchAlgorithms/BinarySearch.obj
@@ -805,6 +916,9 @@ help:
 	@echo ... Main
 	@echo ... Nto1
 	@echo ... PrintAlpha
+	@echo ... ProductOfDigits
+	@echo ... SumOfDigits
+	@echo ... SumOfN
 	@echo ... Swap
 	@echo ... SwitchCase
 	@echo ... Automobile.obj
@@ -831,6 +945,15 @@ help:
 	@echo ... DSA/Recursion/Nto1.obj
 	@echo ... DSA/Recursion/Nto1.i
 	@echo ... DSA/Recursion/Nto1.s
+	@echo ... DSA/Recursion/ProductOfDigits.obj
+	@echo ... DSA/Recursion/ProductOfDigits.i
+	@echo ... DSA/Recursion/ProductOfDigits.s
+	@echo ... DSA/Recursion/SumOfDigits.obj
+	@echo ... DSA/Recursion/SumOfDigits.i
+	@echo ... DSA/Recursion/SumOfDigits.s
+	@echo ... DSA/Recursion/SumOfN.obj
+	@echo ... DSA/Recursion/SumOfN.i
+	@echo ... DSA/Recursion/SumOfN.s
 	@echo ... DSA/SearchAlgorithms/BinarySearch.obj
 	@echo ... DSA/SearchAlgorithms/BinarySearch.i
 	@echo ... DSA/SearchAlgorithms/BinarySearch.s

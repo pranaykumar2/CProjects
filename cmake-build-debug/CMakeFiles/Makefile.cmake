@@ -65,4 +65,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Nto1.dir/DependInfo.cmake"
   "CMakeFiles/1toN.dir/DependInfo.cmake"
   "CMakeFiles/Factorial.dir/DependInfo.cmake"
+  "CMakeFiles/SumOfN.dir/DependInfo.cmake"
+  "CMakeFiles/SumOfDigits.dir/DependInfo.cmake"
+  "CMakeFiles/ProductOfDigits.dir/DependInfo.cmake"
   )

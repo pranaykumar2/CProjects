@@ -69,6 +69,7 @@ all: CMakeFiles/Main.dir/all
 all: CMakeFiles/Swap.dir/all
 all: CMakeFiles/AsciiPrint.dir/all
 all: CMakeFiles/SwitchCase.dir/all
+all: CMakeFiles/PrintAlpha.dir/all
 all: CMakeFiles/LinearSearch.dir/all
 all: CMakeFiles/BinarySearch.dir/all
 all: CMakeFiles/BubbleSort.dir/all
@@ -90,6 +91,7 @@ clean: CMakeFiles/Main.dir/clean
 clean: CMakeFiles/Swap.dir/clean
 clean: CMakeFiles/AsciiPrint.dir/clean
 clean: CMakeFiles/SwitchCase.dir/clean
+clean: CMakeFiles/PrintAlpha.dir/clean
 clean: CMakeFiles/LinearSearch.dir/clean
 clean: CMakeFiles/BinarySearch.dir/clean
 clean: CMakeFiles/BubbleSort.dir/clean
@@ -210,7 +212,7 @@ CMakeFiles/Main.dir/clean:
 CMakeFiles/Swap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target Swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target Swap"
 .PHONY : CMakeFiles/Swap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -262,7 +264,7 @@ CMakeFiles/AsciiPrint.dir/clean:
 CMakeFiles/SwitchCase.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target SwitchCase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target SwitchCase"
 .PHONY : CMakeFiles/SwitchCase.dir/all
 
 # Build rule for subdir invocation for target.
@@ -280,6 +282,32 @@ SwitchCase: CMakeFiles/SwitchCase.dir/rule
 CMakeFiles/SwitchCase.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/clean
 .PHONY : CMakeFiles/SwitchCase.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PrintAlpha.dir
+
+# All Build rule for target.
+CMakeFiles/PrintAlpha.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target PrintAlpha"
+.PHONY : CMakeFiles/PrintAlpha.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PrintAlpha.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PrintAlpha.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/PrintAlpha.dir/rule
+
+# Convenience name for target.
+PrintAlpha: CMakeFiles/PrintAlpha.dir/rule
+.PHONY : PrintAlpha
+
+# clean rule for target.
+CMakeFiles/PrintAlpha.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/clean
+.PHONY : CMakeFiles/PrintAlpha.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/LinearSearch.dir

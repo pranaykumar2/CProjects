@@ -207,6 +207,19 @@ SwitchCase/fast:
 .PHONY : SwitchCase/fast
 
 #=============================================================================
+# Target rules for targets named PrintAlpha
+
+# Build rule for target.
+PrintAlpha: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PrintAlpha
+.PHONY : PrintAlpha
+
+# fast build rule for target.
+PrintAlpha/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/build
+.PHONY : PrintAlpha/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -344,6 +357,30 @@ BrahmaSai/AsciiPrint.s: BrahmaSai/AsciiPrint.c.s
 BrahmaSai/AsciiPrint.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsciiPrint.dir\build.make CMakeFiles/AsciiPrint.dir/BrahmaSai/AsciiPrint.c.s
 .PHONY : BrahmaSai/AsciiPrint.c.s
+
+BrahmaSai/PrintAlpha.obj: BrahmaSai/PrintAlpha.c.obj
+.PHONY : BrahmaSai/PrintAlpha.obj
+
+# target to build an object file
+BrahmaSai/PrintAlpha.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/BrahmaSai/PrintAlpha.c.obj
+.PHONY : BrahmaSai/PrintAlpha.c.obj
+
+BrahmaSai/PrintAlpha.i: BrahmaSai/PrintAlpha.c.i
+.PHONY : BrahmaSai/PrintAlpha.i
+
+# target to preprocess a source file
+BrahmaSai/PrintAlpha.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/BrahmaSai/PrintAlpha.c.i
+.PHONY : BrahmaSai/PrintAlpha.c.i
+
+BrahmaSai/PrintAlpha.s: BrahmaSai/PrintAlpha.c.s
+.PHONY : BrahmaSai/PrintAlpha.s
+
+# target to generate assembly for a file
+BrahmaSai/PrintAlpha.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/BrahmaSai/PrintAlpha.c.s
+.PHONY : BrahmaSai/PrintAlpha.c.s
 
 BrahmaSai/Swap.obj: BrahmaSai/Swap.c.obj
 .PHONY : BrahmaSai/Swap.obj
@@ -653,6 +690,7 @@ help:
 	@echo ... JumpSearch
 	@echo ... LinearSearch
 	@echo ... Main
+	@echo ... PrintAlpha
 	@echo ... Swap
 	@echo ... SwitchCase
 	@echo ... Automobile.obj
@@ -661,6 +699,9 @@ help:
 	@echo ... BrahmaSai/AsciiPrint.obj
 	@echo ... BrahmaSai/AsciiPrint.i
 	@echo ... BrahmaSai/AsciiPrint.s
+	@echo ... BrahmaSai/PrintAlpha.obj
+	@echo ... BrahmaSai/PrintAlpha.i
+	@echo ... BrahmaSai/PrintAlpha.s
 	@echo ... BrahmaSai/Swap.obj
 	@echo ... BrahmaSai/Swap.i
 	@echo ... BrahmaSai/Swap.s

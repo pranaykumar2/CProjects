@@ -336,6 +336,19 @@ Nto1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1toN.dir\build.make CMakeFiles/1toN.dir/build
 .PHONY : 1toN/fast
 
+#=============================================================================
+# Target rules for targets named Factorial
+
+# Build rule for target.
+Factorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Factorial
+.PHONY : Factorial
+
+# fast build rule for target.
+Factorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Factorial.dir\build.make CMakeFiles/Factorial.dir/build
+.PHONY : Factorial/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -479,6 +492,30 @@ DSA/Recursion/1toN.s: DSA/Recursion/1toN.c.s
 DSA/Recursion/1toN.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1toN.dir\build.make CMakeFiles/1toN.dir/DSA/Recursion/1toN.c.s
 .PHONY : DSA/Recursion/1toN.c.s
+
+DSA/Recursion/Factorial.obj: DSA/Recursion/Factorial.c.obj
+.PHONY : DSA/Recursion/Factorial.obj
+
+# target to build an object file
+DSA/Recursion/Factorial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Factorial.dir\build.make CMakeFiles/Factorial.dir/DSA/Recursion/Factorial.c.obj
+.PHONY : DSA/Recursion/Factorial.c.obj
+
+DSA/Recursion/Factorial.i: DSA/Recursion/Factorial.c.i
+.PHONY : DSA/Recursion/Factorial.i
+
+# target to preprocess a source file
+DSA/Recursion/Factorial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Factorial.dir\build.make CMakeFiles/Factorial.dir/DSA/Recursion/Factorial.c.i
+.PHONY : DSA/Recursion/Factorial.c.i
+
+DSA/Recursion/Factorial.s: DSA/Recursion/Factorial.c.s
+.PHONY : DSA/Recursion/Factorial.s
+
+# target to generate assembly for a file
+DSA/Recursion/Factorial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Factorial.dir\build.make CMakeFiles/Factorial.dir/DSA/Recursion/Factorial.c.s
+.PHONY : DSA/Recursion/Factorial.c.s
 
 DSA/Recursion/Nto1.obj: DSA/Recursion/Nto1.c.obj
 .PHONY : DSA/Recursion/Nto1.obj
@@ -758,6 +795,7 @@ help:
 	@echo ... BinarySearch
 	@echo ... BubbleSort
 	@echo ... ExponentialSearch
+	@echo ... Factorial
 	@echo ... FibonacciSearch
 	@echo ... HarryAndDigits
 	@echo ... HashAndStar
@@ -787,6 +825,9 @@ help:
 	@echo ... DSA/Recursion/1toN.obj
 	@echo ... DSA/Recursion/1toN.i
 	@echo ... DSA/Recursion/1toN.s
+	@echo ... DSA/Recursion/Factorial.obj
+	@echo ... DSA/Recursion/Factorial.i
+	@echo ... DSA/Recursion/Factorial.s
 	@echo ... DSA/Recursion/Nto1.obj
 	@echo ... DSA/Recursion/Nto1.i
 	@echo ... DSA/Recursion/Nto1.s

@@ -15,5 +15,6 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Interpolatio
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/FibonacciSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Nto1.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/1toN.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Factorial.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

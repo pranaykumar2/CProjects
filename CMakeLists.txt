@@ -25,3 +25,4 @@ add_executable(FibonacciSearch "DSA/SearchAlgorithms/FibonacciSearch.c")
 
 add_executable(Nto1 "DSA/Recursion/Nto1.c")
 add_executable(1toN "DSA/Recursion/1toN.c")
+add_executable(Factorial "DSA/Recursion/Factorial.c")

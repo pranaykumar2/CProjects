@@ -1,17 +1,19 @@
 #include <stdio.h>
-int sum = 0;
+#include <math.h>
 
-int reverserNumber(int num) {
-    if(num == 0) {
-        return sum;
-    }
-    sum = (sum * 10) + (num % 10);
-    return reverserNumber(num / 10);
+int helper(int num, int digits) {
+    return num % 10 == num ? num : (num % 10) * pow(10, digits - 1) + helper(num / 10, digits - 1);
+}
+
+int  reverseNumber(int num) {
+    int digits = log10(num) + 1;
+    int rev = helper(num, digits);
+    return rev;
 }
 
 void main() {
     int num;
     scanf("%d", &num);
-    int rev_num = reverserNumber(num);
-    printf("%d", rev_num);
+    int rev = reverseNumber(num);
+    printf("%d", rev);
 }

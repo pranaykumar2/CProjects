@@ -21,5 +21,6 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/SumOfDigits.
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ProductOfDigits.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ReverseNumber.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Palindrome.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/CountZero.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

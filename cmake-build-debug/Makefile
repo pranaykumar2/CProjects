@@ -414,6 +414,19 @@ Palindrome/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/build
 .PHONY : Palindrome/fast
 
+#=============================================================================
+# Target rules for targets named CountZero
+
+# Build rule for target.
+CountZero: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CountZero
+.PHONY : CountZero
+
+# fast build rule for target.
+CountZero/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountZero.dir\build.make CMakeFiles/CountZero.dir/build
+.PHONY : CountZero/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -557,6 +570,30 @@ DSA/Recursion/1toN.s: DSA/Recursion/1toN.c.s
 DSA/Recursion/1toN.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1toN.dir\build.make CMakeFiles/1toN.dir/DSA/Recursion/1toN.c.s
 .PHONY : DSA/Recursion/1toN.c.s
+
+DSA/Recursion/CountZero.obj: DSA/Recursion/CountZero.c.obj
+.PHONY : DSA/Recursion/CountZero.obj
+
+# target to build an object file
+DSA/Recursion/CountZero.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountZero.dir\build.make CMakeFiles/CountZero.dir/DSA/Recursion/CountZero.c.obj
+.PHONY : DSA/Recursion/CountZero.c.obj
+
+DSA/Recursion/CountZero.i: DSA/Recursion/CountZero.c.i
+.PHONY : DSA/Recursion/CountZero.i
+
+# target to preprocess a source file
+DSA/Recursion/CountZero.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountZero.dir\build.make CMakeFiles/CountZero.dir/DSA/Recursion/CountZero.c.i
+.PHONY : DSA/Recursion/CountZero.c.i
+
+DSA/Recursion/CountZero.s: DSA/Recursion/CountZero.c.s
+.PHONY : DSA/Recursion/CountZero.s
+
+# target to generate assembly for a file
+DSA/Recursion/CountZero.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountZero.dir\build.make CMakeFiles/CountZero.dir/DSA/Recursion/CountZero.c.s
+.PHONY : DSA/Recursion/CountZero.c.s
 
 DSA/Recursion/Factorial.obj: DSA/Recursion/Factorial.c.obj
 .PHONY : DSA/Recursion/Factorial.obj
@@ -979,6 +1016,7 @@ help:
 	@echo ... Automobile
 	@echo ... BinarySearch
 	@echo ... BubbleSort
+	@echo ... CountZero
 	@echo ... ExponentialSearch
 	@echo ... Factorial
 	@echo ... FibonacciSearch
@@ -1015,6 +1053,9 @@ help:
 	@echo ... DSA/Recursion/1toN.obj
 	@echo ... DSA/Recursion/1toN.i
 	@echo ... DSA/Recursion/1toN.s
+	@echo ... DSA/Recursion/CountZero.obj
+	@echo ... DSA/Recursion/CountZero.i
+	@echo ... DSA/Recursion/CountZero.s
 	@echo ... DSA/Recursion/Factorial.obj
 	@echo ... DSA/Recursion/Factorial.i
 	@echo ... DSA/Recursion/Factorial.s

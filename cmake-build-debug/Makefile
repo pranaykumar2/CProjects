@@ -388,6 +388,19 @@ ProductOfDigits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductOfDigits.dir\build.make CMakeFiles/ProductOfDigits.dir/build
 .PHONY : ProductOfDigits/fast
 
+#=============================================================================
+# Target rules for targets named ReverseNumber
+
+# Build rule for target.
+ReverseNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ReverseNumber
+.PHONY : ReverseNumber
+
+# fast build rule for target.
+ReverseNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseNumber.dir\build.make CMakeFiles/ReverseNumber.dir/build
+.PHONY : ReverseNumber/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -603,6 +616,30 @@ DSA/Recursion/ProductOfDigits.s: DSA/Recursion/ProductOfDigits.c.s
 DSA/Recursion/ProductOfDigits.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductOfDigits.dir\build.make CMakeFiles/ProductOfDigits.dir/DSA/Recursion/ProductOfDigits.c.s
 .PHONY : DSA/Recursion/ProductOfDigits.c.s
+
+DSA/Recursion/ReverseNumber.obj: DSA/Recursion/ReverseNumber.c.obj
+.PHONY : DSA/Recursion/ReverseNumber.obj
+
+# target to build an object file
+DSA/Recursion/ReverseNumber.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseNumber.dir\build.make CMakeFiles/ReverseNumber.dir/DSA/Recursion/ReverseNumber.c.obj
+.PHONY : DSA/Recursion/ReverseNumber.c.obj
+
+DSA/Recursion/ReverseNumber.i: DSA/Recursion/ReverseNumber.c.i
+.PHONY : DSA/Recursion/ReverseNumber.i
+
+# target to preprocess a source file
+DSA/Recursion/ReverseNumber.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseNumber.dir\build.make CMakeFiles/ReverseNumber.dir/DSA/Recursion/ReverseNumber.c.i
+.PHONY : DSA/Recursion/ReverseNumber.c.i
+
+DSA/Recursion/ReverseNumber.s: DSA/Recursion/ReverseNumber.c.s
+.PHONY : DSA/Recursion/ReverseNumber.s
+
+# target to generate assembly for a file
+DSA/Recursion/ReverseNumber.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseNumber.dir\build.make CMakeFiles/ReverseNumber.dir/DSA/Recursion/ReverseNumber.c.s
+.PHONY : DSA/Recursion/ReverseNumber.c.s
 
 DSA/Recursion/SumOfDigits.obj: DSA/Recursion/SumOfDigits.c.obj
 .PHONY : DSA/Recursion/SumOfDigits.obj
@@ -917,6 +954,7 @@ help:
 	@echo ... Nto1
 	@echo ... PrintAlpha
 	@echo ... ProductOfDigits
+	@echo ... ReverseNumber
 	@echo ... SumOfDigits
 	@echo ... SumOfN
 	@echo ... Swap
@@ -948,6 +986,9 @@ help:
 	@echo ... DSA/Recursion/ProductOfDigits.obj
 	@echo ... DSA/Recursion/ProductOfDigits.i
 	@echo ... DSA/Recursion/ProductOfDigits.s
+	@echo ... DSA/Recursion/ReverseNumber.obj
+	@echo ... DSA/Recursion/ReverseNumber.i
+	@echo ... DSA/Recursion/ReverseNumber.s
 	@echo ... DSA/Recursion/SumOfDigits.obj
 	@echo ... DSA/Recursion/SumOfDigits.i
 	@echo ... DSA/Recursion/SumOfDigits.s

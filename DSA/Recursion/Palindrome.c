@@ -11,10 +11,14 @@ int reverseNumber(int num) {
     return rev;
 }
 
-int main() {
+bool checkPalindrome(int num, int rev) {
+    return num == rev;
+}
+
+void main() {
     int num;
     scanf("%d", &num);
     int rev = reverseNumber(num);
-    printf("%d\n", rev);
-    return 0;
+    bool isPalindrome = checkPalindrome(num, rev);
+    isPalindrome ? printf("Palindrome\n") : printf("Not Palindrome\n");
 }

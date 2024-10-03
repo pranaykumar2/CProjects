@@ -401,6 +401,19 @@ ReverseNumber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseNumber.dir\build.make CMakeFiles/ReverseNumber.dir/build
 .PHONY : ReverseNumber/fast
 
+#=============================================================================
+# Target rules for targets named Palindrome
+
+# Build rule for target.
+Palindrome: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Palindrome
+.PHONY : Palindrome
+
+# fast build rule for target.
+Palindrome/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/build
+.PHONY : Palindrome/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -592,6 +605,30 @@ DSA/Recursion/Nto1.s: DSA/Recursion/Nto1.c.s
 DSA/Recursion/Nto1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nto1.dir\build.make CMakeFiles/Nto1.dir/DSA/Recursion/Nto1.c.s
 .PHONY : DSA/Recursion/Nto1.c.s
+
+DSA/Recursion/Palindrome.obj: DSA/Recursion/Palindrome.c.obj
+.PHONY : DSA/Recursion/Palindrome.obj
+
+# target to build an object file
+DSA/Recursion/Palindrome.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/DSA/Recursion/Palindrome.c.obj
+.PHONY : DSA/Recursion/Palindrome.c.obj
+
+DSA/Recursion/Palindrome.i: DSA/Recursion/Palindrome.c.i
+.PHONY : DSA/Recursion/Palindrome.i
+
+# target to preprocess a source file
+DSA/Recursion/Palindrome.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/DSA/Recursion/Palindrome.c.i
+.PHONY : DSA/Recursion/Palindrome.c.i
+
+DSA/Recursion/Palindrome.s: DSA/Recursion/Palindrome.c.s
+.PHONY : DSA/Recursion/Palindrome.s
+
+# target to generate assembly for a file
+DSA/Recursion/Palindrome.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/DSA/Recursion/Palindrome.c.s
+.PHONY : DSA/Recursion/Palindrome.c.s
 
 DSA/Recursion/ProductOfDigits.obj: DSA/Recursion/ProductOfDigits.c.obj
 .PHONY : DSA/Recursion/ProductOfDigits.obj
@@ -952,6 +989,7 @@ help:
 	@echo ... LinearSearch
 	@echo ... Main
 	@echo ... Nto1
+	@echo ... Palindrome
 	@echo ... PrintAlpha
 	@echo ... ProductOfDigits
 	@echo ... ReverseNumber
@@ -983,6 +1021,9 @@ help:
 	@echo ... DSA/Recursion/Nto1.obj
 	@echo ... DSA/Recursion/Nto1.i
 	@echo ... DSA/Recursion/Nto1.s
+	@echo ... DSA/Recursion/Palindrome.obj
+	@echo ... DSA/Recursion/Palindrome.i
+	@echo ... DSA/Recursion/Palindrome.s
 	@echo ... DSA/Recursion/ProductOfDigits.obj
 	@echo ... DSA/Recursion/ProductOfDigits.i
 	@echo ... DSA/Recursion/ProductOfDigits.s

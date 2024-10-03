@@ -69,4 +69,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SumOfDigits.dir/DependInfo.cmake"
   "CMakeFiles/ProductOfDigits.dir/DependInfo.cmake"
   "CMakeFiles/ReverseNumber.dir/DependInfo.cmake"
+  "CMakeFiles/Palindrome.dir/DependInfo.cmake"
   )

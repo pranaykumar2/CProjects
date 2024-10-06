@@ -6,6 +6,7 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Swap.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/AsciiPrint.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/SwitchCase.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/PrintAlpha.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Break.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/LinearSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BinarySearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BubbleSort.dir
@@ -22,5 +23,7 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ProductOfDig
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ReverseNumber.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Palindrome.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/CountZero.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/SortedOrNot.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/CheckNumber.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

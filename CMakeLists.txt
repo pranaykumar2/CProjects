@@ -13,6 +13,7 @@ add_executable(Swap BrahmaSai/Swap.c)
 add_executable(AsciiPrint BrahmaSai/AsciiPrint.c)
 add_executable(SwitchCase BrahmaSai/SwitchCase.c)
 add_executable(PrintAlpha BrahmaSai/PrintAlpha.c)
+add_executable(Break BrahmaSai/Break.c)
 
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")
@@ -32,3 +33,5 @@ add_executable(ProductOfDigits "DSA/Recursion/ProductOfDigits.c")
 add_executable(ReverseNumber "DSA/Recursion/ReverseNumber.c")
 add_executable(Palindrome "DSA/Recursion/Palindrome.c")
 add_executable(CountZero "DSA/Recursion/CountZero.c")
+add_executable(SortedOrNot "DSA/Recursion/SortedOrNot.c")
+add_executable(CheckNumber "DSA/Recursion/CheckNumber.c")

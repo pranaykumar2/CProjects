@@ -220,6 +220,19 @@ PrintAlpha/fast:
 .PHONY : PrintAlpha/fast
 
 #=============================================================================
+# Target rules for targets named Break
+
+# Build rule for target.
+Break: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Break
+.PHONY : Break
+
+# fast build rule for target.
+Break/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Break.dir\build.make CMakeFiles/Break.dir/build
+.PHONY : Break/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -427,6 +440,32 @@ CountZero/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountZero.dir\build.make CMakeFiles/CountZero.dir/build
 .PHONY : CountZero/fast
 
+#=============================================================================
+# Target rules for targets named SortedOrNot
+
+# Build rule for target.
+SortedOrNot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortedOrNot
+.PHONY : SortedOrNot
+
+# fast build rule for target.
+SortedOrNot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedOrNot.dir\build.make CMakeFiles/SortedOrNot.dir/build
+.PHONY : SortedOrNot/fast
+
+#=============================================================================
+# Target rules for targets named CheckNumber
+
+# Build rule for target.
+CheckNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CheckNumber
+.PHONY : CheckNumber
+
+# fast build rule for target.
+CheckNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CheckNumber.dir\build.make CMakeFiles/CheckNumber.dir/build
+.PHONY : CheckNumber/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -474,6 +513,30 @@ BrahmaSai/AsciiPrint.s: BrahmaSai/AsciiPrint.c.s
 BrahmaSai/AsciiPrint.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsciiPrint.dir\build.make CMakeFiles/AsciiPrint.dir/BrahmaSai/AsciiPrint.c.s
 .PHONY : BrahmaSai/AsciiPrint.c.s
+
+BrahmaSai/Break.obj: BrahmaSai/Break.c.obj
+.PHONY : BrahmaSai/Break.obj
+
+# target to build an object file
+BrahmaSai/Break.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Break.dir\build.make CMakeFiles/Break.dir/BrahmaSai/Break.c.obj
+.PHONY : BrahmaSai/Break.c.obj
+
+BrahmaSai/Break.i: BrahmaSai/Break.c.i
+.PHONY : BrahmaSai/Break.i
+
+# target to preprocess a source file
+BrahmaSai/Break.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Break.dir\build.make CMakeFiles/Break.dir/BrahmaSai/Break.c.i
+.PHONY : BrahmaSai/Break.c.i
+
+BrahmaSai/Break.s: BrahmaSai/Break.c.s
+.PHONY : BrahmaSai/Break.s
+
+# target to generate assembly for a file
+BrahmaSai/Break.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Break.dir\build.make CMakeFiles/Break.dir/BrahmaSai/Break.c.s
+.PHONY : BrahmaSai/Break.c.s
 
 BrahmaSai/PrintAlpha.obj: BrahmaSai/PrintAlpha.c.obj
 .PHONY : BrahmaSai/PrintAlpha.obj
@@ -570,6 +633,30 @@ DSA/Recursion/1toN.s: DSA/Recursion/1toN.c.s
 DSA/Recursion/1toN.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1toN.dir\build.make CMakeFiles/1toN.dir/DSA/Recursion/1toN.c.s
 .PHONY : DSA/Recursion/1toN.c.s
+
+DSA/Recursion/CheckNumber.obj: DSA/Recursion/CheckNumber.c.obj
+.PHONY : DSA/Recursion/CheckNumber.obj
+
+# target to build an object file
+DSA/Recursion/CheckNumber.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CheckNumber.dir\build.make CMakeFiles/CheckNumber.dir/DSA/Recursion/CheckNumber.c.obj
+.PHONY : DSA/Recursion/CheckNumber.c.obj
+
+DSA/Recursion/CheckNumber.i: DSA/Recursion/CheckNumber.c.i
+.PHONY : DSA/Recursion/CheckNumber.i
+
+# target to preprocess a source file
+DSA/Recursion/CheckNumber.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CheckNumber.dir\build.make CMakeFiles/CheckNumber.dir/DSA/Recursion/CheckNumber.c.i
+.PHONY : DSA/Recursion/CheckNumber.c.i
+
+DSA/Recursion/CheckNumber.s: DSA/Recursion/CheckNumber.c.s
+.PHONY : DSA/Recursion/CheckNumber.s
+
+# target to generate assembly for a file
+DSA/Recursion/CheckNumber.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CheckNumber.dir\build.make CMakeFiles/CheckNumber.dir/DSA/Recursion/CheckNumber.c.s
+.PHONY : DSA/Recursion/CheckNumber.c.s
 
 DSA/Recursion/CountZero.obj: DSA/Recursion/CountZero.c.obj
 .PHONY : DSA/Recursion/CountZero.obj
@@ -714,6 +801,30 @@ DSA/Recursion/ReverseNumber.s: DSA/Recursion/ReverseNumber.c.s
 DSA/Recursion/ReverseNumber.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseNumber.dir\build.make CMakeFiles/ReverseNumber.dir/DSA/Recursion/ReverseNumber.c.s
 .PHONY : DSA/Recursion/ReverseNumber.c.s
+
+DSA/Recursion/SortedOrNot.obj: DSA/Recursion/SortedOrNot.c.obj
+.PHONY : DSA/Recursion/SortedOrNot.obj
+
+# target to build an object file
+DSA/Recursion/SortedOrNot.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedOrNot.dir\build.make CMakeFiles/SortedOrNot.dir/DSA/Recursion/SortedOrNot.c.obj
+.PHONY : DSA/Recursion/SortedOrNot.c.obj
+
+DSA/Recursion/SortedOrNot.i: DSA/Recursion/SortedOrNot.c.i
+.PHONY : DSA/Recursion/SortedOrNot.i
+
+# target to preprocess a source file
+DSA/Recursion/SortedOrNot.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedOrNot.dir\build.make CMakeFiles/SortedOrNot.dir/DSA/Recursion/SortedOrNot.c.i
+.PHONY : DSA/Recursion/SortedOrNot.c.i
+
+DSA/Recursion/SortedOrNot.s: DSA/Recursion/SortedOrNot.c.s
+.PHONY : DSA/Recursion/SortedOrNot.s
+
+# target to generate assembly for a file
+DSA/Recursion/SortedOrNot.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedOrNot.dir\build.make CMakeFiles/SortedOrNot.dir/DSA/Recursion/SortedOrNot.c.s
+.PHONY : DSA/Recursion/SortedOrNot.c.s
 
 DSA/Recursion/SumOfDigits.obj: DSA/Recursion/SumOfDigits.c.obj
 .PHONY : DSA/Recursion/SumOfDigits.obj
@@ -1015,7 +1126,9 @@ help:
 	@echo ... AsciiPrint
 	@echo ... Automobile
 	@echo ... BinarySearch
+	@echo ... Break
 	@echo ... BubbleSort
+	@echo ... CheckNumber
 	@echo ... CountZero
 	@echo ... ExponentialSearch
 	@echo ... Factorial
@@ -1031,6 +1144,7 @@ help:
 	@echo ... PrintAlpha
 	@echo ... ProductOfDigits
 	@echo ... ReverseNumber
+	@echo ... SortedOrNot
 	@echo ... SumOfDigits
 	@echo ... SumOfN
 	@echo ... Swap
@@ -1041,6 +1155,9 @@ help:
 	@echo ... BrahmaSai/AsciiPrint.obj
 	@echo ... BrahmaSai/AsciiPrint.i
 	@echo ... BrahmaSai/AsciiPrint.s
+	@echo ... BrahmaSai/Break.obj
+	@echo ... BrahmaSai/Break.i
+	@echo ... BrahmaSai/Break.s
 	@echo ... BrahmaSai/PrintAlpha.obj
 	@echo ... BrahmaSai/PrintAlpha.i
 	@echo ... BrahmaSai/PrintAlpha.s
@@ -1053,6 +1170,9 @@ help:
 	@echo ... DSA/Recursion/1toN.obj
 	@echo ... DSA/Recursion/1toN.i
 	@echo ... DSA/Recursion/1toN.s
+	@echo ... DSA/Recursion/CheckNumber.obj
+	@echo ... DSA/Recursion/CheckNumber.i
+	@echo ... DSA/Recursion/CheckNumber.s
 	@echo ... DSA/Recursion/CountZero.obj
 	@echo ... DSA/Recursion/CountZero.i
 	@echo ... DSA/Recursion/CountZero.s
@@ -1071,6 +1191,9 @@ help:
 	@echo ... DSA/Recursion/ReverseNumber.obj
 	@echo ... DSA/Recursion/ReverseNumber.i
 	@echo ... DSA/Recursion/ReverseNumber.s
+	@echo ... DSA/Recursion/SortedOrNot.obj
+	@echo ... DSA/Recursion/SortedOrNot.i
+	@echo ... DSA/Recursion/SortedOrNot.s
 	@echo ... DSA/Recursion/SumOfDigits.obj
 	@echo ... DSA/Recursion/SumOfDigits.i
 	@echo ... DSA/Recursion/SumOfDigits.s

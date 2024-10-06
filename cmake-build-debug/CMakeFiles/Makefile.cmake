@@ -55,6 +55,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/AsciiPrint.dir/DependInfo.cmake"
   "CMakeFiles/SwitchCase.dir/DependInfo.cmake"
   "CMakeFiles/PrintAlpha.dir/DependInfo.cmake"
+  "CMakeFiles/Break.dir/DependInfo.cmake"
   "CMakeFiles/LinearSearch.dir/DependInfo.cmake"
   "CMakeFiles/BinarySearch.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
@@ -71,4 +72,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ReverseNumber.dir/DependInfo.cmake"
   "CMakeFiles/Palindrome.dir/DependInfo.cmake"
   "CMakeFiles/CountZero.dir/DependInfo.cmake"
+  "CMakeFiles/SortedOrNot.dir/DependInfo.cmake"
+  "CMakeFiles/CheckNumber.dir/DependInfo.cmake"
   )

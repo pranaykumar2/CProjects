@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\SortedOrNot.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\SortedOrNot.dir/objects.a @CMakeFiles\SortedOrNot.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\SortedOrNot.dir/objects.a -Wl,--no-whole-archive -o SortedOrNot.exe -Wl,--out-implib,libSortedOrNot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SortedOrNot.dir\linkLibs.rsp

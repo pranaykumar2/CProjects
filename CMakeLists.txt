@@ -24,6 +24,11 @@ add_executable(ExponentialSearch "DSA/SearchAlgorithms/ExponentialSearch.c")
 add_executable(InterpolationSearch "DSA/SearchAlgorithms/InterpolationSearch.c")
 add_executable(FibonacciSearch "DSA/SearchAlgorithms/FibonacciSearch.c")
 
+#STACK
+add_library(Stack "DSA/Stack/Stack.c")
+add_executable(StackMain "DSA/Stack/main.c")
+target_link_libraries(StackMain Stack)
+
 add_executable(Nto1 "DSA/Recursion/Nto1.c")
 add_executable(1toN "DSA/Recursion/1toN.c")
 add_executable(Factorial "DSA/Recursion/Factorial.c")

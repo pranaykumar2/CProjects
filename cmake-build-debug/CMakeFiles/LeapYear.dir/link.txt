@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\LeapYear.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\LeapYear.dir/objects.a @CMakeFiles\LeapYear.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\LeapYear.dir/objects.a -Wl,--no-whole-archive -o LeapYear.exe -Wl,--out-implib,libLeapYear.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LeapYear.dir\linkLibs.rsp

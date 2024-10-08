@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SumOfN.exe"
+			"path" : "SumOfDigits.exe"
 		},
 		{
-			"path" : "SumOfN.pdb"
+			"path" : "SumOfDigits.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 30,
+				"line" : 36,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "SumOfN::@6890427a1f51a3e7e1df",
+	"id" : "SumOfDigits::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "SumOfN",
-	"nameOnDisk" : "SumOfN.exe",
+	"name" : "SumOfDigits",
+	"nameOnDisk" : "SumOfDigits.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "DSA/Recursion/SumOfN.c",
+			"path" : "DSA/Recursion/SumOfDigits.c",
 			"sourceGroupIndex" : 0
 		}
 	],

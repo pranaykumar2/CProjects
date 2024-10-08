@@ -63,6 +63,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ExponentialSearch.dir/DependInfo.cmake"
   "CMakeFiles/InterpolationSearch.dir/DependInfo.cmake"
   "CMakeFiles/FibonacciSearch.dir/DependInfo.cmake"
+  "CMakeFiles/Stack.dir/DependInfo.cmake"
+  "CMakeFiles/StackMain.dir/DependInfo.cmake"
   "CMakeFiles/Nto1.dir/DependInfo.cmake"
   "CMakeFiles/1toN.dir/DependInfo.cmake"
   "CMakeFiles/Factorial.dir/DependInfo.cmake"

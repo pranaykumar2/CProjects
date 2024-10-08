@@ -324,6 +324,32 @@ FibonacciSearch/fast:
 .PHONY : FibonacciSearch/fast
 
 #=============================================================================
+# Target rules for targets named Stack
+
+# Build rule for target.
+Stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Stack
+.PHONY : Stack
+
+# fast build rule for target.
+Stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/build
+.PHONY : Stack/fast
+
+#=============================================================================
+# Target rules for targets named StackMain
+
+# Build rule for target.
+StackMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StackMain
+.PHONY : StackMain
+
+# fast build rule for target.
+StackMain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackMain.dir\build.make CMakeFiles/StackMain.dir/build
+.PHONY : StackMain/fast
+
+#=============================================================================
 # Target rules for targets named Nto1
 
 # Build rule for target.
@@ -1068,6 +1094,54 @@ DSA/SearchAlgorithms/LinearSearch.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/SearchAlgorithms/LinearSearch.c.s
 .PHONY : DSA/SearchAlgorithms/LinearSearch.c.s
 
+DSA/Stack/Stack.obj: DSA/Stack/Stack.c.obj
+.PHONY : DSA/Stack/Stack.obj
+
+# target to build an object file
+DSA/Stack/Stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/DSA/Stack/Stack.c.obj
+.PHONY : DSA/Stack/Stack.c.obj
+
+DSA/Stack/Stack.i: DSA/Stack/Stack.c.i
+.PHONY : DSA/Stack/Stack.i
+
+# target to preprocess a source file
+DSA/Stack/Stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/DSA/Stack/Stack.c.i
+.PHONY : DSA/Stack/Stack.c.i
+
+DSA/Stack/Stack.s: DSA/Stack/Stack.c.s
+.PHONY : DSA/Stack/Stack.s
+
+# target to generate assembly for a file
+DSA/Stack/Stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/DSA/Stack/Stack.c.s
+.PHONY : DSA/Stack/Stack.c.s
+
+DSA/Stack/main.obj: DSA/Stack/main.c.obj
+.PHONY : DSA/Stack/main.obj
+
+# target to build an object file
+DSA/Stack/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackMain.dir\build.make CMakeFiles/StackMain.dir/DSA/Stack/main.c.obj
+.PHONY : DSA/Stack/main.c.obj
+
+DSA/Stack/main.i: DSA/Stack/main.c.i
+.PHONY : DSA/Stack/main.i
+
+# target to preprocess a source file
+DSA/Stack/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackMain.dir\build.make CMakeFiles/StackMain.dir/DSA/Stack/main.c.i
+.PHONY : DSA/Stack/main.c.i
+
+DSA/Stack/main.s: DSA/Stack/main.c.s
+.PHONY : DSA/Stack/main.s
+
+# target to generate assembly for a file
+DSA/Stack/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackMain.dir\build.make CMakeFiles/StackMain.dir/DSA/Stack/main.c.s
+.PHONY : DSA/Stack/main.c.s
+
 HarryAndDigits.obj: HarryAndDigits.c.obj
 .PHONY : HarryAndDigits.obj
 
@@ -1220,6 +1294,8 @@ help:
 	@echo ... ProductOfDigits
 	@echo ... ReverseNumber
 	@echo ... SortedOrNot
+	@echo ... Stack
+	@echo ... StackMain
 	@echo ... SumOfDigits
 	@echo ... SumOfN
 	@echo ... Swap
@@ -1297,6 +1373,12 @@ help:
 	@echo ... DSA/SearchAlgorithms/LinearSearch.obj
 	@echo ... DSA/SearchAlgorithms/LinearSearch.i
 	@echo ... DSA/SearchAlgorithms/LinearSearch.s
+	@echo ... DSA/Stack/Stack.obj
+	@echo ... DSA/Stack/Stack.i
+	@echo ... DSA/Stack/Stack.s
+	@echo ... DSA/Stack/main.obj
+	@echo ... DSA/Stack/main.i
+	@echo ... DSA/Stack/main.s
 	@echo ... HarryAndDigits.obj
 	@echo ... HarryAndDigits.i
 	@echo ... HarryAndDigits.s

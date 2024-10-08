@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ReverseNumber.exe"
+			"path" : "CountZero.exe"
 		},
 		{
-			"path" : "ReverseNumber.pdb"
+			"path" : "CountZero.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 33,
+				"line" : 40,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "ReverseNumber::@6890427a1f51a3e7e1df",
+	"id" : "CountZero::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "ReverseNumber",
-	"nameOnDisk" : "ReverseNumber.exe",
+	"name" : "CountZero",
+	"nameOnDisk" : "CountZero.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "DSA/Recursion/ReverseNumber.c",
+			"path" : "DSA/Recursion/CountZero.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -466,6 +466,32 @@ CheckNumber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CheckNumber.dir\build.make CMakeFiles/CheckNumber.dir/build
 .PHONY : CheckNumber/fast
 
+#=============================================================================
+# Target rules for targets named isLeapYear
+
+# Build rule for target.
+isLeapYear: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isLeapYear
+.PHONY : isLeapYear
+
+# fast build rule for target.
+isLeapYear/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/build
+.PHONY : isLeapYear/fast
+
+#=============================================================================
+# Target rules for targets named LeapYear
+
+# Build rule for target.
+LeapYear: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeapYear
+.PHONY : LeapYear
+
+# fast build rule for target.
+LeapYear/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeapYear.dir\build.make CMakeFiles/LeapYear.dir/build
+.PHONY : LeapYear/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -1090,6 +1116,54 @@ HashAndStar.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HashAndStar.dir\build.make CMakeFiles/HashAndStar.dir/HashAndStar.c.s
 .PHONY : HashAndStar.c.s
 
+LeapYear/LeapYear.obj: LeapYear/LeapYear.c.obj
+.PHONY : LeapYear/LeapYear.obj
+
+# target to build an object file
+LeapYear/LeapYear.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeapYear.dir\build.make CMakeFiles/LeapYear.dir/LeapYear/LeapYear.c.obj
+.PHONY : LeapYear/LeapYear.c.obj
+
+LeapYear/LeapYear.i: LeapYear/LeapYear.c.i
+.PHONY : LeapYear/LeapYear.i
+
+# target to preprocess a source file
+LeapYear/LeapYear.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeapYear.dir\build.make CMakeFiles/LeapYear.dir/LeapYear/LeapYear.c.i
+.PHONY : LeapYear/LeapYear.c.i
+
+LeapYear/LeapYear.s: LeapYear/LeapYear.c.s
+.PHONY : LeapYear/LeapYear.s
+
+# target to generate assembly for a file
+LeapYear/LeapYear.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeapYear.dir\build.make CMakeFiles/LeapYear.dir/LeapYear/LeapYear.c.s
+.PHONY : LeapYear/LeapYear.c.s
+
+LeapYear/isLeapYear.obj: LeapYear/isLeapYear.c.obj
+.PHONY : LeapYear/isLeapYear.obj
+
+# target to build an object file
+LeapYear/isLeapYear.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/LeapYear/isLeapYear.c.obj
+.PHONY : LeapYear/isLeapYear.c.obj
+
+LeapYear/isLeapYear.i: LeapYear/isLeapYear.c.i
+.PHONY : LeapYear/isLeapYear.i
+
+# target to preprocess a source file
+LeapYear/isLeapYear.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/LeapYear/isLeapYear.c.i
+.PHONY : LeapYear/isLeapYear.c.i
+
+LeapYear/isLeapYear.s: LeapYear/isLeapYear.c.s
+.PHONY : LeapYear/isLeapYear.s
+
+# target to generate assembly for a file
+LeapYear/isLeapYear.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/LeapYear/isLeapYear.c.s
+.PHONY : LeapYear/isLeapYear.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -1137,6 +1211,7 @@ help:
 	@echo ... HashAndStar
 	@echo ... InterpolationSearch
 	@echo ... JumpSearch
+	@echo ... LeapYear
 	@echo ... LinearSearch
 	@echo ... Main
 	@echo ... Nto1
@@ -1149,6 +1224,7 @@ help:
 	@echo ... SumOfN
 	@echo ... Swap
 	@echo ... SwitchCase
+	@echo ... isLeapYear
 	@echo ... Automobile.obj
 	@echo ... Automobile.i
 	@echo ... Automobile.s
@@ -1227,6 +1303,12 @@ help:
 	@echo ... HashAndStar.obj
 	@echo ... HashAndStar.i
 	@echo ... HashAndStar.s
+	@echo ... LeapYear/LeapYear.obj
+	@echo ... LeapYear/LeapYear.i
+	@echo ... LeapYear/LeapYear.s
+	@echo ... LeapYear/isLeapYear.obj
+	@echo ... LeapYear/isLeapYear.i
+	@echo ... LeapYear/isLeapYear.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

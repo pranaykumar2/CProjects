@@ -35,3 +35,8 @@ add_executable(Palindrome "DSA/Recursion/Palindrome.c")
 add_executable(CountZero "DSA/Recursion/CountZero.c")
 add_executable(SortedOrNot "DSA/Recursion/SortedOrNot.c")
 add_executable(CheckNumber "DSA/Recursion/CheckNumber.c")
+
+# LeapYear
+add_library(isLeapYear LeapYear/isLeapYear.c)
+add_executable(LeapYear LeapYear/LeapYear.c)
+target_link_libraries(LeapYear isLeapYear)

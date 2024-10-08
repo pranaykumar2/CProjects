@@ -89,6 +89,8 @@ all: CMakeFiles/Palindrome.dir/all
 all: CMakeFiles/CountZero.dir/all
 all: CMakeFiles/SortedOrNot.dir/all
 all: CMakeFiles/CheckNumber.dir/all
+all: CMakeFiles/isLeapYear.dir/all
+all: CMakeFiles/LeapYear.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -123,6 +125,8 @@ clean: CMakeFiles/Palindrome.dir/clean
 clean: CMakeFiles/CountZero.dir/clean
 clean: CMakeFiles/SortedOrNot.dir/clean
 clean: CMakeFiles/CheckNumber.dir/clean
+clean: CMakeFiles/isLeapYear.dir/clean
+clean: CMakeFiles/LeapYear.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -210,7 +214,7 @@ CMakeFiles/HashAndStar.dir/clean:
 CMakeFiles/Main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target Main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Main"
 .PHONY : CMakeFiles/Main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -236,7 +240,7 @@ CMakeFiles/Main.dir/clean:
 CMakeFiles/Swap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Swap.dir\build.make CMakeFiles/Swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target Swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target Swap"
 .PHONY : CMakeFiles/Swap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -288,7 +292,7 @@ CMakeFiles/AsciiPrint.dir/clean:
 CMakeFiles/SwitchCase.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target SwitchCase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target SwitchCase"
 .PHONY : CMakeFiles/SwitchCase.dir/all
 
 # Build rule for subdir invocation for target.
@@ -314,7 +318,7 @@ CMakeFiles/SwitchCase.dir/clean:
 CMakeFiles/PrintAlpha.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target PrintAlpha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target PrintAlpha"
 .PHONY : CMakeFiles/PrintAlpha.dir/all
 
 # Build rule for subdir invocation for target.
@@ -366,7 +370,7 @@ CMakeFiles/Break.dir/clean:
 CMakeFiles/LinearSearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target LinearSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target LinearSearch"
 .PHONY : CMakeFiles/LinearSearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -548,7 +552,7 @@ CMakeFiles/FibonacciSearch.dir/clean:
 CMakeFiles/Nto1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nto1.dir\build.make CMakeFiles/Nto1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nto1.dir\build.make CMakeFiles/Nto1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Nto1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Nto1"
 .PHONY : CMakeFiles/Nto1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -626,7 +630,7 @@ CMakeFiles/Factorial.dir/clean:
 CMakeFiles/SumOfN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfN.dir\build.make CMakeFiles/SumOfN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfN.dir\build.make CMakeFiles/SumOfN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target SumOfN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target SumOfN"
 .PHONY : CMakeFiles/SumOfN.dir/all
 
 # Build rule for subdir invocation for target.
@@ -652,7 +656,7 @@ CMakeFiles/SumOfN.dir/clean:
 CMakeFiles/SumOfDigits.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfDigits.dir\build.make CMakeFiles/SumOfDigits.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfDigits.dir\build.make CMakeFiles/SumOfDigits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target SumOfDigits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target SumOfDigits"
 .PHONY : CMakeFiles/SumOfDigits.dir/all
 
 # Build rule for subdir invocation for target.
@@ -678,7 +682,7 @@ CMakeFiles/SumOfDigits.dir/clean:
 CMakeFiles/ProductOfDigits.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductOfDigits.dir\build.make CMakeFiles/ProductOfDigits.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductOfDigits.dir\build.make CMakeFiles/ProductOfDigits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target ProductOfDigits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target ProductOfDigits"
 .PHONY : CMakeFiles/ProductOfDigits.dir/all
 
 # Build rule for subdir invocation for target.
@@ -704,7 +708,7 @@ CMakeFiles/ProductOfDigits.dir/clean:
 CMakeFiles/ReverseNumber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseNumber.dir\build.make CMakeFiles/ReverseNumber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseNumber.dir\build.make CMakeFiles/ReverseNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target ReverseNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target ReverseNumber"
 .PHONY : CMakeFiles/ReverseNumber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -730,7 +734,7 @@ CMakeFiles/ReverseNumber.dir/clean:
 CMakeFiles/Palindrome.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Palindrome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Palindrome"
 .PHONY : CMakeFiles/Palindrome.dir/all
 
 # Build rule for subdir invocation for target.
@@ -782,7 +786,7 @@ CMakeFiles/CountZero.dir/clean:
 CMakeFiles/SortedOrNot.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedOrNot.dir\build.make CMakeFiles/SortedOrNot.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedOrNot.dir\build.make CMakeFiles/SortedOrNot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target SortedOrNot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target SortedOrNot"
 .PHONY : CMakeFiles/SortedOrNot.dir/all
 
 # Build rule for subdir invocation for target.
@@ -826,6 +830,58 @@ CheckNumber: CMakeFiles/CheckNumber.dir/rule
 CMakeFiles/CheckNumber.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CheckNumber.dir\build.make CMakeFiles/CheckNumber.dir/clean
 .PHONY : CMakeFiles/CheckNumber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/isLeapYear.dir
+
+# All Build rule for target.
+CMakeFiles/isLeapYear.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target isLeapYear"
+.PHONY : CMakeFiles/isLeapYear.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/isLeapYear.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/isLeapYear.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/isLeapYear.dir/rule
+
+# Convenience name for target.
+isLeapYear: CMakeFiles/isLeapYear.dir/rule
+.PHONY : isLeapYear
+
+# clean rule for target.
+CMakeFiles/isLeapYear.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/clean
+.PHONY : CMakeFiles/isLeapYear.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LeapYear.dir
+
+# All Build rule for target.
+CMakeFiles/LeapYear.dir/all: CMakeFiles/isLeapYear.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeapYear.dir\build.make CMakeFiles/LeapYear.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeapYear.dir\build.make CMakeFiles/LeapYear.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target LeapYear"
+.PHONY : CMakeFiles/LeapYear.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LeapYear.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LeapYear.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/LeapYear.dir/rule
+
+# Convenience name for target.
+LeapYear: CMakeFiles/LeapYear.dir/rule
+.PHONY : LeapYear
+
+# clean rule for target.
+CMakeFiles/LeapYear.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeapYear.dir\build.make CMakeFiles/LeapYear.dir/clean
+.PHONY : CMakeFiles/LeapYear.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

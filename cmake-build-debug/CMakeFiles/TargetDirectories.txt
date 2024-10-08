@@ -25,5 +25,7 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Palindrome.d
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/CountZero.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/SortedOrNot.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/CheckNumber.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/isLeapYear.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/LeapYear.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -74,4 +74,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CountZero.dir/DependInfo.cmake"
   "CMakeFiles/SortedOrNot.dir/DependInfo.cmake"
   "CMakeFiles/CheckNumber.dir/DependInfo.cmake"
+  "CMakeFiles/isLeapYear.dir/DependInfo.cmake"
+  "CMakeFiles/LeapYear.dir/DependInfo.cmake"
   )

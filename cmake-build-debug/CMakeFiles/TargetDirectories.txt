@@ -7,6 +7,8 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/AsciiPrint.d
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/SwitchCase.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/PrintAlpha.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Break.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/MinimumFlips.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ArrayComparision.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/LinearSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BinarySearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BubbleSort.dir

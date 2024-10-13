@@ -233,6 +233,32 @@ Break/fast:
 .PHONY : Break/fast
 
 #=============================================================================
+# Target rules for targets named MinimumFlips
+
+# Build rule for target.
+MinimumFlips: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MinimumFlips
+.PHONY : MinimumFlips
+
+# fast build rule for target.
+MinimumFlips/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumFlips.dir\build.make CMakeFiles/MinimumFlips.dir/build
+.PHONY : MinimumFlips/fast
+
+#=============================================================================
+# Target rules for targets named ArrayComparision
+
+# Build rule for target.
+ArrayComparision: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ArrayComparision
+.PHONY : ArrayComparision
+
+# fast build rule for target.
+ArrayComparision/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayComparision.dir\build.make CMakeFiles/ArrayComparision.dir/build
+.PHONY : ArrayComparision/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -1190,6 +1216,54 @@ HashAndStar.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HashAndStar.dir\build.make CMakeFiles/HashAndStar.dir/HashAndStar.c.s
 .PHONY : HashAndStar.c.s
 
+IBM/ArrayComparision.obj: IBM/ArrayComparision.c.obj
+.PHONY : IBM/ArrayComparision.obj
+
+# target to build an object file
+IBM/ArrayComparision.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayComparision.dir\build.make CMakeFiles/ArrayComparision.dir/IBM/ArrayComparision.c.obj
+.PHONY : IBM/ArrayComparision.c.obj
+
+IBM/ArrayComparision.i: IBM/ArrayComparision.c.i
+.PHONY : IBM/ArrayComparision.i
+
+# target to preprocess a source file
+IBM/ArrayComparision.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayComparision.dir\build.make CMakeFiles/ArrayComparision.dir/IBM/ArrayComparision.c.i
+.PHONY : IBM/ArrayComparision.c.i
+
+IBM/ArrayComparision.s: IBM/ArrayComparision.c.s
+.PHONY : IBM/ArrayComparision.s
+
+# target to generate assembly for a file
+IBM/ArrayComparision.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayComparision.dir\build.make CMakeFiles/ArrayComparision.dir/IBM/ArrayComparision.c.s
+.PHONY : IBM/ArrayComparision.c.s
+
+IBM/MinimumFlips.obj: IBM/MinimumFlips.c.obj
+.PHONY : IBM/MinimumFlips.obj
+
+# target to build an object file
+IBM/MinimumFlips.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumFlips.dir\build.make CMakeFiles/MinimumFlips.dir/IBM/MinimumFlips.c.obj
+.PHONY : IBM/MinimumFlips.c.obj
+
+IBM/MinimumFlips.i: IBM/MinimumFlips.c.i
+.PHONY : IBM/MinimumFlips.i
+
+# target to preprocess a source file
+IBM/MinimumFlips.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumFlips.dir\build.make CMakeFiles/MinimumFlips.dir/IBM/MinimumFlips.c.i
+.PHONY : IBM/MinimumFlips.c.i
+
+IBM/MinimumFlips.s: IBM/MinimumFlips.c.s
+.PHONY : IBM/MinimumFlips.s
+
+# target to generate assembly for a file
+IBM/MinimumFlips.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumFlips.dir\build.make CMakeFiles/MinimumFlips.dir/IBM/MinimumFlips.c.s
+.PHONY : IBM/MinimumFlips.c.s
+
 LeapYear/LeapYear.obj: LeapYear/LeapYear.c.obj
 .PHONY : LeapYear/LeapYear.obj
 
@@ -1271,6 +1345,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1toN
+	@echo ... ArrayComparision
 	@echo ... AsciiPrint
 	@echo ... Automobile
 	@echo ... BinarySearch
@@ -1288,6 +1363,7 @@ help:
 	@echo ... LeapYear
 	@echo ... LinearSearch
 	@echo ... Main
+	@echo ... MinimumFlips
 	@echo ... Nto1
 	@echo ... Palindrome
 	@echo ... PrintAlpha
@@ -1385,6 +1461,12 @@ help:
 	@echo ... HashAndStar.obj
 	@echo ... HashAndStar.i
 	@echo ... HashAndStar.s
+	@echo ... IBM/ArrayComparision.obj
+	@echo ... IBM/ArrayComparision.i
+	@echo ... IBM/ArrayComparision.s
+	@echo ... IBM/MinimumFlips.obj
+	@echo ... IBM/MinimumFlips.i
+	@echo ... IBM/MinimumFlips.s
 	@echo ... LeapYear/LeapYear.obj
 	@echo ... LeapYear/LeapYear.i
 	@echo ... LeapYear/LeapYear.s

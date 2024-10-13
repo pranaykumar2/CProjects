@@ -56,6 +56,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SwitchCase.dir/DependInfo.cmake"
   "CMakeFiles/PrintAlpha.dir/DependInfo.cmake"
   "CMakeFiles/Break.dir/DependInfo.cmake"
+  "CMakeFiles/MinimumFlips.dir/DependInfo.cmake"
+  "CMakeFiles/ArrayComparision.dir/DependInfo.cmake"
   "CMakeFiles/LinearSearch.dir/DependInfo.cmake"
   "CMakeFiles/BinarySearch.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"

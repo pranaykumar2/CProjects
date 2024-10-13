@@ -15,6 +15,10 @@ add_executable(SwitchCase BrahmaSai/SwitchCase.c)
 add_executable(PrintAlpha BrahmaSai/PrintAlpha.c)
 add_executable(Break BrahmaSai/Break.c)
 
+#IBM
+add_executable(MinimumFlips IBM/MinimumFlips.c)
+add_executable(ArrayComparision IBM/ArrayComparision.c)
+
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")
 add_executable(BinarySearch "DSA/SearchAlgorithms/BinarySearch.c")

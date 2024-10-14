@@ -324,6 +324,19 @@ FindTriangleType/fast:
 .PHONY : FindTriangleType/fast
 
 #=============================================================================
+# Target rules for targets named LatestRequests
+
+# Build rule for target.
+LatestRequests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LatestRequests
+.PHONY : LatestRequests
+
+# fast build rule for target.
+LatestRequests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LatestRequests.dir\build.make CMakeFiles/LatestRequests.dir/build
+.PHONY : LatestRequests/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -1377,6 +1390,30 @@ IBM/FizzBuzz.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FizzBuzz.dir\build.make CMakeFiles/FizzBuzz.dir/IBM/FizzBuzz.c.s
 .PHONY : IBM/FizzBuzz.c.s
 
+IBM/LatestRequests.obj: IBM/LatestRequests.c.obj
+.PHONY : IBM/LatestRequests.obj
+
+# target to build an object file
+IBM/LatestRequests.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LatestRequests.dir\build.make CMakeFiles/LatestRequests.dir/IBM/LatestRequests.c.obj
+.PHONY : IBM/LatestRequests.c.obj
+
+IBM/LatestRequests.i: IBM/LatestRequests.c.i
+.PHONY : IBM/LatestRequests.i
+
+# target to preprocess a source file
+IBM/LatestRequests.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LatestRequests.dir\build.make CMakeFiles/LatestRequests.dir/IBM/LatestRequests.c.i
+.PHONY : IBM/LatestRequests.c.i
+
+IBM/LatestRequests.s: IBM/LatestRequests.c.s
+.PHONY : IBM/LatestRequests.s
+
+# target to generate assembly for a file
+IBM/LatestRequests.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LatestRequests.dir\build.make CMakeFiles/LatestRequests.dir/IBM/LatestRequests.c.s
+.PHONY : IBM/LatestRequests.c.s
+
 IBM/MinimumFlips.obj: IBM/MinimumFlips.c.obj
 .PHONY : IBM/MinimumFlips.obj
 
@@ -1548,6 +1585,7 @@ help:
 	@echo ... HashAndStar
 	@echo ... InterpolationSearch
 	@echo ... JumpSearch
+	@echo ... LatestRequests
 	@echo ... LeapYear
 	@echo ... LinearSearch
 	@echo ... Main
@@ -1663,6 +1701,9 @@ help:
 	@echo ... IBM/FizzBuzz.obj
 	@echo ... IBM/FizzBuzz.i
 	@echo ... IBM/FizzBuzz.s
+	@echo ... IBM/LatestRequests.obj
+	@echo ... IBM/LatestRequests.i
+	@echo ... IBM/LatestRequests.s
 	@echo ... IBM/MinimumFlips.obj
 	@echo ... IBM/MinimumFlips.i
 	@echo ... IBM/MinimumFlips.s

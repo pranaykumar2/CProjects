@@ -12,6 +12,8 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ArrayCompari
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/MinimumMoves.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/DistinctTriplets.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/FizzBuzz.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/OddEvenTransform.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/FindTriangleType.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/LinearSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BinarySearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BubbleSort.dir

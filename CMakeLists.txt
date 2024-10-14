@@ -21,6 +21,8 @@ add_executable(ArrayComparision IBM/ArrayComparision.c)
 add_executable(MinimumMoves IBM/MinimumMoves.c)
 add_executable(DistinctTriplets IBM/DistinctTriplets.c)
 add_executable(FizzBuzz IBM/FizzBuzz.c)
+add_executable(OddEvenTransform IBM/OddEvenTransform.c)
+add_executable(FindTriangleType IBM/FindTriangleType.c)
 
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")

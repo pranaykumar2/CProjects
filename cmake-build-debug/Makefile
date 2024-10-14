@@ -298,6 +298,32 @@ FizzBuzz/fast:
 .PHONY : FizzBuzz/fast
 
 #=============================================================================
+# Target rules for targets named OddEvenTransform
+
+# Build rule for target.
+OddEvenTransform: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OddEvenTransform
+.PHONY : OddEvenTransform
+
+# fast build rule for target.
+OddEvenTransform/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenTransform.dir\build.make CMakeFiles/OddEvenTransform.dir/build
+.PHONY : OddEvenTransform/fast
+
+#=============================================================================
+# Target rules for targets named FindTriangleType
+
+# Build rule for target.
+FindTriangleType: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FindTriangleType
+.PHONY : FindTriangleType
+
+# fast build rule for target.
+FindTriangleType/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindTriangleType.dir\build.make CMakeFiles/FindTriangleType.dir/build
+.PHONY : FindTriangleType/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -1303,6 +1329,30 @@ IBM/DistinctTriplets.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DistinctTriplets.dir\build.make CMakeFiles/DistinctTriplets.dir/IBM/DistinctTriplets.c.s
 .PHONY : IBM/DistinctTriplets.c.s
 
+IBM/FindTriangleType.obj: IBM/FindTriangleType.c.obj
+.PHONY : IBM/FindTriangleType.obj
+
+# target to build an object file
+IBM/FindTriangleType.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindTriangleType.dir\build.make CMakeFiles/FindTriangleType.dir/IBM/FindTriangleType.c.obj
+.PHONY : IBM/FindTriangleType.c.obj
+
+IBM/FindTriangleType.i: IBM/FindTriangleType.c.i
+.PHONY : IBM/FindTriangleType.i
+
+# target to preprocess a source file
+IBM/FindTriangleType.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindTriangleType.dir\build.make CMakeFiles/FindTriangleType.dir/IBM/FindTriangleType.c.i
+.PHONY : IBM/FindTriangleType.c.i
+
+IBM/FindTriangleType.s: IBM/FindTriangleType.c.s
+.PHONY : IBM/FindTriangleType.s
+
+# target to generate assembly for a file
+IBM/FindTriangleType.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindTriangleType.dir\build.make CMakeFiles/FindTriangleType.dir/IBM/FindTriangleType.c.s
+.PHONY : IBM/FindTriangleType.c.s
+
 IBM/FizzBuzz.obj: IBM/FizzBuzz.c.obj
 .PHONY : IBM/FizzBuzz.obj
 
@@ -1374,6 +1424,30 @@ IBM/MinimumMoves.s: IBM/MinimumMoves.c.s
 IBM/MinimumMoves.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumMoves.dir\build.make CMakeFiles/MinimumMoves.dir/IBM/MinimumMoves.c.s
 .PHONY : IBM/MinimumMoves.c.s
+
+IBM/OddEvenTransform.obj: IBM/OddEvenTransform.c.obj
+.PHONY : IBM/OddEvenTransform.obj
+
+# target to build an object file
+IBM/OddEvenTransform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenTransform.dir\build.make CMakeFiles/OddEvenTransform.dir/IBM/OddEvenTransform.c.obj
+.PHONY : IBM/OddEvenTransform.c.obj
+
+IBM/OddEvenTransform.i: IBM/OddEvenTransform.c.i
+.PHONY : IBM/OddEvenTransform.i
+
+# target to preprocess a source file
+IBM/OddEvenTransform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenTransform.dir\build.make CMakeFiles/OddEvenTransform.dir/IBM/OddEvenTransform.c.i
+.PHONY : IBM/OddEvenTransform.c.i
+
+IBM/OddEvenTransform.s: IBM/OddEvenTransform.c.s
+.PHONY : IBM/OddEvenTransform.s
+
+# target to generate assembly for a file
+IBM/OddEvenTransform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenTransform.dir\build.make CMakeFiles/OddEvenTransform.dir/IBM/OddEvenTransform.c.s
+.PHONY : IBM/OddEvenTransform.c.s
 
 LeapYear/LeapYear.obj: LeapYear/LeapYear.c.obj
 .PHONY : LeapYear/LeapYear.obj
@@ -1468,6 +1542,7 @@ help:
 	@echo ... ExponentialSearch
 	@echo ... Factorial
 	@echo ... FibonacciSearch
+	@echo ... FindTriangleType
 	@echo ... FizzBuzz
 	@echo ... HarryAndDigits
 	@echo ... HashAndStar
@@ -1479,6 +1554,7 @@ help:
 	@echo ... MinimumFlips
 	@echo ... MinimumMoves
 	@echo ... Nto1
+	@echo ... OddEvenTransform
 	@echo ... Palindrome
 	@echo ... PrintAlpha
 	@echo ... ProductOfDigits
@@ -1581,6 +1657,9 @@ help:
 	@echo ... IBM/DistinctTriplets.obj
 	@echo ... IBM/DistinctTriplets.i
 	@echo ... IBM/DistinctTriplets.s
+	@echo ... IBM/FindTriangleType.obj
+	@echo ... IBM/FindTriangleType.i
+	@echo ... IBM/FindTriangleType.s
 	@echo ... IBM/FizzBuzz.obj
 	@echo ... IBM/FizzBuzz.i
 	@echo ... IBM/FizzBuzz.s
@@ -1590,6 +1669,9 @@ help:
 	@echo ... IBM/MinimumMoves.obj
 	@echo ... IBM/MinimumMoves.i
 	@echo ... IBM/MinimumMoves.s
+	@echo ... IBM/OddEvenTransform.obj
+	@echo ... IBM/OddEvenTransform.i
+	@echo ... IBM/OddEvenTransform.s
 	@echo ... LeapYear/LeapYear.obj
 	@echo ... LeapYear/LeapYear.i
 	@echo ... LeapYear/LeapYear.s

@@ -259,6 +259,32 @@ ArrayComparision/fast:
 .PHONY : ArrayComparision/fast
 
 #=============================================================================
+# Target rules for targets named MinimumMoves
+
+# Build rule for target.
+MinimumMoves: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MinimumMoves
+.PHONY : MinimumMoves
+
+# fast build rule for target.
+MinimumMoves/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumMoves.dir\build.make CMakeFiles/MinimumMoves.dir/build
+.PHONY : MinimumMoves/fast
+
+#=============================================================================
+# Target rules for targets named DistinctTriplets
+
+# Build rule for target.
+DistinctTriplets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DistinctTriplets
+.PHONY : DistinctTriplets
+
+# fast build rule for target.
+DistinctTriplets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DistinctTriplets.dir\build.make CMakeFiles/DistinctTriplets.dir/build
+.PHONY : DistinctTriplets/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -1240,6 +1266,30 @@ IBM/ArrayComparision.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayComparision.dir\build.make CMakeFiles/ArrayComparision.dir/IBM/ArrayComparision.c.s
 .PHONY : IBM/ArrayComparision.c.s
 
+IBM/DistinctTriplets.obj: IBM/DistinctTriplets.c.obj
+.PHONY : IBM/DistinctTriplets.obj
+
+# target to build an object file
+IBM/DistinctTriplets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DistinctTriplets.dir\build.make CMakeFiles/DistinctTriplets.dir/IBM/DistinctTriplets.c.obj
+.PHONY : IBM/DistinctTriplets.c.obj
+
+IBM/DistinctTriplets.i: IBM/DistinctTriplets.c.i
+.PHONY : IBM/DistinctTriplets.i
+
+# target to preprocess a source file
+IBM/DistinctTriplets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DistinctTriplets.dir\build.make CMakeFiles/DistinctTriplets.dir/IBM/DistinctTriplets.c.i
+.PHONY : IBM/DistinctTriplets.c.i
+
+IBM/DistinctTriplets.s: IBM/DistinctTriplets.c.s
+.PHONY : IBM/DistinctTriplets.s
+
+# target to generate assembly for a file
+IBM/DistinctTriplets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DistinctTriplets.dir\build.make CMakeFiles/DistinctTriplets.dir/IBM/DistinctTriplets.c.s
+.PHONY : IBM/DistinctTriplets.c.s
+
 IBM/MinimumFlips.obj: IBM/MinimumFlips.c.obj
 .PHONY : IBM/MinimumFlips.obj
 
@@ -1263,6 +1313,30 @@ IBM/MinimumFlips.s: IBM/MinimumFlips.c.s
 IBM/MinimumFlips.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumFlips.dir\build.make CMakeFiles/MinimumFlips.dir/IBM/MinimumFlips.c.s
 .PHONY : IBM/MinimumFlips.c.s
+
+IBM/MinimumMoves.obj: IBM/MinimumMoves.c.obj
+.PHONY : IBM/MinimumMoves.obj
+
+# target to build an object file
+IBM/MinimumMoves.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumMoves.dir\build.make CMakeFiles/MinimumMoves.dir/IBM/MinimumMoves.c.obj
+.PHONY : IBM/MinimumMoves.c.obj
+
+IBM/MinimumMoves.i: IBM/MinimumMoves.c.i
+.PHONY : IBM/MinimumMoves.i
+
+# target to preprocess a source file
+IBM/MinimumMoves.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumMoves.dir\build.make CMakeFiles/MinimumMoves.dir/IBM/MinimumMoves.c.i
+.PHONY : IBM/MinimumMoves.c.i
+
+IBM/MinimumMoves.s: IBM/MinimumMoves.c.s
+.PHONY : IBM/MinimumMoves.s
+
+# target to generate assembly for a file
+IBM/MinimumMoves.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinimumMoves.dir\build.make CMakeFiles/MinimumMoves.dir/IBM/MinimumMoves.c.s
+.PHONY : IBM/MinimumMoves.c.s
 
 LeapYear/LeapYear.obj: LeapYear/LeapYear.c.obj
 .PHONY : LeapYear/LeapYear.obj
@@ -1353,6 +1427,7 @@ help:
 	@echo ... BubbleSort
 	@echo ... CheckNumber
 	@echo ... CountZero
+	@echo ... DistinctTriplets
 	@echo ... ExponentialSearch
 	@echo ... Factorial
 	@echo ... FibonacciSearch
@@ -1364,6 +1439,7 @@ help:
 	@echo ... LinearSearch
 	@echo ... Main
 	@echo ... MinimumFlips
+	@echo ... MinimumMoves
 	@echo ... Nto1
 	@echo ... Palindrome
 	@echo ... PrintAlpha
@@ -1464,9 +1540,15 @@ help:
 	@echo ... IBM/ArrayComparision.obj
 	@echo ... IBM/ArrayComparision.i
 	@echo ... IBM/ArrayComparision.s
+	@echo ... IBM/DistinctTriplets.obj
+	@echo ... IBM/DistinctTriplets.i
+	@echo ... IBM/DistinctTriplets.s
 	@echo ... IBM/MinimumFlips.obj
 	@echo ... IBM/MinimumFlips.i
 	@echo ... IBM/MinimumFlips.s
+	@echo ... IBM/MinimumMoves.obj
+	@echo ... IBM/MinimumMoves.i
+	@echo ... IBM/MinimumMoves.s
 	@echo ... LeapYear/LeapYear.obj
 	@echo ... LeapYear/LeapYear.i
 	@echo ... LeapYear/LeapYear.s

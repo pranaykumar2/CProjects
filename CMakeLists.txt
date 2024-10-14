@@ -20,6 +20,7 @@ add_executable(MinimumFlips IBM/MinimumFlips.c)
 add_executable(ArrayComparision IBM/ArrayComparision.c)
 add_executable(MinimumMoves IBM/MinimumMoves.c)
 add_executable(DistinctTriplets IBM/DistinctTriplets.c)
+add_executable(FizzBuzz IBM/FizzBuzz.c)
 
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")

@@ -60,6 +60,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ArrayComparision.dir/DependInfo.cmake"
   "CMakeFiles/MinimumMoves.dir/DependInfo.cmake"
   "CMakeFiles/DistinctTriplets.dir/DependInfo.cmake"
+  "CMakeFiles/FizzBuzz.dir/DependInfo.cmake"
   "CMakeFiles/LinearSearch.dir/DependInfo.cmake"
   "CMakeFiles/BinarySearch.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"

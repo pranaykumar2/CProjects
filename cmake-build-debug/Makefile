@@ -285,6 +285,19 @@ DistinctTriplets/fast:
 .PHONY : DistinctTriplets/fast
 
 #=============================================================================
+# Target rules for targets named FizzBuzz
+
+# Build rule for target.
+FizzBuzz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FizzBuzz
+.PHONY : FizzBuzz
+
+# fast build rule for target.
+FizzBuzz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FizzBuzz.dir\build.make CMakeFiles/FizzBuzz.dir/build
+.PHONY : FizzBuzz/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -1290,6 +1303,30 @@ IBM/DistinctTriplets.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DistinctTriplets.dir\build.make CMakeFiles/DistinctTriplets.dir/IBM/DistinctTriplets.c.s
 .PHONY : IBM/DistinctTriplets.c.s
 
+IBM/FizzBuzz.obj: IBM/FizzBuzz.c.obj
+.PHONY : IBM/FizzBuzz.obj
+
+# target to build an object file
+IBM/FizzBuzz.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FizzBuzz.dir\build.make CMakeFiles/FizzBuzz.dir/IBM/FizzBuzz.c.obj
+.PHONY : IBM/FizzBuzz.c.obj
+
+IBM/FizzBuzz.i: IBM/FizzBuzz.c.i
+.PHONY : IBM/FizzBuzz.i
+
+# target to preprocess a source file
+IBM/FizzBuzz.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FizzBuzz.dir\build.make CMakeFiles/FizzBuzz.dir/IBM/FizzBuzz.c.i
+.PHONY : IBM/FizzBuzz.c.i
+
+IBM/FizzBuzz.s: IBM/FizzBuzz.c.s
+.PHONY : IBM/FizzBuzz.s
+
+# target to generate assembly for a file
+IBM/FizzBuzz.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FizzBuzz.dir\build.make CMakeFiles/FizzBuzz.dir/IBM/FizzBuzz.c.s
+.PHONY : IBM/FizzBuzz.c.s
+
 IBM/MinimumFlips.obj: IBM/MinimumFlips.c.obj
 .PHONY : IBM/MinimumFlips.obj
 
@@ -1431,6 +1468,7 @@ help:
 	@echo ... ExponentialSearch
 	@echo ... Factorial
 	@echo ... FibonacciSearch
+	@echo ... FizzBuzz
 	@echo ... HarryAndDigits
 	@echo ... HashAndStar
 	@echo ... InterpolationSearch
@@ -1543,6 +1581,9 @@ help:
 	@echo ... IBM/DistinctTriplets.obj
 	@echo ... IBM/DistinctTriplets.i
 	@echo ... IBM/DistinctTriplets.s
+	@echo ... IBM/FizzBuzz.obj
+	@echo ... IBM/FizzBuzz.i
+	@echo ... IBM/FizzBuzz.s
 	@echo ... IBM/MinimumFlips.obj
 	@echo ... IBM/MinimumFlips.i
 	@echo ... IBM/MinimumFlips.s

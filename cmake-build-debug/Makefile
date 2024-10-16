@@ -337,6 +337,19 @@ LatestRequests/fast:
 .PHONY : LatestRequests/fast
 
 #=============================================================================
+# Target rules for targets named RecoverOriginalArray
+
+# Build rule for target.
+RecoverOriginalArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RecoverOriginalArray
+.PHONY : RecoverOriginalArray
+
+# fast build rule for target.
+RecoverOriginalArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecoverOriginalArray.dir\build.make CMakeFiles/RecoverOriginalArray.dir/build
+.PHONY : RecoverOriginalArray/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -1486,6 +1499,30 @@ IBM/OddEvenTransform.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenTransform.dir\build.make CMakeFiles/OddEvenTransform.dir/IBM/OddEvenTransform.c.s
 .PHONY : IBM/OddEvenTransform.c.s
 
+IBM/RecoverOriginalArray.obj: IBM/RecoverOriginalArray.c.obj
+.PHONY : IBM/RecoverOriginalArray.obj
+
+# target to build an object file
+IBM/RecoverOriginalArray.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecoverOriginalArray.dir\build.make CMakeFiles/RecoverOriginalArray.dir/IBM/RecoverOriginalArray.c.obj
+.PHONY : IBM/RecoverOriginalArray.c.obj
+
+IBM/RecoverOriginalArray.i: IBM/RecoverOriginalArray.c.i
+.PHONY : IBM/RecoverOriginalArray.i
+
+# target to preprocess a source file
+IBM/RecoverOriginalArray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecoverOriginalArray.dir\build.make CMakeFiles/RecoverOriginalArray.dir/IBM/RecoverOriginalArray.c.i
+.PHONY : IBM/RecoverOriginalArray.c.i
+
+IBM/RecoverOriginalArray.s: IBM/RecoverOriginalArray.c.s
+.PHONY : IBM/RecoverOriginalArray.s
+
+# target to generate assembly for a file
+IBM/RecoverOriginalArray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecoverOriginalArray.dir\build.make CMakeFiles/RecoverOriginalArray.dir/IBM/RecoverOriginalArray.c.s
+.PHONY : IBM/RecoverOriginalArray.c.s
+
 LeapYear/LeapYear.obj: LeapYear/LeapYear.c.obj
 .PHONY : LeapYear/LeapYear.obj
 
@@ -1596,6 +1633,7 @@ help:
 	@echo ... Palindrome
 	@echo ... PrintAlpha
 	@echo ... ProductOfDigits
+	@echo ... RecoverOriginalArray
 	@echo ... ReverseNumber
 	@echo ... SortedOrNot
 	@echo ... Stack
@@ -1713,6 +1751,9 @@ help:
 	@echo ... IBM/OddEvenTransform.obj
 	@echo ... IBM/OddEvenTransform.i
 	@echo ... IBM/OddEvenTransform.s
+	@echo ... IBM/RecoverOriginalArray.obj
+	@echo ... IBM/RecoverOriginalArray.i
+	@echo ... IBM/RecoverOriginalArray.s
 	@echo ... LeapYear/LeapYear.obj
 	@echo ... LeapYear/LeapYear.i
 	@echo ... LeapYear/LeapYear.s

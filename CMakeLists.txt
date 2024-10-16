@@ -24,6 +24,8 @@ add_executable(FizzBuzz IBM/FizzBuzz.c)
 add_executable(OddEvenTransform IBM/OddEvenTransform.c)
 add_executable(FindTriangleType IBM/FindTriangleType.c)
 add_executable(LatestRequests IBM/LatestRequests.c)
+add_executable(RecoverOriginalArray IBM/RecoverOriginalArray.c)
+
 
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")

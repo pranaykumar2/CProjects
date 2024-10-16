@@ -16,6 +16,7 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/OddEvenTrans
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/FindTriangleType.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/LatestRequests.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/RecoverOriginalArray.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/PangramChecker.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/LinearSearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BinarySearch.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/BubbleSort.dir

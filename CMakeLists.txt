@@ -25,6 +25,7 @@ add_executable(OddEvenTransform IBM/OddEvenTransform.c)
 add_executable(FindTriangleType IBM/FindTriangleType.c)
 add_executable(LatestRequests IBM/LatestRequests.c)
 add_executable(RecoverOriginalArray IBM/RecoverOriginalArray.c)
+add_executable(PangramChecker IBM/PangramChecker.c)
 
 
 #DSA

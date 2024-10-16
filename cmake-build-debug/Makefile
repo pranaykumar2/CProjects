@@ -350,6 +350,19 @@ RecoverOriginalArray/fast:
 .PHONY : RecoverOriginalArray/fast
 
 #=============================================================================
+# Target rules for targets named PangramChecker
+
+# Build rule for target.
+PangramChecker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PangramChecker
+.PHONY : PangramChecker
+
+# fast build rule for target.
+PangramChecker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PangramChecker.dir\build.make CMakeFiles/PangramChecker.dir/build
+.PHONY : PangramChecker/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -1499,6 +1512,30 @@ IBM/OddEvenTransform.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenTransform.dir\build.make CMakeFiles/OddEvenTransform.dir/IBM/OddEvenTransform.c.s
 .PHONY : IBM/OddEvenTransform.c.s
 
+IBM/PangramChecker.obj: IBM/PangramChecker.c.obj
+.PHONY : IBM/PangramChecker.obj
+
+# target to build an object file
+IBM/PangramChecker.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PangramChecker.dir\build.make CMakeFiles/PangramChecker.dir/IBM/PangramChecker.c.obj
+.PHONY : IBM/PangramChecker.c.obj
+
+IBM/PangramChecker.i: IBM/PangramChecker.c.i
+.PHONY : IBM/PangramChecker.i
+
+# target to preprocess a source file
+IBM/PangramChecker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PangramChecker.dir\build.make CMakeFiles/PangramChecker.dir/IBM/PangramChecker.c.i
+.PHONY : IBM/PangramChecker.c.i
+
+IBM/PangramChecker.s: IBM/PangramChecker.c.s
+.PHONY : IBM/PangramChecker.s
+
+# target to generate assembly for a file
+IBM/PangramChecker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PangramChecker.dir\build.make CMakeFiles/PangramChecker.dir/IBM/PangramChecker.c.s
+.PHONY : IBM/PangramChecker.c.s
+
 IBM/RecoverOriginalArray.obj: IBM/RecoverOriginalArray.c.obj
 .PHONY : IBM/RecoverOriginalArray.obj
 
@@ -1631,6 +1668,7 @@ help:
 	@echo ... Nto1
 	@echo ... OddEvenTransform
 	@echo ... Palindrome
+	@echo ... PangramChecker
 	@echo ... PrintAlpha
 	@echo ... ProductOfDigits
 	@echo ... RecoverOriginalArray
@@ -1751,6 +1789,9 @@ help:
 	@echo ... IBM/OddEvenTransform.obj
 	@echo ... IBM/OddEvenTransform.i
 	@echo ... IBM/OddEvenTransform.s
+	@echo ... IBM/PangramChecker.obj
+	@echo ... IBM/PangramChecker.i
+	@echo ... IBM/PangramChecker.s
 	@echo ... IBM/RecoverOriginalArray.obj
 	@echo ... IBM/RecoverOriginalArray.i
 	@echo ... IBM/RecoverOriginalArray.s

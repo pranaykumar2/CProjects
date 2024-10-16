@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define SIZE 3
 
 void recoverOriginalArray(int prefix[]) {

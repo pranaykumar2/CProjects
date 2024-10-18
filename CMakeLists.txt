@@ -61,3 +61,6 @@ target_link_libraries(LeapYear isLeapYear)
 
 #LeetCode
 add_executable(MaximumSwap LeetCode/MaximumSwap.c)
+
+#Algorithmic Thinking
+add_executable(UniqueSnowflake "Algorithmic Thinking/UniqueSnowflake.c")

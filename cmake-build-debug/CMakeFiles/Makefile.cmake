@@ -89,4 +89,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/isLeapYear.dir/DependInfo.cmake"
   "CMakeFiles/LeapYear.dir/DependInfo.cmake"
   "CMakeFiles/MaximumSwap.dir/DependInfo.cmake"
+  "CMakeFiles/UniqueSnowflake.dir/DependInfo.cmake"
   )

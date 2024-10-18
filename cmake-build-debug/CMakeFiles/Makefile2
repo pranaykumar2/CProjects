@@ -104,6 +104,7 @@ all: CMakeFiles/CheckNumber.dir/all
 all: CMakeFiles/isLeapYear.dir/all
 all: CMakeFiles/LeapYear.dir/all
 all: CMakeFiles/MaximumSwap.dir/all
+all: CMakeFiles/UniqueSnowflake.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -153,6 +154,7 @@ clean: CMakeFiles/CheckNumber.dir/clean
 clean: CMakeFiles/isLeapYear.dir/clean
 clean: CMakeFiles/LeapYear.dir/clean
 clean: CMakeFiles/MaximumSwap.dir/clean
+clean: CMakeFiles/UniqueSnowflake.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -1176,7 +1178,7 @@ CMakeFiles/CheckNumber.dir/clean:
 CMakeFiles/isLeapYear.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target isLeapYear"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target isLeapYear"
 .PHONY : CMakeFiles/isLeapYear.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1246,6 +1248,32 @@ MaximumSwap: CMakeFiles/MaximumSwap.dir/rule
 CMakeFiles/MaximumSwap.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumSwap.dir\build.make CMakeFiles/MaximumSwap.dir/clean
 .PHONY : CMakeFiles/MaximumSwap.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/UniqueSnowflake.dir
+
+# All Build rule for target.
+CMakeFiles/UniqueSnowflake.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniqueSnowflake.dir\build.make CMakeFiles/UniqueSnowflake.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniqueSnowflake.dir\build.make CMakeFiles/UniqueSnowflake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target UniqueSnowflake"
+.PHONY : CMakeFiles/UniqueSnowflake.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/UniqueSnowflake.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/UniqueSnowflake.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/UniqueSnowflake.dir/rule
+
+# Convenience name for target.
+UniqueSnowflake: CMakeFiles/UniqueSnowflake.dir/rule
+.PHONY : UniqueSnowflake
+
+# clean rule for target.
+CMakeFiles/UniqueSnowflake.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniqueSnowflake.dir\build.make CMakeFiles/UniqueSnowflake.dir/clean
+.PHONY : CMakeFiles/UniqueSnowflake.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -661,6 +661,43 @@ MaximumSwap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumSwap.dir\build.make CMakeFiles/MaximumSwap.dir/build
 .PHONY : MaximumSwap/fast
 
+#=============================================================================
+# Target rules for targets named UniqueSnowflake
+
+# Build rule for target.
+UniqueSnowflake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UniqueSnowflake
+.PHONY : UniqueSnowflake
+
+# fast build rule for target.
+UniqueSnowflake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniqueSnowflake.dir\build.make CMakeFiles/UniqueSnowflake.dir/build
+.PHONY : UniqueSnowflake/fast
+
+Algorithmic_Thinking/UniqueSnowflake.obj: Algorithmic_Thinking/UniqueSnowflake.c.obj
+.PHONY : Algorithmic_Thinking/UniqueSnowflake.obj
+
+# target to build an object file
+Algorithmic_Thinking/UniqueSnowflake.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniqueSnowflake.dir\build.make CMakeFiles/UniqueSnowflake.dir/Algorithmic_Thinking/UniqueSnowflake.c.obj
+.PHONY : Algorithmic_Thinking/UniqueSnowflake.c.obj
+
+Algorithmic_Thinking/UniqueSnowflake.i: Algorithmic_Thinking/UniqueSnowflake.c.i
+.PHONY : Algorithmic_Thinking/UniqueSnowflake.i
+
+# target to preprocess a source file
+Algorithmic_Thinking/UniqueSnowflake.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniqueSnowflake.dir\build.make CMakeFiles/UniqueSnowflake.dir/Algorithmic_Thinking/UniqueSnowflake.c.i
+.PHONY : Algorithmic_Thinking/UniqueSnowflake.c.i
+
+Algorithmic_Thinking/UniqueSnowflake.s: Algorithmic_Thinking/UniqueSnowflake.c.s
+.PHONY : Algorithmic_Thinking/UniqueSnowflake.s
+
+# target to generate assembly for a file
+Algorithmic_Thinking/UniqueSnowflake.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniqueSnowflake.dir\build.make CMakeFiles/UniqueSnowflake.dir/Algorithmic_Thinking/UniqueSnowflake.c.s
+.PHONY : Algorithmic_Thinking/UniqueSnowflake.c.s
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -1718,7 +1755,11 @@ help:
 	@echo ... SumOfN
 	@echo ... Swap
 	@echo ... SwitchCase
+	@echo ... UniqueSnowflake
 	@echo ... isLeapYear
+	@echo ... Algorithmic_Thinking/UniqueSnowflake.obj
+	@echo ... Algorithmic_Thinking/UniqueSnowflake.i
+	@echo ... Algorithmic_Thinking/UniqueSnowflake.s
 	@echo ... Automobile.obj
 	@echo ... Automobile.i
 	@echo ... Automobile.s

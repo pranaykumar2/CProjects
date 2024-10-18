@@ -88,4 +88,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CheckNumber.dir/DependInfo.cmake"
   "CMakeFiles/isLeapYear.dir/DependInfo.cmake"
   "CMakeFiles/LeapYear.dir/DependInfo.cmake"
+  "CMakeFiles/MaximumSwap.dir/DependInfo.cmake"
   )

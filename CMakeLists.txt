@@ -58,3 +58,6 @@ add_executable(CheckNumber "DSA/Recursion/CheckNumber.c")
 add_library(isLeapYear LeapYear/isLeapYear.c)
 add_executable(LeapYear LeapYear/LeapYear.c)
 target_link_libraries(LeapYear isLeapYear)
+
+#LeetCode
+add_executable(MaximumSwap LeetCode/MaximumSwap.c)

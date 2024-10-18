@@ -648,6 +648,19 @@ LeapYear/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeapYear.dir\build.make CMakeFiles/LeapYear.dir/build
 .PHONY : LeapYear/fast
 
+#=============================================================================
+# Target rules for targets named MaximumSwap
+
+# Build rule for target.
+MaximumSwap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MaximumSwap
+.PHONY : MaximumSwap
+
+# fast build rule for target.
+MaximumSwap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumSwap.dir\build.make CMakeFiles/MaximumSwap.dir/build
+.PHONY : MaximumSwap/fast
+
 Automobile.obj: Automobile.c.obj
 .PHONY : Automobile.obj
 
@@ -1608,6 +1621,30 @@ LeapYear/isLeapYear.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isLeapYear.dir\build.make CMakeFiles/isLeapYear.dir/LeapYear/isLeapYear.c.s
 .PHONY : LeapYear/isLeapYear.c.s
 
+LeetCode/MaximumSwap.obj: LeetCode/MaximumSwap.c.obj
+.PHONY : LeetCode/MaximumSwap.obj
+
+# target to build an object file
+LeetCode/MaximumSwap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumSwap.dir\build.make CMakeFiles/MaximumSwap.dir/LeetCode/MaximumSwap.c.obj
+.PHONY : LeetCode/MaximumSwap.c.obj
+
+LeetCode/MaximumSwap.i: LeetCode/MaximumSwap.c.i
+.PHONY : LeetCode/MaximumSwap.i
+
+# target to preprocess a source file
+LeetCode/MaximumSwap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumSwap.dir\build.make CMakeFiles/MaximumSwap.dir/LeetCode/MaximumSwap.c.i
+.PHONY : LeetCode/MaximumSwap.c.i
+
+LeetCode/MaximumSwap.s: LeetCode/MaximumSwap.c.s
+.PHONY : LeetCode/MaximumSwap.s
+
+# target to generate assembly for a file
+LeetCode/MaximumSwap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumSwap.dir\build.make CMakeFiles/MaximumSwap.dir/LeetCode/MaximumSwap.c.s
+.PHONY : LeetCode/MaximumSwap.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -1663,6 +1700,7 @@ help:
 	@echo ... LeapYear
 	@echo ... LinearSearch
 	@echo ... Main
+	@echo ... MaximumSwap
 	@echo ... MinimumFlips
 	@echo ... MinimumMoves
 	@echo ... Nto1
@@ -1801,6 +1839,9 @@ help:
 	@echo ... LeapYear/isLeapYear.obj
 	@echo ... LeapYear/isLeapYear.i
 	@echo ... LeapYear/isLeapYear.s
+	@echo ... LeetCode/MaximumSwap.obj
+	@echo ... LeetCode/MaximumSwap.i
+	@echo ... LeetCode/MaximumSwap.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

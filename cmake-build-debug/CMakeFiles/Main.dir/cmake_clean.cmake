@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Main.dir/main.c.obj"
-  "CMakeFiles/Main.dir/main.c.obj.d"
-  "Main.exe"
-  "Main.exe.manifest"
-  "Main.pdb"
-  "libMain.dll.a"
+  "CMakeFiles/main.dir/MockVita/main.c.obj"
+  "CMakeFiles/main.dir/MockVita/main.c.obj.d"
+  "libmain.dll.a"
+  "main.exe"
+  "main.exe.manifest"
+  "main.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang C)
-  include(CMakeFiles/Main.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/main.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

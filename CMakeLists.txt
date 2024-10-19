@@ -27,6 +27,10 @@ add_executable(LatestRequests IBM/LatestRequests.c)
 add_executable(RecoverOriginalArray IBM/RecoverOriginalArray.c)
 add_executable(PangramChecker IBM/PangramChecker.c)
 
+#SORTING
+add_library(CountSort "DSA/Sorting/Count Sort/CountSort.c")
+add_executable(CountSortMain "DSA/Sorting/Count Sort/main.c")
+target_link_libraries(CountSortMain CountSort)
 
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")
@@ -41,6 +45,8 @@ add_executable(FibonacciSearch "DSA/SearchAlgorithms/FibonacciSearch.c")
 add_library(Stack "DSA/Stack/Stack.c")
 add_executable(StackMain "DSA/Stack/main.c")
 target_link_libraries(StackMain Stack)
+
+#Recursion
 
 add_executable(Nto1 "DSA/Recursion/Nto1.c")
 add_executable(1toN "DSA/Recursion/1toN.c")
@@ -61,6 +67,9 @@ target_link_libraries(LeapYear isLeapYear)
 
 #LeetCode
 add_executable(MaximumSwap LeetCode/MaximumSwap.c)
+
+#MockVita
+add_executable(main MockVita/main.c)
 
 #Algorithmic Thinking
 add_executable(UniqueSnowflake "Algorithmic Thinking/UniqueSnowflake.c")

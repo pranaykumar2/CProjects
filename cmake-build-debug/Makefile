@@ -363,6 +363,32 @@ PangramChecker/fast:
 .PHONY : PangramChecker/fast
 
 #=============================================================================
+# Target rules for targets named CountSort
+
+# Build rule for target.
+CountSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CountSort
+.PHONY : CountSort
+
+# fast build rule for target.
+CountSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/build
+.PHONY : CountSort/fast
+
+#=============================================================================
+# Target rules for targets named CountSortMain
+
+# Build rule for target.
+CountSortMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CountSortMain
+.PHONY : CountSortMain
+
+# fast build rule for target.
+CountSortMain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/build
+.PHONY : CountSortMain/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -660,6 +686,19 @@ MaximumSwap: cmake_check_build_system
 MaximumSwap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumSwap.dir\build.make CMakeFiles/MaximumSwap.dir/build
 .PHONY : MaximumSwap/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named UniqueSnowflake
@@ -1274,6 +1313,54 @@ DSA/SearchAlgorithms/LinearSearch.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/SearchAlgorithms/LinearSearch.c.s
 .PHONY : DSA/SearchAlgorithms/LinearSearch.c.s
 
+DSA/Sorting/Count_Sort/CountSort.obj: DSA/Sorting/Count_Sort/CountSort.c.obj
+.PHONY : DSA/Sorting/Count_Sort/CountSort.obj
+
+# target to build an object file
+DSA/Sorting/Count_Sort/CountSort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/DSA/Sorting/Count_Sort/CountSort.c.obj
+.PHONY : DSA/Sorting/Count_Sort/CountSort.c.obj
+
+DSA/Sorting/Count_Sort/CountSort.i: DSA/Sorting/Count_Sort/CountSort.c.i
+.PHONY : DSA/Sorting/Count_Sort/CountSort.i
+
+# target to preprocess a source file
+DSA/Sorting/Count_Sort/CountSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/DSA/Sorting/Count_Sort/CountSort.c.i
+.PHONY : DSA/Sorting/Count_Sort/CountSort.c.i
+
+DSA/Sorting/Count_Sort/CountSort.s: DSA/Sorting/Count_Sort/CountSort.c.s
+.PHONY : DSA/Sorting/Count_Sort/CountSort.s
+
+# target to generate assembly for a file
+DSA/Sorting/Count_Sort/CountSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/DSA/Sorting/Count_Sort/CountSort.c.s
+.PHONY : DSA/Sorting/Count_Sort/CountSort.c.s
+
+DSA/Sorting/Count_Sort/main.obj: DSA/Sorting/Count_Sort/main.c.obj
+.PHONY : DSA/Sorting/Count_Sort/main.obj
+
+# target to build an object file
+DSA/Sorting/Count_Sort/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/DSA/Sorting/Count_Sort/main.c.obj
+.PHONY : DSA/Sorting/Count_Sort/main.c.obj
+
+DSA/Sorting/Count_Sort/main.i: DSA/Sorting/Count_Sort/main.c.i
+.PHONY : DSA/Sorting/Count_Sort/main.i
+
+# target to preprocess a source file
+DSA/Sorting/Count_Sort/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/DSA/Sorting/Count_Sort/main.c.i
+.PHONY : DSA/Sorting/Count_Sort/main.c.i
+
+DSA/Sorting/Count_Sort/main.s: DSA/Sorting/Count_Sort/main.c.s
+.PHONY : DSA/Sorting/Count_Sort/main.s
+
+# target to generate assembly for a file
+DSA/Sorting/Count_Sort/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/DSA/Sorting/Count_Sort/main.c.s
+.PHONY : DSA/Sorting/Count_Sort/main.c.s
+
 DSA/Stack/Stack.obj: DSA/Stack/Stack.c.obj
 .PHONY : DSA/Stack/Stack.obj
 
@@ -1682,6 +1769,30 @@ LeetCode/MaximumSwap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumSwap.dir\build.make CMakeFiles/MaximumSwap.dir/LeetCode/MaximumSwap.c.s
 .PHONY : LeetCode/MaximumSwap.c.s
 
+MockVita/main.obj: MockVita/main.c.obj
+.PHONY : MockVita/main.obj
+
+# target to build an object file
+MockVita/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/MockVita/main.c.obj
+.PHONY : MockVita/main.c.obj
+
+MockVita/main.i: MockVita/main.c.i
+.PHONY : MockVita/main.i
+
+# target to preprocess a source file
+MockVita/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/MockVita/main.c.i
+.PHONY : MockVita/main.c.i
+
+MockVita/main.s: MockVita/main.c.s
+.PHONY : MockVita/main.s
+
+# target to generate assembly for a file
+MockVita/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/MockVita/main.c.s
+.PHONY : MockVita/main.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -1722,6 +1833,8 @@ help:
 	@echo ... Break
 	@echo ... BubbleSort
 	@echo ... CheckNumber
+	@echo ... CountSort
+	@echo ... CountSortMain
 	@echo ... CountZero
 	@echo ... DistinctTriplets
 	@echo ... ExponentialSearch
@@ -1757,6 +1870,7 @@ help:
 	@echo ... SwitchCase
 	@echo ... UniqueSnowflake
 	@echo ... isLeapYear
+	@echo ... main
 	@echo ... Algorithmic_Thinking/UniqueSnowflake.obj
 	@echo ... Algorithmic_Thinking/UniqueSnowflake.i
 	@echo ... Algorithmic_Thinking/UniqueSnowflake.s
@@ -1832,6 +1946,12 @@ help:
 	@echo ... DSA/SearchAlgorithms/LinearSearch.obj
 	@echo ... DSA/SearchAlgorithms/LinearSearch.i
 	@echo ... DSA/SearchAlgorithms/LinearSearch.s
+	@echo ... DSA/Sorting/Count_Sort/CountSort.obj
+	@echo ... DSA/Sorting/Count_Sort/CountSort.i
+	@echo ... DSA/Sorting/Count_Sort/CountSort.s
+	@echo ... DSA/Sorting/Count_Sort/main.obj
+	@echo ... DSA/Sorting/Count_Sort/main.i
+	@echo ... DSA/Sorting/Count_Sort/main.s
 	@echo ... DSA/Stack/Stack.obj
 	@echo ... DSA/Stack/Stack.i
 	@echo ... DSA/Stack/Stack.s
@@ -1883,6 +2003,9 @@ help:
 	@echo ... LeetCode/MaximumSwap.obj
 	@echo ... LeetCode/MaximumSwap.i
 	@echo ... LeetCode/MaximumSwap.s
+	@echo ... MockVita/main.obj
+	@echo ... MockVita/main.i
+	@echo ... MockVita/main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

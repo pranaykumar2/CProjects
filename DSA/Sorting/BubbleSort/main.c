@@ -2,6 +2,7 @@
 #include "BubbleSort.h"
 
 void main() {
+
     int size;
     scanf("%d", &size);
     int arr[size];

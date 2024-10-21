@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc libBucketSort.a CMakeFiles/BucketSort.dir/DSA/Sorting/BubbleSort/BubbleSort.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ranlib.exe libBucketSort.a

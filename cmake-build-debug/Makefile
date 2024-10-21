@@ -363,32 +363,6 @@ PangramChecker/fast:
 .PHONY : PangramChecker/fast
 
 #=============================================================================
-# Target rules for targets named CountSort
-
-# Build rule for target.
-CountSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CountSort
-.PHONY : CountSort
-
-# fast build rule for target.
-CountSort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/build
-.PHONY : CountSort/fast
-
-#=============================================================================
-# Target rules for targets named CountSortMain
-
-# Build rule for target.
-CountSortMain: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CountSortMain
-.PHONY : CountSortMain
-
-# fast build rule for target.
-CountSortMain/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/build
-.PHONY : CountSortMain/fast
-
-#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -415,17 +389,17 @@ BinarySearch/fast:
 .PHONY : BinarySearch/fast
 
 #=============================================================================
-# Target rules for targets named BubbleSort
+# Target rules for targets named BubbleSortExec
 
 # Build rule for target.
-BubbleSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BubbleSort
-.PHONY : BubbleSort
+BubbleSortExec: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BubbleSortExec
+.PHONY : BubbleSortExec
 
 # fast build rule for target.
-BubbleSort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
-.PHONY : BubbleSort/fast
+BubbleSortExec/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortExec.dir\build.make CMakeFiles/BubbleSortExec.dir/build
+.PHONY : BubbleSortExec/fast
 
 #=============================================================================
 # Target rules for targets named JumpSearch
@@ -478,6 +452,32 @@ FibonacciSearch: cmake_check_build_system
 FibonacciSearch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/build
 .PHONY : FibonacciSearch/fast
+
+#=============================================================================
+# Target rules for targets named BubbleSortLib
+
+# Build rule for target.
+BubbleSortLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BubbleSortLib
+.PHONY : BubbleSortLib
+
+# fast build rule for target.
+BubbleSortLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortLib.dir\build.make CMakeFiles/BubbleSortLib.dir/build
+.PHONY : BubbleSortLib/fast
+
+#=============================================================================
+# Target rules for targets named BubbleSortMain
+
+# Build rule for target.
+BubbleSortMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BubbleSortMain
+.PHONY : BubbleSortMain
+
+# fast build rule for target.
+BubbleSortMain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortMain.dir\build.make CMakeFiles/BubbleSortMain.dir/build
+.PHONY : BubbleSortMain/fast
 
 #=============================================================================
 # Target rules for targets named Stack
@@ -1174,7 +1174,7 @@ DSA/SearchAlgorithms/BubbleSort.obj: DSA/SearchAlgorithms/BubbleSort.c.obj
 
 # target to build an object file
 DSA/SearchAlgorithms/BubbleSort.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/SearchAlgorithms/BubbleSort.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortExec.dir\build.make CMakeFiles/BubbleSortExec.dir/DSA/SearchAlgorithms/BubbleSort.c.obj
 .PHONY : DSA/SearchAlgorithms/BubbleSort.c.obj
 
 DSA/SearchAlgorithms/BubbleSort.i: DSA/SearchAlgorithms/BubbleSort.c.i
@@ -1182,7 +1182,7 @@ DSA/SearchAlgorithms/BubbleSort.i: DSA/SearchAlgorithms/BubbleSort.c.i
 
 # target to preprocess a source file
 DSA/SearchAlgorithms/BubbleSort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/SearchAlgorithms/BubbleSort.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortExec.dir\build.make CMakeFiles/BubbleSortExec.dir/DSA/SearchAlgorithms/BubbleSort.c.i
 .PHONY : DSA/SearchAlgorithms/BubbleSort.c.i
 
 DSA/SearchAlgorithms/BubbleSort.s: DSA/SearchAlgorithms/BubbleSort.c.s
@@ -1190,7 +1190,7 @@ DSA/SearchAlgorithms/BubbleSort.s: DSA/SearchAlgorithms/BubbleSort.c.s
 
 # target to generate assembly for a file
 DSA/SearchAlgorithms/BubbleSort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/DSA/SearchAlgorithms/BubbleSort.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortExec.dir\build.make CMakeFiles/BubbleSortExec.dir/DSA/SearchAlgorithms/BubbleSort.c.s
 .PHONY : DSA/SearchAlgorithms/BubbleSort.c.s
 
 DSA/SearchAlgorithms/ExponentialSearch.obj: DSA/SearchAlgorithms/ExponentialSearch.c.obj
@@ -1313,53 +1313,53 @@ DSA/SearchAlgorithms/LinearSearch.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinearSearch.dir\build.make CMakeFiles/LinearSearch.dir/DSA/SearchAlgorithms/LinearSearch.c.s
 .PHONY : DSA/SearchAlgorithms/LinearSearch.c.s
 
-DSA/Sorting/Count_Sort/CountSort.obj: DSA/Sorting/Count_Sort/CountSort.c.obj
-.PHONY : DSA/Sorting/Count_Sort/CountSort.obj
+DSA/Sorting/BubbleSort/BubbleSort.obj: DSA/Sorting/BubbleSort/BubbleSort.c.obj
+.PHONY : DSA/Sorting/BubbleSort/BubbleSort.obj
 
 # target to build an object file
-DSA/Sorting/Count_Sort/CountSort.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/DSA/Sorting/Count_Sort/CountSort.c.obj
-.PHONY : DSA/Sorting/Count_Sort/CountSort.c.obj
+DSA/Sorting/BubbleSort/BubbleSort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortLib.dir\build.make CMakeFiles/BubbleSortLib.dir/DSA/Sorting/BubbleSort/BubbleSort.c.obj
+.PHONY : DSA/Sorting/BubbleSort/BubbleSort.c.obj
 
-DSA/Sorting/Count_Sort/CountSort.i: DSA/Sorting/Count_Sort/CountSort.c.i
-.PHONY : DSA/Sorting/Count_Sort/CountSort.i
+DSA/Sorting/BubbleSort/BubbleSort.i: DSA/Sorting/BubbleSort/BubbleSort.c.i
+.PHONY : DSA/Sorting/BubbleSort/BubbleSort.i
 
 # target to preprocess a source file
-DSA/Sorting/Count_Sort/CountSort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/DSA/Sorting/Count_Sort/CountSort.c.i
-.PHONY : DSA/Sorting/Count_Sort/CountSort.c.i
+DSA/Sorting/BubbleSort/BubbleSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortLib.dir\build.make CMakeFiles/BubbleSortLib.dir/DSA/Sorting/BubbleSort/BubbleSort.c.i
+.PHONY : DSA/Sorting/BubbleSort/BubbleSort.c.i
 
-DSA/Sorting/Count_Sort/CountSort.s: DSA/Sorting/Count_Sort/CountSort.c.s
-.PHONY : DSA/Sorting/Count_Sort/CountSort.s
+DSA/Sorting/BubbleSort/BubbleSort.s: DSA/Sorting/BubbleSort/BubbleSort.c.s
+.PHONY : DSA/Sorting/BubbleSort/BubbleSort.s
 
 # target to generate assembly for a file
-DSA/Sorting/Count_Sort/CountSort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/DSA/Sorting/Count_Sort/CountSort.c.s
-.PHONY : DSA/Sorting/Count_Sort/CountSort.c.s
+DSA/Sorting/BubbleSort/BubbleSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortLib.dir\build.make CMakeFiles/BubbleSortLib.dir/DSA/Sorting/BubbleSort/BubbleSort.c.s
+.PHONY : DSA/Sorting/BubbleSort/BubbleSort.c.s
 
-DSA/Sorting/Count_Sort/main.obj: DSA/Sorting/Count_Sort/main.c.obj
-.PHONY : DSA/Sorting/Count_Sort/main.obj
+DSA/Sorting/BubbleSort/main.obj: DSA/Sorting/BubbleSort/main.c.obj
+.PHONY : DSA/Sorting/BubbleSort/main.obj
 
 # target to build an object file
-DSA/Sorting/Count_Sort/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/DSA/Sorting/Count_Sort/main.c.obj
-.PHONY : DSA/Sorting/Count_Sort/main.c.obj
+DSA/Sorting/BubbleSort/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortMain.dir\build.make CMakeFiles/BubbleSortMain.dir/DSA/Sorting/BubbleSort/main.c.obj
+.PHONY : DSA/Sorting/BubbleSort/main.c.obj
 
-DSA/Sorting/Count_Sort/main.i: DSA/Sorting/Count_Sort/main.c.i
-.PHONY : DSA/Sorting/Count_Sort/main.i
+DSA/Sorting/BubbleSort/main.i: DSA/Sorting/BubbleSort/main.c.i
+.PHONY : DSA/Sorting/BubbleSort/main.i
 
 # target to preprocess a source file
-DSA/Sorting/Count_Sort/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/DSA/Sorting/Count_Sort/main.c.i
-.PHONY : DSA/Sorting/Count_Sort/main.c.i
+DSA/Sorting/BubbleSort/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortMain.dir\build.make CMakeFiles/BubbleSortMain.dir/DSA/Sorting/BubbleSort/main.c.i
+.PHONY : DSA/Sorting/BubbleSort/main.c.i
 
-DSA/Sorting/Count_Sort/main.s: DSA/Sorting/Count_Sort/main.c.s
-.PHONY : DSA/Sorting/Count_Sort/main.s
+DSA/Sorting/BubbleSort/main.s: DSA/Sorting/BubbleSort/main.c.s
+.PHONY : DSA/Sorting/BubbleSort/main.s
 
 # target to generate assembly for a file
-DSA/Sorting/Count_Sort/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/DSA/Sorting/Count_Sort/main.c.s
-.PHONY : DSA/Sorting/Count_Sort/main.c.s
+DSA/Sorting/BubbleSort/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortMain.dir\build.make CMakeFiles/BubbleSortMain.dir/DSA/Sorting/BubbleSort/main.c.s
+.PHONY : DSA/Sorting/BubbleSort/main.c.s
 
 DSA/Stack/Stack.obj: DSA/Stack/Stack.c.obj
 .PHONY : DSA/Stack/Stack.obj
@@ -1831,10 +1831,10 @@ help:
 	@echo ... Automobile
 	@echo ... BinarySearch
 	@echo ... Break
-	@echo ... BubbleSort
+	@echo ... BubbleSortExec
+	@echo ... BubbleSortLib
+	@echo ... BubbleSortMain
 	@echo ... CheckNumber
-	@echo ... CountSort
-	@echo ... CountSortMain
 	@echo ... CountZero
 	@echo ... DistinctTriplets
 	@echo ... ExponentialSearch
@@ -1946,12 +1946,12 @@ help:
 	@echo ... DSA/SearchAlgorithms/LinearSearch.obj
 	@echo ... DSA/SearchAlgorithms/LinearSearch.i
 	@echo ... DSA/SearchAlgorithms/LinearSearch.s
-	@echo ... DSA/Sorting/Count_Sort/CountSort.obj
-	@echo ... DSA/Sorting/Count_Sort/CountSort.i
-	@echo ... DSA/Sorting/Count_Sort/CountSort.s
-	@echo ... DSA/Sorting/Count_Sort/main.obj
-	@echo ... DSA/Sorting/Count_Sort/main.i
-	@echo ... DSA/Sorting/Count_Sort/main.s
+	@echo ... DSA/Sorting/BubbleSort/BubbleSort.obj
+	@echo ... DSA/Sorting/BubbleSort/BubbleSort.i
+	@echo ... DSA/Sorting/BubbleSort/BubbleSort.s
+	@echo ... DSA/Sorting/BubbleSort/main.obj
+	@echo ... DSA/Sorting/BubbleSort/main.i
+	@echo ... DSA/Sorting/BubbleSort/main.s
 	@echo ... DSA/Stack/Stack.obj
 	@echo ... DSA/Stack/Stack.i
 	@echo ... DSA/Stack/Stack.s

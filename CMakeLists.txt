@@ -27,19 +27,19 @@ add_executable(LatestRequests IBM/LatestRequests.c)
 add_executable(RecoverOriginalArray IBM/RecoverOriginalArray.c)
 add_executable(PangramChecker IBM/PangramChecker.c)
 
-#SORTING
-add_library(CountSort "DSA/Sorting/Count Sort/CountSort.c")
-add_executable(CountSortMain "DSA/Sorting/Count Sort/main.c")
-target_link_libraries(CountSortMain CountSort)
-
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")
 add_executable(BinarySearch "DSA/SearchAlgorithms/BinarySearch.c")
-add_executable(BubbleSort "DSA/SearchAlgorithms/BubbleSort.c")
+add_executable(BubbleSortExec "DSA/SearchAlgorithms/BubbleSort.c")
 add_executable(JumpSearch "DSA/SearchAlgorithms/JumpSearch.c")
 add_executable(ExponentialSearch "DSA/SearchAlgorithms/ExponentialSearch.c")
 add_executable(InterpolationSearch "DSA/SearchAlgorithms/InterpolationSearch.c")
 add_executable(FibonacciSearch "DSA/SearchAlgorithms/FibonacciSearch.c")
+
+#SORTING
+add_library(BubbleSortLib "DSA/Sorting/BubbleSort/BubbleSort.c")
+add_executable(BubbleSortMain "DSA/Sorting/BubbleSort/main.c")
+target_link_libraries(BubbleSortMain BubbleSortLib)
 
 #STACK
 add_library(Stack "DSA/Stack/Stack.c")
@@ -47,7 +47,6 @@ add_executable(StackMain "DSA/Stack/main.c")
 target_link_libraries(StackMain Stack)
 
 #Recursion
-
 add_executable(Nto1 "DSA/Recursion/Nto1.c")
 add_executable(1toN "DSA/Recursion/1toN.c")
 add_executable(Factorial "DSA/Recursion/Factorial.c")

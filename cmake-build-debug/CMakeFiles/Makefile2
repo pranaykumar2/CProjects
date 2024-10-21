@@ -81,15 +81,15 @@ all: CMakeFiles/FindTriangleType.dir/all
 all: CMakeFiles/LatestRequests.dir/all
 all: CMakeFiles/RecoverOriginalArray.dir/all
 all: CMakeFiles/PangramChecker.dir/all
-all: CMakeFiles/CountSort.dir/all
-all: CMakeFiles/CountSortMain.dir/all
 all: CMakeFiles/LinearSearch.dir/all
 all: CMakeFiles/BinarySearch.dir/all
-all: CMakeFiles/BubbleSort.dir/all
+all: CMakeFiles/BubbleSortExec.dir/all
 all: CMakeFiles/JumpSearch.dir/all
 all: CMakeFiles/ExponentialSearch.dir/all
 all: CMakeFiles/InterpolationSearch.dir/all
 all: CMakeFiles/FibonacciSearch.dir/all
+all: CMakeFiles/BubbleSortLib.dir/all
+all: CMakeFiles/BubbleSortMain.dir/all
 all: CMakeFiles/Stack.dir/all
 all: CMakeFiles/StackMain.dir/all
 all: CMakeFiles/Nto1.dir/all
@@ -134,15 +134,15 @@ clean: CMakeFiles/FindTriangleType.dir/clean
 clean: CMakeFiles/LatestRequests.dir/clean
 clean: CMakeFiles/RecoverOriginalArray.dir/clean
 clean: CMakeFiles/PangramChecker.dir/clean
-clean: CMakeFiles/CountSort.dir/clean
-clean: CMakeFiles/CountSortMain.dir/clean
 clean: CMakeFiles/LinearSearch.dir/clean
 clean: CMakeFiles/BinarySearch.dir/clean
-clean: CMakeFiles/BubbleSort.dir/clean
+clean: CMakeFiles/BubbleSortExec.dir/clean
 clean: CMakeFiles/JumpSearch.dir/clean
 clean: CMakeFiles/ExponentialSearch.dir/clean
 clean: CMakeFiles/InterpolationSearch.dir/clean
 clean: CMakeFiles/FibonacciSearch.dir/clean
+clean: CMakeFiles/BubbleSortLib.dir/clean
+clean: CMakeFiles/BubbleSortMain.dir/clean
 clean: CMakeFiles/Stack.dir/clean
 clean: CMakeFiles/StackMain.dir/clean
 clean: CMakeFiles/Nto1.dir/clean
@@ -658,58 +658,6 @@ CMakeFiles/PangramChecker.dir/clean:
 .PHONY : CMakeFiles/PangramChecker.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CountSort.dir
-
-# All Build rule for target.
-CMakeFiles/CountSort.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target CountSort"
-.PHONY : CMakeFiles/CountSort.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/CountSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CountSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/CountSort.dir/rule
-
-# Convenience name for target.
-CountSort: CMakeFiles/CountSort.dir/rule
-.PHONY : CountSort
-
-# clean rule for target.
-CMakeFiles/CountSort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSort.dir\build.make CMakeFiles/CountSort.dir/clean
-.PHONY : CMakeFiles/CountSort.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/CountSortMain.dir
-
-# All Build rule for target.
-CMakeFiles/CountSortMain.dir/all: CMakeFiles/CountSort.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target CountSortMain"
-.PHONY : CMakeFiles/CountSortMain.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/CountSortMain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CountSortMain.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/CountSortMain.dir/rule
-
-# Convenience name for target.
-CountSortMain: CMakeFiles/CountSortMain.dir/rule
-.PHONY : CountSortMain
-
-# clean rule for target.
-CMakeFiles/CountSortMain.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountSortMain.dir\build.make CMakeFiles/CountSortMain.dir/clean
-.PHONY : CMakeFiles/CountSortMain.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/LinearSearch.dir
 
 # All Build rule for target.
@@ -762,30 +710,30 @@ CMakeFiles/BinarySearch.dir/clean:
 .PHONY : CMakeFiles/BinarySearch.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BubbleSort.dir
+# Target rules for target CMakeFiles/BubbleSortExec.dir
 
 # All Build rule for target.
-CMakeFiles/BubbleSort.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target BubbleSort"
-.PHONY : CMakeFiles/BubbleSort.dir/all
+CMakeFiles/BubbleSortExec.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortExec.dir\build.make CMakeFiles/BubbleSortExec.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortExec.dir\build.make CMakeFiles/BubbleSortExec.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target BubbleSortExec"
+.PHONY : CMakeFiles/BubbleSortExec.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BubbleSort.dir/rule: cmake_check_build_system
+CMakeFiles/BubbleSortExec.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BubbleSort.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BubbleSortExec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/BubbleSort.dir/rule
+.PHONY : CMakeFiles/BubbleSortExec.dir/rule
 
 # Convenience name for target.
-BubbleSort: CMakeFiles/BubbleSort.dir/rule
-.PHONY : BubbleSort
+BubbleSortExec: CMakeFiles/BubbleSortExec.dir/rule
+.PHONY : BubbleSortExec
 
 # clean rule for target.
-CMakeFiles/BubbleSort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/clean
-.PHONY : CMakeFiles/BubbleSort.dir/clean
+CMakeFiles/BubbleSortExec.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortExec.dir\build.make CMakeFiles/BubbleSortExec.dir/clean
+.PHONY : CMakeFiles/BubbleSortExec.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/JumpSearch.dir
@@ -890,6 +838,58 @@ FibonacciSearch: CMakeFiles/FibonacciSearch.dir/rule
 CMakeFiles/FibonacciSearch.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FibonacciSearch.dir\build.make CMakeFiles/FibonacciSearch.dir/clean
 .PHONY : CMakeFiles/FibonacciSearch.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BubbleSortLib.dir
+
+# All Build rule for target.
+CMakeFiles/BubbleSortLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortLib.dir\build.make CMakeFiles/BubbleSortLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortLib.dir\build.make CMakeFiles/BubbleSortLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target BubbleSortLib"
+.PHONY : CMakeFiles/BubbleSortLib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BubbleSortLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BubbleSortLib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/BubbleSortLib.dir/rule
+
+# Convenience name for target.
+BubbleSortLib: CMakeFiles/BubbleSortLib.dir/rule
+.PHONY : BubbleSortLib
+
+# clean rule for target.
+CMakeFiles/BubbleSortLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortLib.dir\build.make CMakeFiles/BubbleSortLib.dir/clean
+.PHONY : CMakeFiles/BubbleSortLib.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BubbleSortMain.dir
+
+# All Build rule for target.
+CMakeFiles/BubbleSortMain.dir/all: CMakeFiles/BubbleSortLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortMain.dir\build.make CMakeFiles/BubbleSortMain.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortMain.dir\build.make CMakeFiles/BubbleSortMain.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target BubbleSortMain"
+.PHONY : CMakeFiles/BubbleSortMain.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BubbleSortMain.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BubbleSortMain.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/BubbleSortMain.dir/rule
+
+# Convenience name for target.
+BubbleSortMain: CMakeFiles/BubbleSortMain.dir/rule
+.PHONY : BubbleSortMain
+
+# clean rule for target.
+CMakeFiles/BubbleSortMain.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSortMain.dir\build.make CMakeFiles/BubbleSortMain.dir/clean
+.PHONY : CMakeFiles/BubbleSortMain.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Stack.dir
@@ -1210,7 +1210,7 @@ CMakeFiles/SortedOrNot.dir/clean:
 CMakeFiles/CheckNumber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CheckNumber.dir\build.make CMakeFiles/CheckNumber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CheckNumber.dir\build.make CMakeFiles/CheckNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target CheckNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\prana\CLionProjects\CProjects\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target CheckNumber"
 .PHONY : CMakeFiles/CheckNumber.dir/all
 
 # Build rule for subdir invocation for target.

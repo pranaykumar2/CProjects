@@ -26,6 +26,7 @@ add_executable(FindTriangleType IBM/FindTriangleType.c)
 add_executable(LatestRequests IBM/LatestRequests.c)
 add_executable(RecoverOriginalArray IBM/RecoverOriginalArray.c)
 add_executable(PangramChecker IBM/PangramChecker.c)
+add_executable(SubArrayAverage IBM/SubArrayAverage.c)
 
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")

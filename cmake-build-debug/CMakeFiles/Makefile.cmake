@@ -66,6 +66,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LatestRequests.dir/DependInfo.cmake"
   "CMakeFiles/RecoverOriginalArray.dir/DependInfo.cmake"
   "CMakeFiles/PangramChecker.dir/DependInfo.cmake"
+  "CMakeFiles/SubArrayAverage.dir/DependInfo.cmake"
   "CMakeFiles/LinearSearch.dir/DependInfo.cmake"
   "CMakeFiles/BinarySearch.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSortExec.dir/DependInfo.cmake"

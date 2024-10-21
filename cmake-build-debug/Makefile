@@ -363,6 +363,19 @@ PangramChecker/fast:
 .PHONY : PangramChecker/fast
 
 #=============================================================================
+# Target rules for targets named SubArrayAverage
+
+# Build rule for target.
+SubArrayAverage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SubArrayAverage
+.PHONY : SubArrayAverage
+
+# fast build rule for target.
+SubArrayAverage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SubArrayAverage.dir\build.make CMakeFiles/SubArrayAverage.dir/build
+.PHONY : SubArrayAverage/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -1697,6 +1710,30 @@ IBM/RecoverOriginalArray.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecoverOriginalArray.dir\build.make CMakeFiles/RecoverOriginalArray.dir/IBM/RecoverOriginalArray.c.s
 .PHONY : IBM/RecoverOriginalArray.c.s
 
+IBM/SubArrayAverage.obj: IBM/SubArrayAverage.c.obj
+.PHONY : IBM/SubArrayAverage.obj
+
+# target to build an object file
+IBM/SubArrayAverage.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SubArrayAverage.dir\build.make CMakeFiles/SubArrayAverage.dir/IBM/SubArrayAverage.c.obj
+.PHONY : IBM/SubArrayAverage.c.obj
+
+IBM/SubArrayAverage.i: IBM/SubArrayAverage.c.i
+.PHONY : IBM/SubArrayAverage.i
+
+# target to preprocess a source file
+IBM/SubArrayAverage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SubArrayAverage.dir\build.make CMakeFiles/SubArrayAverage.dir/IBM/SubArrayAverage.c.i
+.PHONY : IBM/SubArrayAverage.c.i
+
+IBM/SubArrayAverage.s: IBM/SubArrayAverage.c.s
+.PHONY : IBM/SubArrayAverage.s
+
+# target to generate assembly for a file
+IBM/SubArrayAverage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SubArrayAverage.dir\build.make CMakeFiles/SubArrayAverage.dir/IBM/SubArrayAverage.c.s
+.PHONY : IBM/SubArrayAverage.c.s
+
 LeapYear/LeapYear.obj: LeapYear/LeapYear.c.obj
 .PHONY : LeapYear/LeapYear.obj
 
@@ -1864,6 +1901,7 @@ help:
 	@echo ... SortedOrNot
 	@echo ... Stack
 	@echo ... StackMain
+	@echo ... SubArrayAverage
 	@echo ... SumOfDigits
 	@echo ... SumOfN
 	@echo ... Swap
@@ -1994,6 +2032,9 @@ help:
 	@echo ... IBM/RecoverOriginalArray.obj
 	@echo ... IBM/RecoverOriginalArray.i
 	@echo ... IBM/RecoverOriginalArray.s
+	@echo ... IBM/SubArrayAverage.obj
+	@echo ... IBM/SubArrayAverage.i
+	@echo ... IBM/SubArrayAverage.s
 	@echo ... LeapYear/LeapYear.obj
 	@echo ... LeapYear/LeapYear.i
 	@echo ... LeapYear/LeapYear.s

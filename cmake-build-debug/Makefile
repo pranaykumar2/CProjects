@@ -233,6 +233,19 @@ Break/fast:
 .PHONY : Break/fast
 
 #=============================================================================
+# Target rules for targets named StringtoInt
+
+# Build rule for target.
+StringtoInt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StringtoInt
+.PHONY : StringtoInt
+
+# fast build rule for target.
+StringtoInt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringtoInt.dir\build.make CMakeFiles/StringtoInt.dir/build
+.PHONY : StringtoInt/fast
+
+#=============================================================================
 # Target rules for targets named MinimumFlips
 
 # Build rule for target.
@@ -845,6 +858,30 @@ BrahmaSai/PrintAlpha.s: BrahmaSai/PrintAlpha.c.s
 BrahmaSai/PrintAlpha.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/BrahmaSai/PrintAlpha.c.s
 .PHONY : BrahmaSai/PrintAlpha.c.s
+
+BrahmaSai/StringtoInt.obj: BrahmaSai/StringtoInt.c.obj
+.PHONY : BrahmaSai/StringtoInt.obj
+
+# target to build an object file
+BrahmaSai/StringtoInt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringtoInt.dir\build.make CMakeFiles/StringtoInt.dir/BrahmaSai/StringtoInt.c.obj
+.PHONY : BrahmaSai/StringtoInt.c.obj
+
+BrahmaSai/StringtoInt.i: BrahmaSai/StringtoInt.c.i
+.PHONY : BrahmaSai/StringtoInt.i
+
+# target to preprocess a source file
+BrahmaSai/StringtoInt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringtoInt.dir\build.make CMakeFiles/StringtoInt.dir/BrahmaSai/StringtoInt.c.i
+.PHONY : BrahmaSai/StringtoInt.c.i
+
+BrahmaSai/StringtoInt.s: BrahmaSai/StringtoInt.c.s
+.PHONY : BrahmaSai/StringtoInt.s
+
+# target to generate assembly for a file
+BrahmaSai/StringtoInt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringtoInt.dir\build.make CMakeFiles/StringtoInt.dir/BrahmaSai/StringtoInt.c.s
+.PHONY : BrahmaSai/StringtoInt.c.s
 
 BrahmaSai/Swap.obj: BrahmaSai/Swap.c.obj
 .PHONY : BrahmaSai/Swap.obj
@@ -1901,6 +1938,7 @@ help:
 	@echo ... SortedOrNot
 	@echo ... Stack
 	@echo ... StackMain
+	@echo ... StringtoInt
 	@echo ... SubArrayAverage
 	@echo ... SumOfDigits
 	@echo ... SumOfN
@@ -1924,6 +1962,9 @@ help:
 	@echo ... BrahmaSai/PrintAlpha.obj
 	@echo ... BrahmaSai/PrintAlpha.i
 	@echo ... BrahmaSai/PrintAlpha.s
+	@echo ... BrahmaSai/StringtoInt.obj
+	@echo ... BrahmaSai/StringtoInt.i
+	@echo ... BrahmaSai/StringtoInt.s
 	@echo ... BrahmaSai/Swap.obj
 	@echo ... BrahmaSai/Swap.i
 	@echo ... BrahmaSai/Swap.s

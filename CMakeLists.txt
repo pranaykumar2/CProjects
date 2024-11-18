@@ -16,6 +16,7 @@ add_executable(PrintAlpha BrahmaSai/PrintAlpha.c)
 add_executable(Break BrahmaSai/Break.c)
 add_executable(StringtoInt BrahmaSai/StringtoInt.c)
 add_executable(StudentMarks BrahmaSai/StudentMarks.c)
+add_executable(RowSort BrahmaSai/RowSort.c)
 
 #IBM
 add_executable(MinimumFlips IBM/MinimumFlips.c)

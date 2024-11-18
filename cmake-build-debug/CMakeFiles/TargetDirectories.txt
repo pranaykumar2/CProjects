@@ -9,6 +9,7 @@ C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/PrintAlpha.d
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/Break.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/StringtoInt.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/StudentMarks.dir
+C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/RowSort.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/MinimumFlips.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/ArrayComparision.dir
 C:/Users/prana/CLionProjects/CProjects/cmake-build-debug/CMakeFiles/MinimumMoves.dir

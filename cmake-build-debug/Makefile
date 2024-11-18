@@ -259,6 +259,19 @@ StudentMarks/fast:
 .PHONY : StudentMarks/fast
 
 #=============================================================================
+# Target rules for targets named RowSort
+
+# Build rule for target.
+RowSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RowSort
+.PHONY : RowSort
+
+# fast build rule for target.
+RowSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RowSort.dir\build.make CMakeFiles/RowSort.dir/build
+.PHONY : RowSort/fast
+
+#=============================================================================
 # Target rules for targets named MinimumFlips
 
 # Build rule for target.
@@ -871,6 +884,30 @@ BrahmaSai/PrintAlpha.s: BrahmaSai/PrintAlpha.c.s
 BrahmaSai/PrintAlpha.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintAlpha.dir\build.make CMakeFiles/PrintAlpha.dir/BrahmaSai/PrintAlpha.c.s
 .PHONY : BrahmaSai/PrintAlpha.c.s
+
+BrahmaSai/RowSort.obj: BrahmaSai/RowSort.c.obj
+.PHONY : BrahmaSai/RowSort.obj
+
+# target to build an object file
+BrahmaSai/RowSort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RowSort.dir\build.make CMakeFiles/RowSort.dir/BrahmaSai/RowSort.c.obj
+.PHONY : BrahmaSai/RowSort.c.obj
+
+BrahmaSai/RowSort.i: BrahmaSai/RowSort.c.i
+.PHONY : BrahmaSai/RowSort.i
+
+# target to preprocess a source file
+BrahmaSai/RowSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RowSort.dir\build.make CMakeFiles/RowSort.dir/BrahmaSai/RowSort.c.i
+.PHONY : BrahmaSai/RowSort.c.i
+
+BrahmaSai/RowSort.s: BrahmaSai/RowSort.c.s
+.PHONY : BrahmaSai/RowSort.s
+
+# target to generate assembly for a file
+BrahmaSai/RowSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RowSort.dir\build.make CMakeFiles/RowSort.dir/BrahmaSai/RowSort.c.s
+.PHONY : BrahmaSai/RowSort.c.s
 
 BrahmaSai/StringtoInt.obj: BrahmaSai/StringtoInt.c.obj
 .PHONY : BrahmaSai/StringtoInt.obj
@@ -1972,6 +2009,7 @@ help:
 	@echo ... ProductOfDigits
 	@echo ... RecoverOriginalArray
 	@echo ... ReverseNumber
+	@echo ... RowSort
 	@echo ... SortedOrNot
 	@echo ... Stack
 	@echo ... StackMain
@@ -2000,6 +2038,9 @@ help:
 	@echo ... BrahmaSai/PrintAlpha.obj
 	@echo ... BrahmaSai/PrintAlpha.i
 	@echo ... BrahmaSai/PrintAlpha.s
+	@echo ... BrahmaSai/RowSort.obj
+	@echo ... BrahmaSai/RowSort.i
+	@echo ... BrahmaSai/RowSort.s
 	@echo ... BrahmaSai/StringtoInt.obj
 	@echo ... BrahmaSai/StringtoInt.i
 	@echo ... BrahmaSai/StringtoInt.s

@@ -246,6 +246,19 @@ StringtoInt/fast:
 .PHONY : StringtoInt/fast
 
 #=============================================================================
+# Target rules for targets named StudentMarks
+
+# Build rule for target.
+StudentMarks: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StudentMarks
+.PHONY : StudentMarks
+
+# fast build rule for target.
+StudentMarks/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentMarks.dir\build.make CMakeFiles/StudentMarks.dir/build
+.PHONY : StudentMarks/fast
+
+#=============================================================================
 # Target rules for targets named MinimumFlips
 
 # Build rule for target.
@@ -882,6 +895,30 @@ BrahmaSai/StringtoInt.s: BrahmaSai/StringtoInt.c.s
 BrahmaSai/StringtoInt.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringtoInt.dir\build.make CMakeFiles/StringtoInt.dir/BrahmaSai/StringtoInt.c.s
 .PHONY : BrahmaSai/StringtoInt.c.s
+
+BrahmaSai/StudentMarks.obj: BrahmaSai/StudentMarks.c.obj
+.PHONY : BrahmaSai/StudentMarks.obj
+
+# target to build an object file
+BrahmaSai/StudentMarks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentMarks.dir\build.make CMakeFiles/StudentMarks.dir/BrahmaSai/StudentMarks.c.obj
+.PHONY : BrahmaSai/StudentMarks.c.obj
+
+BrahmaSai/StudentMarks.i: BrahmaSai/StudentMarks.c.i
+.PHONY : BrahmaSai/StudentMarks.i
+
+# target to preprocess a source file
+BrahmaSai/StudentMarks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentMarks.dir\build.make CMakeFiles/StudentMarks.dir/BrahmaSai/StudentMarks.c.i
+.PHONY : BrahmaSai/StudentMarks.c.i
+
+BrahmaSai/StudentMarks.s: BrahmaSai/StudentMarks.c.s
+.PHONY : BrahmaSai/StudentMarks.s
+
+# target to generate assembly for a file
+BrahmaSai/StudentMarks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentMarks.dir\build.make CMakeFiles/StudentMarks.dir/BrahmaSai/StudentMarks.c.s
+.PHONY : BrahmaSai/StudentMarks.c.s
 
 BrahmaSai/Swap.obj: BrahmaSai/Swap.c.obj
 .PHONY : BrahmaSai/Swap.obj
@@ -1939,6 +1976,7 @@ help:
 	@echo ... Stack
 	@echo ... StackMain
 	@echo ... StringtoInt
+	@echo ... StudentMarks
 	@echo ... SubArrayAverage
 	@echo ... SumOfDigits
 	@echo ... SumOfN
@@ -1965,6 +2003,9 @@ help:
 	@echo ... BrahmaSai/StringtoInt.obj
 	@echo ... BrahmaSai/StringtoInt.i
 	@echo ... BrahmaSai/StringtoInt.s
+	@echo ... BrahmaSai/StudentMarks.obj
+	@echo ... BrahmaSai/StudentMarks.i
+	@echo ... BrahmaSai/StudentMarks.s
 	@echo ... BrahmaSai/Swap.obj
 	@echo ... BrahmaSai/Swap.i
 	@echo ... BrahmaSai/Swap.s

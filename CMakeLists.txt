@@ -15,6 +15,7 @@ add_executable(SwitchCase BrahmaSai/SwitchCase.c)
 add_executable(PrintAlpha BrahmaSai/PrintAlpha.c)
 add_executable(Break BrahmaSai/Break.c)
 add_executable(StringtoInt BrahmaSai/StringtoInt.c)
+add_executable(StudentMarks BrahmaSai/StudentMarks.c)
 
 #IBM
 add_executable(MinimumFlips IBM/MinimumFlips.c)

@@ -10,17 +10,13 @@ void readArray(int arr[][100], int size) {
     }
 }
 
+int compare(const void *a, const void *b) {
+    return (*(int *)a - *(int *)b);
+}
+
 void sortRows(int arr[][100], int size) {
     for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size - 1; j++) {
-            for (int k = 0; k < size - j - 1; k++) {
-                if (arr[i][k] > arr[i][k + 1]) {
-                    int temp = arr[i][k];
-                    arr[i][k] = arr[i][k + 1];
-                    arr[i][k + 1] = temp;
-                }
-            }
-        }
+        qsort(arr[i], size, sizeof(int), compare);
     }
 }
 

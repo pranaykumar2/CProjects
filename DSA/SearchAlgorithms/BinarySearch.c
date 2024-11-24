@@ -3,7 +3,7 @@
 void binarySearch(int arr[], const int num, const int size) {
     int left = 0, right = size - 1;
     while (left <= right) {
-        int mid = left + right;
+        int mid = (left + right) / 2;
         if (num == arr[mid]) {
             printf("Element Found\n");
             return;

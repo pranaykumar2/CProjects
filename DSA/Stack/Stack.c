@@ -29,9 +29,7 @@ int StackPeek() {
         printf("Stack is empty\n");
         return -1;
     }
-    else {
-        return stack[pointer];
-    }
+    return stack[pointer];
 }
 
 int isStackEmpty() {

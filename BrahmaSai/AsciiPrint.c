@@ -1,15 +1,23 @@
 #include <stdio.h>
-
-void asciiPrint() {
-    for (int i = 65; i < 65+26; i++) {
-        printf("%c = %d\n", i, i);
+#include <string.h>
+void stringCount() {
+    char name[100];
+    printf("Enter the string: ");
+    fgets(name, sizeof(name), stdin);
+    int count1 = 0;
+    for (int i = 0; name[i] != '\0'; i++) {
+        count1 += 1;
     }
+    printf("The length of the string is: %d\n", count1);
 
-    for (int i = 97; i < 97+26; i++) {
-        printf("%c = %d\n", i, i);
+    name[strcspn(name, "\n")] = '\0';
+    int count = 0;
+    for (int i = 0; name[i] != '\0'; i++) {
+       count += 1;
     }
+    printf("The length of the string is: %d", count);
 }
 
 void main() {
-    asciiPrint();
+    stringCount();
 }

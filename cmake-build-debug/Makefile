@@ -415,6 +415,19 @@ SubArrayAverage/fast:
 .PHONY : SubArrayAverage/fast
 
 #=============================================================================
+# Target rules for targets named ExtractTime
+
+# Build rule for target.
+ExtractTime: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExtractTime
+.PHONY : ExtractTime
+
+# fast build rule for target.
+ExtractTime/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExtractTime.dir\build.make CMakeFiles/ExtractTime.dir/build
+.PHONY : ExtractTime/fast
+
+#=============================================================================
 # Target rules for targets named LinearSearch
 
 # Build rule for target.
@@ -556,6 +569,19 @@ StackMain: cmake_check_build_system
 StackMain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackMain.dir\build.make CMakeFiles/StackMain.dir/build
 .PHONY : StackMain/fast
+
+#=============================================================================
+# Target rules for targets named LinkedList
+
+# Build rule for target.
+LinkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkedList
+.PHONY : LinkedList
+
+# fast build rule for target.
+LinkedList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/build
+.PHONY : LinkedList/fast
 
 #=============================================================================
 # Target rules for targets named Nto1
@@ -1004,6 +1030,30 @@ BrahmaSai/SwitchCase.s: BrahmaSai/SwitchCase.c.s
 BrahmaSai/SwitchCase.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchCase.dir\build.make CMakeFiles/SwitchCase.dir/BrahmaSai/SwitchCase.c.s
 .PHONY : BrahmaSai/SwitchCase.c.s
+
+DSA/LinkedLists/SingleLinkedList.obj: DSA/LinkedLists/SingleLinkedList.c.obj
+.PHONY : DSA/LinkedLists/SingleLinkedList.obj
+
+# target to build an object file
+DSA/LinkedLists/SingleLinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/DSA/LinkedLists/SingleLinkedList.c.obj
+.PHONY : DSA/LinkedLists/SingleLinkedList.c.obj
+
+DSA/LinkedLists/SingleLinkedList.i: DSA/LinkedLists/SingleLinkedList.c.i
+.PHONY : DSA/LinkedLists/SingleLinkedList.i
+
+# target to preprocess a source file
+DSA/LinkedLists/SingleLinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/DSA/LinkedLists/SingleLinkedList.c.i
+.PHONY : DSA/LinkedLists/SingleLinkedList.c.i
+
+DSA/LinkedLists/SingleLinkedList.s: DSA/LinkedLists/SingleLinkedList.c.s
+.PHONY : DSA/LinkedLists/SingleLinkedList.s
+
+# target to generate assembly for a file
+DSA/LinkedLists/SingleLinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/DSA/LinkedLists/SingleLinkedList.c.s
+.PHONY : DSA/LinkedLists/SingleLinkedList.c.s
 
 DSA/Recursion/1toN.obj: DSA/Recursion/1toN.c.obj
 .PHONY : DSA/Recursion/1toN.obj
@@ -1629,6 +1679,30 @@ IBM/DistinctTriplets.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DistinctTriplets.dir\build.make CMakeFiles/DistinctTriplets.dir/IBM/DistinctTriplets.c.s
 .PHONY : IBM/DistinctTriplets.c.s
 
+IBM/ExtractTime.obj: IBM/ExtractTime.c.obj
+.PHONY : IBM/ExtractTime.obj
+
+# target to build an object file
+IBM/ExtractTime.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExtractTime.dir\build.make CMakeFiles/ExtractTime.dir/IBM/ExtractTime.c.obj
+.PHONY : IBM/ExtractTime.c.obj
+
+IBM/ExtractTime.i: IBM/ExtractTime.c.i
+.PHONY : IBM/ExtractTime.i
+
+# target to preprocess a source file
+IBM/ExtractTime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExtractTime.dir\build.make CMakeFiles/ExtractTime.dir/IBM/ExtractTime.c.i
+.PHONY : IBM/ExtractTime.c.i
+
+IBM/ExtractTime.s: IBM/ExtractTime.c.s
+.PHONY : IBM/ExtractTime.s
+
+# target to generate assembly for a file
+IBM/ExtractTime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExtractTime.dir\build.make CMakeFiles/ExtractTime.dir/IBM/ExtractTime.c.s
+.PHONY : IBM/ExtractTime.c.s
+
 IBM/FindTriangleType.obj: IBM/FindTriangleType.c.obj
 .PHONY : IBM/FindTriangleType.obj
 
@@ -1986,6 +2060,7 @@ help:
 	@echo ... CountZero
 	@echo ... DistinctTriplets
 	@echo ... ExponentialSearch
+	@echo ... ExtractTime
 	@echo ... Factorial
 	@echo ... FibonacciSearch
 	@echo ... FindTriangleType
@@ -1997,6 +2072,7 @@ help:
 	@echo ... LatestRequests
 	@echo ... LeapYear
 	@echo ... LinearSearch
+	@echo ... LinkedList
 	@echo ... Main
 	@echo ... MaximumSwap
 	@echo ... MinimumFlips
@@ -2053,6 +2129,9 @@ help:
 	@echo ... BrahmaSai/SwitchCase.obj
 	@echo ... BrahmaSai/SwitchCase.i
 	@echo ... BrahmaSai/SwitchCase.s
+	@echo ... DSA/LinkedLists/SingleLinkedList.obj
+	@echo ... DSA/LinkedLists/SingleLinkedList.i
+	@echo ... DSA/LinkedLists/SingleLinkedList.s
 	@echo ... DSA/Recursion/1toN.obj
 	@echo ... DSA/Recursion/1toN.i
 	@echo ... DSA/Recursion/1toN.s
@@ -2131,6 +2210,9 @@ help:
 	@echo ... IBM/DistinctTriplets.obj
 	@echo ... IBM/DistinctTriplets.i
 	@echo ... IBM/DistinctTriplets.s
+	@echo ... IBM/ExtractTime.obj
+	@echo ... IBM/ExtractTime.i
+	@echo ... IBM/ExtractTime.s
 	@echo ... IBM/FindTriangleType.obj
 	@echo ... IBM/FindTriangleType.i
 	@echo ... IBM/FindTriangleType.s

@@ -30,6 +30,7 @@ add_executable(LatestRequests IBM/LatestRequests.c)
 add_executable(RecoverOriginalArray IBM/RecoverOriginalArray.c)
 add_executable(PangramChecker IBM/PangramChecker.c)
 add_executable(SubArrayAverage IBM/SubArrayAverage.c)
+add_executable(ExtractTime IBM/ExtractTime.c)
 
 #DSA
 add_executable(LinearSearch "DSA/SearchAlgorithms/LinearSearch.c")
@@ -49,6 +50,9 @@ target_link_libraries(BubbleSortMain BubbleSortLib)
 add_library(Stack "DSA/Stack/Stack.c")
 add_executable(StackMain "DSA/Stack/main.c")
 target_link_libraries(StackMain Stack)
+
+#LinkedList
+add_executable(LinkedList "DSA/LinkedLists/SingleLinkedList.c")
 
 #Recursion
 add_executable(Nto1 "DSA/Recursion/Nto1.c")
